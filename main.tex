@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{report}
+\documentclass[twoside, 12pt]{report}   % two side printing
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -18,16 +18,23 @@
 \usepackage{pgfplots}
 \usepackage{bm}
 \usepackage[english]{babel}
-\usepackage{biblatex}
-\usepackage{csquotes}
+\usepackage{biblatex} 
+\usepackage{csquotes} 
+\usepackage{setspace}
+\usepackage[T1]{fontenc}    % Output font encoding for international characters
+\usepackage{helvet}        % Selecting font family
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Other Settings
+%%%%%%%%%%%%%%%%%% Define geometry of the page %%%%%%%%%%%%%%%%%%%%%%%%%
+\newgeometry{top=3cm, bottom=3cm, outer=3cm, inner=4cm}
 
+% Other Settings
+%\let\cleardoublepage=\clearpage
+\renewcommand{\baselinestretch}{1.5}
 %%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\geometry{a4paper}
-\graphicspath{{images/}}
-\addbibresource{bibliography.bib}
+\geometry{a4paper}  % Setting page size
+\graphicspath{{images/}}    % Setting path for images
+\addbibresource{bibliography.bib}   % Setting path for bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{ocre}{RGB}{243,102,25}
 \definecolor{mygray}{RGB}{243,243,244}
@@ -64,12 +71,16 @@
 
 \begin{document}
     \maketitle
+
+    \fontfamily{phv}\selectfont % Selecting font family
     \chapter*{Abstract}
     \lipsum[1]
     \chapter*{Acknowledgements}
     \lipsum[2]
     \chapter*{Dedications}
     \lipsum[3]
+    %%%%%%%%%%%%%%%%% Index $$$$$$$$$$$$$$$$$$$$$$$$
+    \chapter*{}
     \tableofcontents
     \listoffigures
     \addcontentsline{toc}{chapter}{List of figures}
@@ -83,6 +94,9 @@
     \input{chapters/Results.tex}
     \input{chapters/Discussion.tex}
     \input{chapters/Conclusion.tex}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \appendix
+    \input{chapters/Appendix.tex}
 
-    \printbibliography
+    \printbibliography  % Print bibliography
 \end{document}
