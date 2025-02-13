@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{article}
+\documentclass{report}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -17,13 +17,17 @@
 \usepackage{psfrag}
 \usepackage{pgfplots}
 \usepackage{bm}
+\usepackage[english]{babel}
+\usepackage{biblatex}
+\usepackage{csquotes}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \geometry{a4paper}
-
+\graphicspath{{images/}}
+\addbibresource{bibliography.bib}
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
 \definecolor{ocre}{RGB}{243,102,25}
 \definecolor{mygray}{RGB}{243,243,244}
@@ -33,7 +37,7 @@
 \definecolor{shallowBlue}{RGB}{235,249,255}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orange box command %%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -60,12 +64,25 @@
 
 \begin{document}
     \maketitle
-    hola mundo k ace
+    \chapter*{Abstract}
+    \lipsum[1]
+    \chapter*{Acknowledgements}
     \lipsum[2]
-    $\mathbb{R}$
-    $\overline{C}$
+    \chapter*{Dedications}
+    \lipsum[3]
+    \tableofcontents
+    \listoffigures
+    \addcontentsline{toc}{chapter}{List of figures}
+    \listoftables
+    \addcontentsline{toc}{chapter}{List of tables}
 
-    \begin{itemize}
-        
-    \end{itemize}
+    \input{chapters/Introduction.tex}
+    \input{chapters/Theoretical framework.tex}
+    \input{chapters/Literature review.tex}
+    \input{chapters/Methodology.tex}
+    \input{chapters/Results.tex}
+    \input{chapters/Discussion.tex}
+    \input{chapters/Conclusion.tex}
+
+    \printbibliography
 \end{document}
