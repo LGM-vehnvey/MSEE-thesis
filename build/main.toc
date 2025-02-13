@@ -2,10 +2,10 @@
 \contentsline {chapter}{List of figures}{7}{}%
 \contentsline {chapter}{List of tables}{8}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{9}{}%
-\contentsline {chapter}{\numberline {2}Theoretical framework}{10}{}%
-\contentsline {chapter}{\numberline {3}Literature review}{11}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{12}{}%
-\contentsline {chapter}{\numberline {5}Results}{13}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{14}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{15}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{16}{}%
+\contentsline {chapter}{\numberline {2}Theoretical framework}{11}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{13}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{15}{}%
+\contentsline {chapter}{\numberline {5}Results}{17}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{19}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{21}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{23}{}%

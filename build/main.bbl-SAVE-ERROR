@@ -19,29 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{test1}{article}{}{}
+    \entry{van1994}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=926e27eecdbc7a18858b3798ba99bddd}{%
-           family={pepe},
-           familyi={p\bibinitperiod}}}%
+        {{hash=71fdca2707b8b9513af118440bab5f77}{%
+           family={Van\bibnamedelima Paemel},
+           familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{fullhash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{fullhashraw}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{bibnamehash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{authorbibnamehash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{authornamehash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{authorfullhash}{926e27eecdbc7a18858b3798ba99bddd}
-      \strng{authorfullhashraw}{926e27eecdbc7a18858b3798ba99bddd}
-      \field{sortinit}{p}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{fullhash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{fullhashraw}{71fdca2707b8b9513af118440bab5f77}
+      \strng{bibnamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorbibnamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authornamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorfullhash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorfullhashraw}{71fdca2707b8b9513af118440bab5f77}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{nature}
-      \field{number}{34}
-      \field{title}{design of opamp}
-      \field{volume}{2}
-      \field{year}{2001}
+      \field{journaltitle}{IEEE Transactions on communications}
+      \field{number}{7}
+      \field{title}{Analysis of a charge-pump PLL: A new model}
+      \field{volume}{42}
+      \field{year}{1994}
+      \field{pages}{2490\bibrangedash 2498}
+      \range{pages}{9}
     \endentry
   \enddatalist
 \endrefsection
