@@ -334,6 +334,8 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.colorbrewer.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
@@ -346,8 +348,6 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -403,9 +403,35 @@ INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
 INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
 INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
 INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
 INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
 INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
@@ -417,6 +443,10 @@ OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot
 INPUT .\chapters\Introduction.tex
 INPUT .\chapters\Introduction.tex
 INPUT chapters\Introduction.tex
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT .\chapters\Theoretical framework.tex
 INPUT .\chapters\Theoretical framework.tex
 INPUT chapters\Theoretical framework.tex
@@ -444,6 +474,12 @@ INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.run.xml
 OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.run.xml
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk

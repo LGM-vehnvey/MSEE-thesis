@@ -25,16 +25,14 @@
 \usepackage[skip=1em plus 2pt, indent=30pt]{parskip}    % Setting space between paragraphs and indent
 \usepackage[T1]{fontenc}    % Output font encoding for international characters
 \usepackage{helvet}        % Selecting font family
+\usepackage{ragged2e}      % For text alignment
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%% Define geometry of the page %%%%%%%%%%%%%%%%%%%%%%%%%
-\newgeometry{top=3cm, bottom=3cm, outer=3cm, inner=4cm}
 
 % Other Settings
 %\let\cleardoublepage=\clearpage
 \renewcommand{\baselinestretch}{1.5}
 %%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\geometry{a4paper}  % Setting page size
+\geometry{a4paper, top=3cm, bottom=3cm, outer=3cm, inner=4cm}  % Setting page size
 \graphicspath{{images/}}    % Setting path for images
 \addbibresource{bibliography.bib}   % Setting path for bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
