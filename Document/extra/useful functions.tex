@@ -1,0 +1,59 @@
+\underbrace{text}_{\text{underbrace}}  % underbrace
+
+%%%%%%%%%%%%%%%%%%%% 2D plots %%%%%%%%%%%%%%%%%%%%
+    \begin{axis}[clip=false,
+        xmin=0, xmax=2.5*pi,    % Setting x-axis limits with pi
+        ymin=-1.5, ymax=1.5,    % Setting y-axis limits
+        axis lines=middle,    % Setting axis lines to be in the middle
+        xtick={0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2},    % Setting x-axis ticks
+        xticklabels={$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$},    % Setting x-axis tick labels
+        xticklabel style={anchor=south west},    % Setting x-axis tick label to be at south west (putting the tick at north east)
+        xmajorticks=true,    % Setting major ticks on x-axis
+        xlabel={$x$}    % Setting x-axis label
+        ylabel={$y$}    % Setting y-axis label
+        ]
+        \title{Sin and cos functions}    % Setting title of the plot
+        \addplot[domain=0:2*pi, samples=100, color=blue, dashed]{sin(deg(x))}    % Plotting sin(x) with dashed line and blue color
+        node[right, pos=0.5, color=blue]{$\sin(x)$};    % Adding label to sin(x) function
+        \addplot[domain=0:2*pi, samples=100, color=red]{cos(deg(x))}    % Plotting cos(x) with solid line and red color
+        node[right, pos=0.5, color=red]{$\cos(x)$};    % Adding label to cos(x) function
+    \end{axis}
+\end{tikzpicture}
+
+%%%%%%%%%%%%%%%%%%%% Scatter plots %%%%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+    \begin{axis}
+        \addplot+[
+            only marks,   % Plotting only marks
+            scatter,    % Plotting scatter plot
+            mark size=3pt,  % Setting mark size
+        ]
+        table[meta=y parameter]
+        {dataFile.txt};   % Reading data from dataFile.txt
+    \end{axis}
+\end{tikzpicture}
+
+%%%%%%%%%%%%%%%%%%%% 3D plots %%%%%%%%%%%%%%%%%%%%%%%
+\begin{tikzpicture}
+    \begin{axis}[view={120}{40}]    % Setting view angle
+        \addplot3[
+            surf,    % Plotting surface plot
+            shader=interp,    % Setting shader to interp
+            colormap/hot,    % Setting colormap to hot
+            samples=50,    % Setting number of samples
+        ]
+        {x^2+y^2=25};    % Plotting x^2+y^2=25
+    \end{axis}
+\end{tikzpicture}
+
+
+\begin{multicols}{2}    %uses 2 columns
+   
+\end{multicols}
+
+\begin{minipage}{0.6*\textwidth}   %uses 60% of the page
+    \lipsum[1]
+\end{minipage}
+\begin{minipage}{0.3*\textwidth}   %uses 30% of the page
+    \includegraphics[width=\textwidth]{example-image-a}
+\end{minipage}

@@ -1,0 +1,50 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of figures}{8}{}%
+\contentsline {chapter}{List of tables}{9}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{10}{}%
+\contentsline {section}{\numberline {1.1}Context and motivation}{11}{}%
+\contentsline {subsection}{\numberline {1.1.1}Low jitter PLLs in modern IC design}{11}{}%
+\contentsline {subsection}{\numberline {1.1.2}Limitations of analog PLLs}{11}{}%
+\contentsline {subsection}{\numberline {1.1.3}Limitations of traditional PFDs}{11}{}%
+\contentsline {section}{\numberline {1.2}Problem statement}{11}{}%
+\contentsline {section}{\numberline {1.3}Objectives}{11}{}%
+\contentsline {subsection}{\numberline {1.3.1}General objective}{11}{}%
+\contentsline {subsection}{\numberline {1.3.2}Specific objectives}{11}{}%
+\contentsline {section}{\numberline {1.4}Significance}{11}{}%
+\contentsline {subsection}{\numberline {1.4.1}Academic significance}{11}{}%
+\contentsline {subsection}{\numberline {1.4.2}Industry significance}{11}{}%
+\contentsline {subsubsection}{Clock generation}{11}{}%
+\contentsline {subsubsection}{SerDes}{11}{}%
+\contentsline {subsubsection}{Wireless communication}{11}{}%
+\contentsline {section}{\numberline {1.5}Scope and limitations}{11}{}%
+\contentsline {section}{\numberline {1.6}Thesis roadmap}{11}{}%
+\contentsline {chapter}{\numberline {2}Theoretical framework}{12}{}%
+\contentsline {section}{\numberline {2.1}Phase-locked loop fundamentals}{12}{}%
+\contentsline {subsection}{\numberline {2.1.1}Basic structure}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Key PLL parameters}{12}{}%
+\contentsline {subsubsection}{Phase noise / jitter}{12}{}%
+\contentsline {subsubsection}{Output frequency}{12}{}%
+\contentsline {subsubsection}{Loop bandwidth}{13}{}%
+\contentsline {subsubsection}{Noise bandwidth}{13}{}%
+\contentsline {subsubsection}{Lock-in time}{13}{}%
+\contentsline {subsubsection}{Pull-in time}{13}{}%
+\contentsline {subsubsection}{Lock-in range}{13}{}%
+\contentsline {subsubsection}{Pull-in range}{13}{}%
+\contentsline {subsubsection}{Pull-out range}{13}{}%
+\contentsline {subsubsection}{Hold range}{13}{}%
+\contentsline {subsubsection}{SNR}{14}{}%
+\contentsline {subsubsection}{Power consumption}{14}{}%
+\contentsline {subsubsection}{Spurious tones}{14}{}%
+\contentsline {subsection}{\numberline {2.1.3}Analog phase-locked loops}{14}{}%
+\contentsline {subsection}{\numberline {2.1.4}Linearized model}{14}{}%
+\contentsline {subsection}{\numberline {2.1.5}Digital phase-locked loops}{14}{}%
+\contentsline {section}{\numberline {2.2}Time-to-digital converters}{14}{}%
+\contentsline {subsection}{\numberline {2.2.1}Delay-locked loop fundamentals}{14}{}%
+\contentsline {subsection}{\numberline {2.2.2}TDC as a phase detector}{14}{}%
+\contentsline {section}{\numberline {2.3}65 nm CMOS technology}{14}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{15}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{17}{}%
+\contentsline {chapter}{\numberline {5}Results}{19}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{21}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{23}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{25}{}%
