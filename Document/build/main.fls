@@ -1,7 +1,7 @@
-PWD c:\Users\lgmfo\OneDrive\Desktop\Master-thesis
+PWD c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\main.tex
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.log
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\main.tex
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.log
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -336,13 +336,19 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.colorbrewer.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarycolorbrewer.code.tex
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -354,12 +360,12 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bcf
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bcf
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -388,7 +394,7 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.pdf
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
@@ -399,9 +405,9 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx248
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -431,15 +437,15 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot
 INPUT .\chapters\Introduction.tex
 INPUT .\chapters\Introduction.tex
 INPUT chapters\Introduction.tex
@@ -450,6 +456,21 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx120
 INPUT .\chapters\Theoretical framework.tex
 INPUT .\chapters\Theoretical framework.tex
 INPUT chapters\Theoretical framework.tex
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT .\chapters\Literature review.tex
 INPUT .\chapters\Literature review.tex
 INPUT chapters\Literature review.tex
@@ -469,9 +490,9 @@ INPUT .\chapters\Appendix.tex
 INPUT .\chapters\Appendix.tex
 INPUT chapters\Appendix.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux
-INPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.run.xml
-OUTPUT c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.run.xml
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux
+INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.run.xml
+OUTPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.run.xml
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
@@ -488,10 +509,16 @@ INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb

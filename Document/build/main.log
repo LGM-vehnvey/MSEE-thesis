@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  18 FEB 2025 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  7 MAR 2025 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/lgmfo/OneDrive/Desktop/Master-thesis/main.tex
-(c:/Users/lgmfo/OneDrive/Desktop/Master-thesis/main.tex
+**c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex
+(c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -966,32 +966,54 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip163
 \RaggedRightParindent=\skip164
 \JustifyingParindent=\skip165
+) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen324
+\captionmargin=\dimen325
+\caption@leftmargin=\dimen326
+\caption@rightmargin=\dimen327
+\caption@width=\dimen328
+\caption@indent=\dimen329
+\caption@parindent=\dimen330
+\caption@hangindent=\dimen331
+Package caption Info: Standard document class detected.
 )
-\c@theorem=\count484
-\c@definition=\count485
-\c@problem=\count486
+\c@caption@flags=\count484
+\c@continuedfloat=\count485
+) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count486
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count487
+)
+\c@theorem=\count488
+\c@definition=\count489
+\c@problem=\count490
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux)
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1029,16 +1051,16 @@ LaTeX Font Info:    ... okay on input line 72.
 
 (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count487
-\scratchdimen=\dimen324
+\scratchcounter=\count491
+\scratchdimen=\dimen332
 \scratchbox=\box121
-\nofMPsegments=\count488
-\nofMParguments=\count489
+\nofMPsegments=\count492
+\nofMParguments=\count493
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count490
-\MPscratchDim=\dimen325
-\MPnumerator=\count491
-\makeMPintoPDFobject=\count492
+\MPscratchCnt=\count494
+\MPscratchDim=\dimen333
+\MPnumerator=\count495
+\makeMPintoPDFobject=\count496
 \everyMPtoPDFconversion=\toks52
 ) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1046,7 +1068,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\Hy@linkcounter=\count493
+\Hy@linkcounter=\count497
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
@@ -1062,14 +1084,16 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 72.
-Package biblatex Info: Reference segment=0 on input line 72.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl)
+Package biblatex Info: Reference section=0 on input line 74.
+Package biblatex Info: Reference segment=0 on input line 74.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1079,7 +1103,7 @@ Non-PDF special ignored!
 <special> header=psfrag.pro
 
 {C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 77.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -1098,7 +1122,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 [5
 
-] (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.toc
+] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
 
 [6
 
@@ -1108,7 +1132,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 
 
-[7] (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lof)
+[7] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1116,7 +1140,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 [8
 
-] (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.lot)
+] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1145,60 +1169,75 @@ Chapter 2.
 [12
 
 ]
+Overfull \hbox (55.48576pt too wide) in paragraph at lines 59--60
+ [] 
+ []
 
-[13]) (chapters/Literature review.tex
 
-[14]
+Overfull \hbox (27.12556pt too wide) in paragraph at lines 33--64
+[]$[]$   $[]$ 
+ []
+
+
+Underfull \vbox (badness 6477) has occurred while \output is active []
+
+
+
+[13]
+
+[14]) (chapters/Literature review.tex
+
+[15]
 Chapter 3.
 ) (chapters/Methodology.tex
 
-[15
+[16
 
 ]
 
-[16]
+[17]
 Chapter 4.
 ) (chapters/Results.tex
 
-[17
+[18
 
 ]
 
-[18]
+[19]
 Chapter 5.
 ) (chapters/Discussion.tex
 
-[19
+[20
 
 ]
 
-[20]
+[21]
 Chapter 6.
 ) (chapters/Conclusion.tex
 
-[21
+[22
 
 ]
 
-[22]
+[23]
 Chapter 7.
 ) (chapters/Appendix.tex
 
-[23
+[24
 
 ]
 
-[24]
+[25]
 Appendix A.
 )
 
-[25
+[26
 
 ]
 
-[26
+[27
 
-] (c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.aux)
+] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1208,17 +1247,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38315 strings out of 473530
- 923469 string characters out of 5714794
- 2058341 words of memory out of 5000000
- 60900 multiletter control sequences out of 15000+600000
- 584861 words of font info for 97 fonts, out of 8000000 for 9000
+ 39828 strings out of 473530
+ 953163 string characters out of 5714794
+ 2085561 words of memory out of 5000000
+ 62397 multiletter control sequences out of 15000+600000
+ 595092 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,105p,761b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\Master-thesis\build\main.pdf (26 pages, 171838 bytes).
+ 99i,8n,105p,768b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (27 pages, 205176 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
+ 428 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
