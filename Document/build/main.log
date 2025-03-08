@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  7 MAR 2025 10:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  7 MAR 2025 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,73 +1169,97 @@ Chapter 2.
 [12
 
 ]
-Overfull \hbox (55.48576pt too wide) in paragraph at lines 59--60
+Overfull \hbox (55.48576pt too wide) in paragraph at lines 60--61
  [] 
  []
 
 
-Overfull \hbox (27.12556pt too wide) in paragraph at lines 33--64
+Overfull \hbox (27.12556pt too wide) in paragraph at lines 34--65
 []$[]$   $[]$ 
  []
 
 
-Underfull \vbox (badness 6477) has occurred while \output is active []
+Underfull \vbox (badness 1132) has occurred while \output is active []
 
 
 
 [13]
 
-[14]) (chapters/Literature review.tex
+[14]
 
 [15]
-Chapter 3.
-) (chapters/Methodology.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[16
 
-]
+
+[16]
 
 [17]
-Chapter 4.
-) (chapters/Results.tex
+Overfull \hbox (50.16713pt too wide) in paragraph at lines 262--263
+ [] 
+ []
 
-[18
 
-]
+Overfull \hbox (24.58159pt too wide) in paragraph at lines 222--267
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[18]) (chapters/Literature review.tex
 
 [19]
-Chapter 5.
-) (chapters/Discussion.tex
+Chapter 3.
+) (chapters/Methodology.tex
 
 [20
 
 ]
 
 [21]
-Chapter 6.
-) (chapters/Conclusion.tex
+Chapter 4.
+) (chapters/Results.tex
 
 [22
 
 ]
 
 [23]
-Chapter 7.
-) (chapters/Appendix.tex
+Chapter 5.
+) (chapters/Discussion.tex
 
 [24
 
 ]
 
 [25]
-Appendix A.
-)
+Chapter 6.
+) (chapters/Conclusion.tex
 
 [26
 
 ]
 
-[27
+[27]
+Chapter 7.
+) (chapters/Appendix.tex
+
+[28
+
+]
+
+[29]
+Appendix A.
+)
+
+[30
+
+]
+
+[31
 
 ] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
@@ -1247,17 +1271,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39828 strings out of 473530
- 953163 string characters out of 5714794
- 2085561 words of memory out of 5000000
- 62397 multiletter control sequences out of 15000+600000
+ 39881 strings out of 473530
+ 954532 string characters out of 5714794
+ 2093814 words of memory out of 5000000
+ 62450 multiletter control sequences out of 15000+600000
  595092 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,8n,105p,768b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (27 pages, 205176 bytes).
+ <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (31 pages, 268698 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
+ 468 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,6 +3,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{14}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{14}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linearized PLL model.}}{17}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Block diagram of the linearized PLL with each block transfer function.}}{17}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Three states PFD implementation.}}{18}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Transient response of the PFD.}}{18}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
