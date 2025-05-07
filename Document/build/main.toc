@@ -20,37 +20,38 @@
 \contentsline {section}{\numberline {1.6}Thesis roadmap}{11}{}%
 \contentsline {chapter}{\numberline {2}Theoretical framework}{12}{}%
 \contentsline {section}{\numberline {2.1}Phase-locked loop fundamentals}{12}{}%
-\contentsline {subsection}{\numberline {2.1.1}Basic structure}{12}{}%
-\contentsline {subsection}{\numberline {2.1.2}Key PLL parameters}{12}{}%
-\contentsline {subsubsection}{Phase noise / jitter}{12}{}%
-\contentsline {subsubsection}{Output frequency}{12}{}%
-\contentsline {subsubsection}{Loop bandwidth}{13}{}%
-\contentsline {subsubsection}{Noise bandwidth}{13}{}%
-\contentsline {subsubsection}{Beat-note period}{13}{}%
-\contentsline {subsubsection}{Lock-in time}{14}{}%
-\contentsline {subsubsection}{Pull-in time}{14}{}%
-\contentsline {subsubsection}{Lock-in range}{15}{}%
-\contentsline {subsubsection}{Pull-in range}{15}{}%
-\contentsline {subsubsection}{Pull-out range}{15}{}%
-\contentsline {subsubsection}{Hold range}{15}{}%
-\contentsline {subsubsection}{SNR}{15}{}%
-\contentsline {subsubsection}{Power consumption}{16}{}%
-\contentsline {subsubsection}{Spurs}{16}{}%
-\contentsline {subsection}{\numberline {2.1.3}Analog phase-locked loop}{16}{}%
-\contentsline {subsubsection}{Linearized model}{16}{}%
-\contentsline {subsubsection}{Phase frequency detector}{18}{}%
-\contentsline {subsubsection}{Charge pump}{19}{}%
-\contentsline {subsubsection}{Loop filter}{19}{}%
-\contentsline {subsubsection}{Voltage-controlled oscillator}{19}{}%
-\contentsline {subsubsection}{Frequency divider}{19}{}%
-\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{19}{}%
-\contentsline {section}{\numberline {2.3}Time-to-digital converter}{19}{}%
-\contentsline {subsection}{\numberline {2.3.1}Delay-locked loop fundamentals}{19}{}%
-\contentsline {subsection}{\numberline {2.3.2}TDC as a phase detector}{19}{}%
-\contentsline {section}{\numberline {2.4}65 nm CMOS technology}{19}{}%
-\contentsline {chapter}{\numberline {3}Literature review}{20}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{22}{}%
-\contentsline {chapter}{\numberline {5}Results}{24}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{26}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{28}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{30}{}%
+\contentsline {subsection}{\numberline {2.1.1}Basic concept}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Key PLL parameters}{13}{}%
+\contentsline {subsubsection}{Phase noise / jitter}{13}{}%
+\contentsline {subsubsection}{Output frequency}{13}{}%
+\contentsline {subsubsection}{Loop bandwidth}{14}{}%
+\contentsline {subsubsection}{Noise bandwidth}{14}{}%
+\contentsline {subsubsection}{Beat-note period}{14}{}%
+\contentsline {subsubsection}{Lock-in time}{15}{}%
+\contentsline {subsubsection}{Pull-in time}{15}{}%
+\contentsline {subsubsection}{Lock-in range}{16}{}%
+\contentsline {subsubsection}{Pull-in range}{16}{}%
+\contentsline {subsubsection}{Pull-out range}{16}{}%
+\contentsline {subsubsection}{Hold range}{16}{}%
+\contentsline {subsubsection}{SNR}{16}{}%
+\contentsline {subsubsection}{Power consumption}{17}{}%
+\contentsline {subsubsection}{Spurs}{17}{}%
+\contentsline {subsection}{\numberline {2.1.3}Analog phase-locked loop}{17}{}%
+\contentsline {subsubsection}{Linear phase model of the PLL}{17}{}%
+\contentsline {subsubsection}{Phase frequency detector}{20}{}%
+\contentsline {subsubsection}{Loop filter}{21}{}%
+\contentsline {subsubsection}{Charge pump}{21}{}%
+\contentsline {subsubsection}{Voltage-controlled oscillator}{23}{}%
+\contentsline {subsubsection}{Frequency divider}{27}{}%
+\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{27}{}%
+\contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{27}{}%
+\contentsline {subsubsection}{TDC as a phase detector}{27}{}%
+\contentsline {subsubsection}{Delay-locked loop fundamentals}{27}{}%
+\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{27}{}%
+\contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{27}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{28}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{30}{}%
+\contentsline {chapter}{\numberline {5}Results}{32}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{34}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{36}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{38}{}%
