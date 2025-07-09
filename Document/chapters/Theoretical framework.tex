@@ -767,7 +767,54 @@ approximately linearly.
 \end{center}
 
 \subsubsection{Frequency divider}
+The frequency divider is a circuit that takes an input signal and produces an output signal with a frequency that is a fraction of the input frequency.
+The most common frequency divider is the flip-flop (fig. \ref{}), which divides the input frequency by two, although there are other types of dividers that can divide by
+any integer number. The frequency divider is used in PLLs to reduce the frequency of the input signal to a level that can be processed by the other blocks of the PLL
+(to match the frequency of the reference signal). The frequency divider of figure \ref{} can also be used to increase the frequency of the output signal, in this case it is called a frequency multiplier.
 
+\begin{minipage}{0.4\textwidth}
+    \begin{center}
+        \begin{tikzpicture}[scale = 1.8]
+            \draw[thick] (0,0) rectangle (1.5,1.5);
+            \draw[thick] (0,0.25) -- (0,0.55) -- (0.3,0.4) -- (0,0.25);
+            \draw[->, thick] (-1,0.4) node[anchor=south] {\tiny IN} -- (0,0.4);
+            \draw node at (0.75,0.75) {\small DFF};
+            \draw[->, thick] (-1,1.25) node[anchor=south] {\tiny 1} -- (0,1.25) node[anchor=west] {\tiny D};
+            \draw[->, thick] (1.5,1.25) node[anchor=east] {\tiny Q} -- (3.5,1.25) node[right] {\scriptsize OUT};
+        \end{tikzpicture}
+        \captionof{figure}{MOS varactor.}
+        \label{fig:varactor_schematic}
+    \end{center}
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}{0.4\textwidth}
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines=left,
+                width=\textwidth,
+                xlabel={$V_{control}$ (V)},
+                ylabel={Capacitance (fF)},
+                grid=major
+            ]
+                \addplot[
+                    mark size=0.5pt
+                ]
+                table[meta=C] {data/MOS_varactor_data.txt};
+            \end{axis}
+        \end{tikzpicture}
+        \captionof{figure}{MOS varactor characteristic.}
+        \label{MOS_varactor_response}
+    \end{center}
+\end{minipage}
+
+Although the flip-flop is the most common frequency divider, there are other types of dividers that can be used in PLLs. One of the most relevant is the CML frequency divider,
+which is a type of frequency divider that uses current-mode logic (CML) to achieve high speed operation. CML dividers are typically used in high-speed applications, such as
+high-speed data communication systems, where the output of the VCO is too high to be processed by any regualr flip-flop. The CML frequency divider is based on the principle of
+current steering, where the input signal is used to control the current flowing through a branch of the differential pair.
+
+A CML signal resembles a sinusoidal wave and has a lower harmonic content than a regular square wave, yet its power consumption is higher because of the constant current through the circuit
+due to the current source of the differential pair.
 \section{Digital phase-locked loop}
 anan
 \subsection{Time-to-digital converter}

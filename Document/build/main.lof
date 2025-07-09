@@ -1,27 +1,29 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{15}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{15}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{18}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces VCO characteristic example.}}{18}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Second-order passive loop filter.}}{18}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Block diagram of the linear phase PLL with each block transfer function.}}{19}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{21}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{21}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{22}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{22}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces CMOS ring oscillator.}}{23}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces VCO characteristic curve.}}{23}{}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{24}{}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{24}{}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Ideal LC tank circuit.}}{24}{}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Real LC tank circuit.}}{24}{}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Equivalent LC tank circuit.}}{25}{}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Cross-coupled pair.}}{25}{}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces MOS varactor.}}{26}{}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor characteristic.}}{26}{}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Cross-coupled pair VCO schematic.}}{26}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{16}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{16}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{19}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces VCO characteristic example.}}{19}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Second-order passive loop filter.}}{19}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Block diagram of the linear phase PLL with each block transfer function.}}{20}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{22}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{22}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{23}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{23}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces CMOS ring oscillator.}}{24}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces VCO characteristic curve.}}{24}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{25}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{25}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Ideal LC tank circuit.}}{25}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Real LC tank circuit.}}{25}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Equivalent LC tank circuit.}}{26}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Cross-coupled pair.}}{26}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces MOS varactor.}}{27}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor characteristic.}}{27}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Cross-coupled pair VCO schematic.}}{27}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces MOS varactor.}}{28}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces MOS varactor characteristic.}}{28}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

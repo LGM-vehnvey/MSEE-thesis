@@ -1,57 +1,57 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{List of figures}{8}{}%
-\contentsline {chapter}{List of tables}{9}{}%
-\contentsline {chapter}{\numberline {1}Introduction}{10}{}%
-\contentsline {section}{\numberline {1.1}Context and motivation}{11}{}%
-\contentsline {subsection}{\numberline {1.1.1}Low jitter PLLs in modern IC design}{11}{}%
-\contentsline {subsection}{\numberline {1.1.2}Limitations of analog PLLs}{11}{}%
-\contentsline {subsection}{\numberline {1.1.3}Limitations of traditional PFDs}{11}{}%
-\contentsline {section}{\numberline {1.2}Problem statement}{11}{}%
-\contentsline {section}{\numberline {1.3}Objectives}{11}{}%
-\contentsline {subsection}{\numberline {1.3.1}General objective}{11}{}%
-\contentsline {subsection}{\numberline {1.3.2}Specific objectives}{11}{}%
-\contentsline {section}{\numberline {1.4}Significance}{11}{}%
-\contentsline {subsection}{\numberline {1.4.1}Academic significance}{11}{}%
-\contentsline {subsection}{\numberline {1.4.2}Industry significance}{11}{}%
-\contentsline {subsubsection}{Clock generation}{11}{}%
-\contentsline {subsubsection}{SerDes}{11}{}%
-\contentsline {subsubsection}{Wireless communication}{11}{}%
-\contentsline {section}{\numberline {1.5}Scope and limitations}{11}{}%
-\contentsline {section}{\numberline {1.6}Thesis roadmap}{11}{}%
-\contentsline {chapter}{\numberline {2}Theoretical framework}{12}{}%
-\contentsline {section}{\numberline {2.1}Phase-locked loop fundamentals}{12}{}%
-\contentsline {subsection}{\numberline {2.1.1}Basic concept}{12}{}%
-\contentsline {subsection}{\numberline {2.1.2}Key PLL parameters}{13}{}%
-\contentsline {subsubsection}{Phase noise / jitter}{13}{}%
-\contentsline {subsubsection}{Output frequency}{13}{}%
-\contentsline {subsubsection}{Loop bandwidth}{14}{}%
-\contentsline {subsubsection}{Noise bandwidth}{14}{}%
-\contentsline {subsubsection}{Beat-note period}{14}{}%
-\contentsline {subsubsection}{Lock-in time}{15}{}%
-\contentsline {subsubsection}{Pull-in time}{15}{}%
-\contentsline {subsubsection}{Lock-in range}{16}{}%
-\contentsline {subsubsection}{Pull-in range}{16}{}%
-\contentsline {subsubsection}{Pull-out range}{16}{}%
-\contentsline {subsubsection}{Hold range}{16}{}%
-\contentsline {subsubsection}{SNR}{16}{}%
-\contentsline {subsubsection}{Power consumption}{17}{}%
-\contentsline {subsubsection}{Spurs}{17}{}%
-\contentsline {subsection}{\numberline {2.1.3}Analog phase-locked loop}{17}{}%
-\contentsline {subsubsection}{Linear phase model of the PLL}{17}{}%
-\contentsline {subsubsection}{Phase frequency detector}{20}{}%
-\contentsline {subsubsection}{Loop filter}{21}{}%
-\contentsline {subsubsection}{Charge pump}{21}{}%
-\contentsline {subsubsection}{Voltage-controlled oscillator}{23}{}%
-\contentsline {subsubsection}{Frequency divider}{27}{}%
-\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{27}{}%
-\contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{27}{}%
-\contentsline {subsubsection}{TDC as a phase detector}{27}{}%
-\contentsline {subsubsection}{Delay-locked loop fundamentals}{27}{}%
-\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{27}{}%
-\contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{27}{}%
-\contentsline {chapter}{\numberline {3}Literature review}{28}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{30}{}%
-\contentsline {chapter}{\numberline {5}Results}{32}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{34}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{36}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{38}{}%
+\contentsline {chapter}{List of figures}{9}{}%
+\contentsline {chapter}{List of tables}{10}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{11}{}%
+\contentsline {section}{\numberline {1.1}Context and motivation}{12}{}%
+\contentsline {subsection}{\numberline {1.1.1}Low jitter PLLs in modern IC design}{12}{}%
+\contentsline {subsection}{\numberline {1.1.2}Limitations of analog PLLs}{12}{}%
+\contentsline {subsection}{\numberline {1.1.3}Limitations of traditional PFDs}{12}{}%
+\contentsline {section}{\numberline {1.2}Problem statement}{12}{}%
+\contentsline {section}{\numberline {1.3}Objectives}{12}{}%
+\contentsline {subsection}{\numberline {1.3.1}General objective}{12}{}%
+\contentsline {subsection}{\numberline {1.3.2}Specific objectives}{12}{}%
+\contentsline {section}{\numberline {1.4}Significance}{12}{}%
+\contentsline {subsection}{\numberline {1.4.1}Academic significance}{12}{}%
+\contentsline {subsection}{\numberline {1.4.2}Industry significance}{12}{}%
+\contentsline {subsubsection}{Clock generation}{12}{}%
+\contentsline {subsubsection}{SerDes}{12}{}%
+\contentsline {subsubsection}{Wireless communication}{12}{}%
+\contentsline {section}{\numberline {1.5}Scope and limitations}{12}{}%
+\contentsline {section}{\numberline {1.6}Thesis roadmap}{12}{}%
+\contentsline {chapter}{\numberline {2}Theoretical framework}{13}{}%
+\contentsline {section}{\numberline {2.1}Phase-locked loop fundamentals}{13}{}%
+\contentsline {subsection}{\numberline {2.1.1}Basic concept}{13}{}%
+\contentsline {subsection}{\numberline {2.1.2}Key PLL parameters}{14}{}%
+\contentsline {subsubsection}{Phase noise / jitter}{14}{}%
+\contentsline {subsubsection}{Output frequency}{14}{}%
+\contentsline {subsubsection}{Loop bandwidth}{15}{}%
+\contentsline {subsubsection}{Noise bandwidth}{15}{}%
+\contentsline {subsubsection}{Beat-note period}{15}{}%
+\contentsline {subsubsection}{Lock-in time}{16}{}%
+\contentsline {subsubsection}{Pull-in time}{16}{}%
+\contentsline {subsubsection}{Lock-in range}{17}{}%
+\contentsline {subsubsection}{Pull-in range}{17}{}%
+\contentsline {subsubsection}{Pull-out range}{17}{}%
+\contentsline {subsubsection}{Hold range}{17}{}%
+\contentsline {subsubsection}{SNR}{17}{}%
+\contentsline {subsubsection}{Power consumption}{18}{}%
+\contentsline {subsubsection}{Spurs}{18}{}%
+\contentsline {subsection}{\numberline {2.1.3}Analog phase-locked loop}{18}{}%
+\contentsline {subsubsection}{Linear phase model of the PLL}{18}{}%
+\contentsline {subsubsection}{Phase frequency detector}{21}{}%
+\contentsline {subsubsection}{Loop filter}{22}{}%
+\contentsline {subsubsection}{Charge pump}{22}{}%
+\contentsline {subsubsection}{Voltage-controlled oscillator}{24}{}%
+\contentsline {subsubsection}{Frequency divider}{28}{}%
+\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{29}{}%
+\contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{29}{}%
+\contentsline {subsubsection}{TDC as a phase detector}{29}{}%
+\contentsline {subsubsection}{Delay-locked loop fundamentals}{29}{}%
+\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{29}{}%
+\contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{29}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{30}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{32}{}%
+\contentsline {chapter}{\numberline {5}Results}{34}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{36}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{38}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{40}{}%

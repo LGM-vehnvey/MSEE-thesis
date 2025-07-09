@@ -524,6 +524,7 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr
 INPUT data\VCO_characteristic_example.txt
 INPUT data\VCO_characteristic_example.txt
 INPUT data\MOS_varactor_data.txt
+INPUT data\MOS_varactor_data.txt
 INPUT .\chapters\Literature review.tex
 INPUT .\chapters\Literature review.tex
 INPUT chapters\Literature review.tex
