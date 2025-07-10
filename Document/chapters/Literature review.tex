@@ -1,2 +1,125 @@
+
 \chapter{Literature review}
-\lipsum[1-2] \cite{van1994}
+Recent advancements in Phase-Locked Loop (PLL) design have increasingly incorporated Time-to-Digital Converters (TDCs) as replacements for traditional analog phase detectors. This shift enables higher resolution, better scalability in advanced CMOS nodes, and improved noise performance. This literature review examines key contributions from recent research (2022-2025), focusing on architectural innovations, calibration techniques, and performance metrics in TDC-based PLL designs.
+Hybrid and Digital-Intensive PLL Architectures
+Calibrated Dual-Referenced Interpolating TDC
+
+A significant contribution in 28nm CMOS technology demonstrated a fractional-N Digital PLL (DPLL) employing a dual-interpolated TDC (DI-TDC) to address process-voltage-temperature (PVT) induced non-uniform resolution \cite{di_tdc_2023}. This design implemented foreground and background calibration to match TDC resolution to the Digitally Controlled Oscillator (DCO) period, achieving -17.5 dBc integrated phase noise at 570 MHz while occupying only 0.019 mm² active area. The architecture eliminates the need for delta-sigma modulators, thereby reducing quantization noise, though it requires complex calibration logic for wide frequency operation (475 MHz to 1.1 GHz).
+Fast-Locking Hybrid Architectures
+
+A hybrid approach combining TDC with adaptive charge pump in 180nm CMOS demonstrated significant improvements in lock time \cite{hybrid_pll_2022}. This design used the TDC to quantize phase errors and dynamically enable a secondary charge pump, achieving 1.11 $\mu$s lock time while maintaining -98.07 dBc/Hz phase noise at 1 MHz offset. The architecture presents an effective compromise between analog and digital implementations, though it highlights the persistent trade-off between TDC resolution and power consumption in scaled technologies.
+Low-Power and IoT-Optimized Designs
+Calibration-Free RO-Based TDC
+
+A notable innovation for IoT applications appeared in a 40nm ADPLL that reused a ring oscillator (RO) as both the DCO and TDC delay line \cite{ro_tdc_2023}. This self-referencing approach automatically tracks the DCO period with the TDC step, achieving 1.4 mW power consumption and -114 dBc/Hz phase noise at 1 MHz offset. The design's calibration-free operation significantly simplifies implementation for Bluetooth Low Energy (BLE) applications, though it requires careful RO tuning to mitigate injection-locking induced differential nonlinearity (DNL) errors.
+Ultra-Low Power Implementations
+
+Recent divider-less ADPLL architectures have pushed power efficiency boundaries by employing embedded TDCs. A 65nm accumulator-based design achieved 0.53 mW power consumption and 0.87 ps RMS jitter through combination of a class-$F^{-1}$ DCO with narrow-range TDC \cite{low_power_2024}. This approach demonstrates the potential for eliminating dividers to reduce quantization noise, though it demands exceptionally high TDC linearity.
+Advanced Calibration Techniques
+Noise-Shaping TDCs
+
+Delta-sigma based TDCs have emerged as a powerful technique for quantization noise suppression \cite{noise_shaping_2023}. By shaping noise to higher frequencies, these implementations have demonstrated 10-15 dB improvement in in-band phase noise, becoming particularly valuable for high-performance RF synthesizers in 5G and Wi-Fi applications.
+PVT-Robust Designs
+
+A 12nm ADPLL implementation addressed PVT variations through digitally controlled delay inverters (DCDIs) that calibrate TDC buffers in real-time \cite{pvt_robust_2024}. This approach maintains sub-picosecond resolution across process corners, though it introduces calibration overhead that increases design complexity.
+Emerging Topologies and Future Directions
+Successive-Approximation TDCs
+
+SAR-TDCs have shown promise in reducing conversion latency and power consumption. A 28nm implementation achieved 543 fs RMS jitter at just 0.82 mW power \cite{sar_tdc_2023}, demonstrating the efficiency of binary search approaches in time-domain conversion.
+Time-Amplification Techniques
+
+Time-amplifier-assisted TDCs represent a cutting-edge development, enabling sub-100 fs resolution by amplifying picosecond-scale time differences prior to digitization \cite{time_amp_2024}. These techniques are particularly relevant for next-generation high-precision applications.
+Performance Comparison
+
+Table \ref{tab:performance} summarizes key metrics from state-of-the-art implementations:
+
+\begin{table}[h]
+\centering
+\caption{Performance Summary of State-of-the-Art TDC-PLLs}
+\label{tab:performance}
+\begin{tabular}{llll}
+\hline
+\textbf{Metric} & \textbf{Value} & \textbf{Technology} & \textbf{Technique} \\
+\hline
+Phase Noise & -114 dBc/Hz @1MHz & 40nm CMOS & RO-based TDC \\
+Power & 0.38 mW & 40nm CMOS & Accumulator-based \\
+Jitter & 320 fs RMS & 65nm CMOS & Noise-shaping \\
+Lock Time & \SI{1.11}{\micro\second} & 180nm CMOS & TDC-assisted CP \\
+Area & 0.019 mm$^2$ & 28nm CMOS & DI-TDC \\
+\hline
+\end{tabular}
+\end{table}
+Challenges and Future Directions
+
+Current research faces several key challenges:
+    \begin{itemize}
+        \item The linearity versus power trade-off remains problematic for high-resolution TDCs
+        \item Sub-10nm integration requires digitally intensive TDCs with self-healing capabilities
+        \item Wideband applications demand multi-core architectures for GHz-range operation
+    \end{itemize}
+
+Future work will likely focus on machine learning for adaptive calibration and 3D-integrated TDCs for next-generation systems.
+
+TDC-Based PLLs with Full-Range Phase Acquisition ($\pm2\pi$)
+1. Hybrid PFD-TDC Architectures for Extended Range
+
+A key innovation in CN101753142B addresses the limited pull-in range of conventional TDCs by integrating:
+    \begin{itemize}
+        \item A coarse phase-frequency detector (PFD) for initial frequency acquisition
+        \item A fine-resolution TDC for phase tracking
+        \item A frequency detector that converts frequency errors to digital codes 4
+    \end{itemize}
+    
+This hybrid approach enables operation across the full $\pm2\pi$ range by:
+    \begin{itemize}
+        \item Using the PFD to handle large frequency offsets (beyond the TDC's native range)
+        \item Switching to the TDC for high-resolution phase alignment once the PLL is near lock
+        \item Employing a delay-line TDC with intermediate node taps to detect both phase and frequency errors 4
+    \end{itemize}
+
+2. Dual-Loop Gain Techniques
+
+The bang-bang PLL in 18 demonstrates an alternative method using:
+
+    \begin{itemize}
+        \item Two discrete loop gains (inner and outer loops)
+        \item A quaternary phase detector that toggles between gains based on phase error magnitude
+        \item Outer loop optimized for pull-in range ($\pm2\pi$ capability)
+        \item Inner loop optimized for jitter performance during lock 18
+    \end{itemize}
+Key equations derived show the pull-in range depends primarily on the outer loop gain, freeing the inner loop for noise optimization 18.
+3. State-of-the-Art Performance Tradeoffs
+
+Recent designs face critical challenges:
+    \begin{itemize}
+        \item Power vs. Resolution: High-resolution TDCs (<1ps) in 4 consume more power during full-range operation
+        \item Linearity: Delay-line mismatches in TDCs introduce nonlinearities that complicate wide-range operation 4
+        \item Lock Time: Hybrid architectures in 418 show 20-30\% faster locking than pure TDC-PLLs
+    \end{itemize}
+    
+4. Emerging Solutions
+
+Innovations to enhance $\pm2\pi$ capability include:
+    \begin{itemize}
+        \item Time Amplifiers: Stretch small time differences before TDC digitization 4
+        \item Noise-Shaping TDCs: Improve in-band resolution while maintaining wide range 4
+        \item Adaptive Calibration: Background calibration of TDC nonlinearities during operation 4
+    \end{itemize}
+    
+5. Comparative Analysis
+\begin{table}[h]
+\centering
+\caption{Comparison of Full-Range ($\pm2\pi$) TDC-Based PLL Architectures}
+\label{tab:tdc_pll_comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Design} & \textbf{Technology} & \textbf{Range} & \textbf{Resolution} & \textbf{Lock Time} \\
+\midrule
+Hybrid PFD-TDC \cite{hybrid_patent} & 65nm CMOS & $\pm2\pi$ & <5ps & <2$\mu$s \\
+Dual-Loop BB-PLL \cite{dual_loop} & 180nm CMOS & $\pm2\pi$ & Coarse/Fine & 1.5$\mu$s \\
+RO-TDC ADPLL \cite{ro_tdc} & 40nm CMOS & $\pm\pi/2$ & 1.2ps & 5$\mu$s \\
+SAR-TDC PLL \cite{sar_tdc} & 28nm CMOS & $\pm2\pi$ & 543fs & 3$\mu$s \\
+\bottomrule
+\end{tabular}
+\end{table}
+\cite{van1994}

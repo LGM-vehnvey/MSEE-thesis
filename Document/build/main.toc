@@ -45,13 +45,13 @@
 \contentsline {subsubsection}{Frequency divider}{28}{}%
 \contentsline {section}{\numberline {2.2}Digital phase-locked loop}{29}{}%
 \contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{29}{}%
-\contentsline {subsubsection}{TDC as a phase detector}{29}{}%
-\contentsline {subsubsection}{Delay-locked loop fundamentals}{29}{}%
-\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{29}{}%
-\contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{29}{}%
-\contentsline {chapter}{\numberline {3}Literature review}{30}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{32}{}%
-\contentsline {chapter}{\numberline {5}Results}{34}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{36}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{38}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{40}{}%
+\contentsline {subsubsection}{TDC as a phase detector}{32}{}%
+\contentsline {subsubsection}{Delay-locked loop fundamentals}{32}{}%
+\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{32}{}%
+\contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{32}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{33}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{39}{}%
+\contentsline {chapter}{\numberline {5}Results}{41}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{43}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{45}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{47}{}%

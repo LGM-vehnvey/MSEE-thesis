@@ -830,6 +830,46 @@ due to the current source of the differential pair.
 \section{Digital phase-locked loop}
 anan
 \subsection{Time-to-digital converter}
+1. Fundamental Role of Phase Detection in PLLs
+
+The core function of a Phase-Locked Loop (PLL) is to align the phase and frequency of an output signal with a reference input, a process heavily dependent on the accuracy of phase detection. Traditional PLLs employ a Phase-Frequency Detector (PFD) combined with a charge pump (CP) to generate an analog error signal proportional to the phase difference. While effective, this approach faces limitations in advanced CMOS nodes (e.g., 65nm and below), where analog components suffer from increased leakage current, supply noise sensitivity, and device mismatch. These challenges have driven the adoption of Time-to-Digital Converters (TDCs), which digitize phase error measurements, enabling fully digital or hybrid PLL architectures with improved resolution and scalability.
+2. Operating Principle of TDC-Based Phase Detection
+
+A TDC measures the time interval between two events—typically the rising edges of the reference clock (REF) and the feedback clock (DIV) from the voltage-controlled oscillator (VCO). Unlike a PFD, which produces a continuous analog output, a TDC quantizes the time difference into a digital word, making it inherently compatible with digital loop filters and control systems. The most common TDC implementation in PLLs is the delay-line TDC, where a chain of buffer stages propagates the time difference, and flip-flops sample the state of the delay line to generate a binary-coded output.
+
+The resolution of a delay-line TDC is determined by the propagation delay of a single stage ($\Delta_t$). In deep-submicron processes like 65nm CMOS, gate delays can be extremely small (on the order of picoseconds), allowing for high-precision phase detection. However, nonlinearities in the delay line due to process variations and temperature fluctuations introduce differential nonlinearity (DNL) and integral nonlinearity (INL), which degrade PLL performance. To mitigate these effects, advanced calibration techniques, such as least-mean-square (LMS) algorithms or dynamic element matching (DEM), are employed to correct quantization errors dynamically.
+3. Advantages of TDC-Based PLLs Over Conventional Architectures
+
+The shift from analog PFDs to TDCs in PLL design is motivated by several key advantages:
+
+    Superior Phase Resolution: TDCs can achieve sub-picosecond resolution, enabling ultra-low-jitter clock generation, which is critical in high-speed communication systems like SerDes and RF synthesizers.
+
+    Digital Process Compatibility: As CMOS technology scales, analog components become increasingly difficult to design due to reduced voltage headroom and increased variability. TDCs, being primarily digital, are more robust in advanced nodes.
+
+    Reduced Sensitivity to Supply Noise: Unlike charge pumps, which are highly susceptible to power supply fluctuations, TDCs operate in the time domain, making them less affected by voltage noise.
+
+    Easier Integration with Digital Calibration: Since the TDC output is digital, it can be processed using adaptive algorithms to compensate for process, voltage, and temperature (PVT) variations.
+
+However, TDCs are not without trade-offs. Their quantization noise introduces phase error that must be filtered by the PLL loop, and their limited dynamic range makes them unsuitable for initial frequency acquisition in wide-band PLLs. This limitation has led to the development of hybrid PFD-TDC architectures, where a coarse PFD handles frequency locking, and the TDC refines phase alignment once the PLL is near lock.
+4. Challenges in TDC Design and Emerging Solutions
+
+Despite their benefits, TDC-based PLLs face several design challenges that must be addressed to achieve optimal performance:
+
+    Nonlinearity and Metastability
+    Variations in delay stages cause nonlinearities, while sampling uncertainties can lead to metastability in the flip-flops capturing the TDC output. Recent solutions include Vernier delay-line TDCs, which use two delay lines with slightly different delays to improve resolution, and time amplifiers, which stretch small time intervals before digitization to reduce quantization error.
+
+    Power Consumption vs. Resolution Trade-off
+    Higher resolution requires longer delay lines or more complex architectures, increasing power consumption. Two-step TDCs and successive-approximation register (SAR) TDCs have been proposed to reduce power while maintaining precision.
+
+    Dynamic Range Limitations
+    Pure TDC-based PLLs struggle with large frequency offsets, necessitating hybrid approaches. An alternative is the bang-bang PLL (BBPLL), which uses a binary TDC for simplicity but requires careful loop stabilization.
+
+5. Evolution of TDC Architectures and Future Directions
+
+Recent advancements in TDC design focus on improving linearity, resolution, and power efficiency. Noise-shaping TDCs, inspired by delta-sigma modulation, push quantization noise to higher frequencies, where it can be filtered by the PLL loop. Gated ring oscillator (GRO) TDCs offer inherent noise filtering by only activating during measurement intervals, while SAR-TDCs reduce conversion time and energy consumption through binary search techniques.
+
+The integration of machine learning for adaptive TDC calibration is an emerging trend, where real-time algorithms adjust delay-line characteristics to compensate for PVT variations. Furthermore, the rise of all-digital PLLs (ADPLLs) has solidified the TDC’s role as a critical component in next-generation clocking systems, particularly in applications requiring ultra-low jitter and fast locking, such as 5G transceivers and high-performance computing.
+
 \subsubsection{TDC as a phase detector}
 \subsubsection{Delay-locked loop fundamentals}
 \subsection{Digital loop filter}
