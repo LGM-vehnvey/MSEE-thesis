@@ -828,49 +828,293 @@ current steering, where the input signal is used to control the current flowing 
 A CML signal resembles a sinusoidal wave and has a lower harmonic content than a regular square wave, yet its power consumption is higher because of the constant current through the circuit
 due to the current source of the differential pair.
 \section{Digital phase-locked loop}
-anan
+One of the main problems of analog PLLs is that they are very sensitive to process, voltage and temperature (PVT) variations, which can cause the PLL to become unstable or to fail to lock.
+To address this issue, digital PLLs (DPLLs) have been developed. DPLLs take advantage of the technology scaling (whereas analog PLLs suffer from it) to achieve a better performance
+and robustness in modern CMOS processes. To realize a circuit that performs well under this technology nodes it is necessary to avoid the analog domain as much as possible (at least on
+the critical path). The fundamental block that allows this task is the time-to-digital converter (TDC).
+
+The general architecture of a digital PLL is shown in figure \ref{fig:DPLL_architecture}. The DPLL consists of a TDC, a digital loop filter (DLF) and a digitally controlled oscillator (DCO).
+The basic operation of this three circuits will be explained in the following sections.
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw[thick] (0,0) rectangle (2,2);
+        \draw[thick] node at (1,1) {TDC};
+        \draw[thick, ->] (-1.2,1.5) -- node[above]{\scriptsize $f_{ref}$} (0,1.5);
+        \draw[thick, ->] (2,1.5) -- (3,1.5);
+        \draw[thick, ->] (2,1.25) -- (3,1.25);
+        \draw[thick, ->] (2,1) -- (3,1);
+        \draw[thick, ->] (2,0.75) -- (3,0.75);
+        \draw[thick, ->] (2,0.5) -- (3,0.5);
+        \draw[thick] (3,0) rectangle (5,2);
+        \draw[thick] node at (4,1) {DLF};
+        \draw[thick, ->] (5,1.5) -- (6,1.5);
+        \draw[thick, ->] (5,1.25) -- (6,1.25);
+        \draw[thick, ->] (5,1) -- (6,1);
+        \draw[thick, ->] (5,0.75) -- (6,0.75);
+        \draw[thick, ->] (5,0.5) -- (6,0.5);
+        \draw[thick] (6,0) rectangle (8,2);
+        \draw[thick] node at (7,1) {DCO};
+        \draw[thick, ->] (8,1) -- node[above]{\scriptsize $f_o$} (9.2,1) -- (9.2,-2) -- (5,-2);
+        \draw[thick] (5,-1) rectangle (3,-3);
+        \draw[thick] node at (4,-2) {N\%};
+        \draw[thick, ->] (3,-2) -- (-1.2,-2) -- (-1.2,0.5) -- node[above]{\scriptsize $f_{feed}$} (0,0.5);
+
+    \end{tikzpicture}
+    \captionof{figure}{Digital PLL architecture.}
+    \label{fig:DPLL_architecture}
+\end{center}
+
 \subsection{Time-to-digital converter}
-1. Fundamental Role of Phase Detection in PLLs
 
-The core function of a Phase-Locked Loop (PLL) is to align the phase and frequency of an output signal with a reference input, a process heavily dependent on the accuracy of phase detection. Traditional PLLs employ a Phase-Frequency Detector (PFD) combined with a charge pump (CP) to generate an analog error signal proportional to the phase difference. While effective, this approach faces limitations in advanced CMOS nodes (e.g., 65nm and below), where analog components suffer from increased leakage current, supply noise sensitivity, and device mismatch. These challenges have driven the adoption of Time-to-Digital Converters (TDCs), which digitize phase error measurements, enabling fully digital or hybrid PLL architectures with improved resolution and scalability.
-2. Operating Principle of TDC-Based Phase Detection
+The TDC substitutes the phase detector of the analog PLL, it measures the time difference ($\Delta_t$) between two signals and converts it into a digital value that is proportional to 
+that $\Delta_t$, thus it transforms a signal in the time domain into a signal in the digital domain (avoiding the analog domain entirely). The TDC is a critical block in the DPLL, as 
+it determines the resolution and accuracy of the phase measurement. There are several types of TDCs, but the most common one is the delay line TDC, which uses a series of delay elements
+to measure the time difference between two signals. A delay line TDC is shown in figure \ref{fig:delay_line_TDC_schematic} and its timing diagram is shown in figure \ref{fig:delay_line_TDC_timing}.
 
-A TDC measures the time interval between two events—typically the rising edges of the reference clock (REF) and the feedback clock (DIV) from the voltage-controlled oscillator (VCO). Unlike a PFD, which produces a continuous analog output, a TDC quantizes the time difference into a digital word, making it inherently compatible with digital loop filters and control systems. The most common TDC implementation in PLLs is the delay-line TDC, where a chain of buffer stages propagates the time difference, and flip-flops sample the state of the delay line to generate a binary-coded output.
+    \begin{center}
+        \begin{tikzpicture}
+            \draw (-0.05,0.5) node[above]{$V_{i}$} circle (0.1);
+            \draw[thick, ->] (0,0.5) -- (1,0.5);
+            \draw[thick] (1,0) rectangle (2,1);
+            \draw[thick, ->] (0.5, 0.5) -- (0.5,-0.8) -- node[right, inner sep = 10]{\tiny D} (1,-0.8);
+            \draw[thick] (1,-1.5) rectangle (2,-0.5);
+            \draw[thick] (1,-1.1) -- (1.3,-1.25) -- (1,-1.4);
+            \draw[thick, ->] (2,-1) node[left]{\tiny Q} -- (2.25,-1) -- (2.25,-2.5) node[below]{\tiny Q$_1$};
+            \draw[thick] node at (1.5,0.5) {$\Delta$};
 
-The resolution of a delay-line TDC is determined by the propagation delay of a single stage ($\Delta_t$). In deep-submicron processes like 65nm CMOS, gate delays can be extremely small (on the order of picoseconds), allowing for high-precision phase detection. However, nonlinearities in the delay line due to process variations and temperature fluctuations introduce differential nonlinearity (DNL) and integral nonlinearity (INL), which degrade PLL performance. To mitigate these effects, advanced calibration techniques, such as least-mean-square (LMS) algorithms or dynamic element matching (DEM), are employed to correct quantization errors dynamically.
-3. Advantages of TDC-Based PLLs Over Conventional Architectures
+            \draw[thick, ->] (2,0.5) -- node[above]{\tiny $V_{i1}$} (3,0.5);
+            \draw[thick] (3,0) rectangle (4,1);
+            \draw[thick, ->] (2.5, 0.5) -- (2.5,-0.8) -- node[right, inner sep = 10]{\tiny D} (3,-0.8);
+            \draw[thick] (3,-1.5) rectangle (4,-0.5);
+            \draw[thick] (3,-1.1) -- (3.3,-1.25) -- (3,-1.4);
+            \draw[thick, ->] (4,-1) node[left]{\tiny Q} -- (4.25,-1) -- (4.25,-2.5) node[below]{\tiny Q$_2$};
+            \draw[thick] node at (3.5,0.5) {$\Delta$};
 
-The shift from analog PFDs to TDCs in PLL design is motivated by several key advantages:
+            \draw[thick, ->] (4,0.5) -- node[above]{\tiny $V_{i2}$} (5,0.5);
+            \draw[thick] (5,0) rectangle (6,1);
+            \draw[thick, ->] (4.5, 0.5) -- (4.5,-0.8) -- node[right, inner sep = 10]{\tiny D} (5,-0.8);
+            \draw[thick] (5,-1.5) rectangle (6,-0.5);
+            \draw[thick] (5,-1.1) -- (5.3,-1.25) -- (5,-1.4);
+            \draw[thick, ->] (6,-1) node[left]{\tiny Q} -- (6.25,-1) -- (6.25,-2.5) node[below]{\tiny Q$_3$};
+            \draw[thick] node at (5.5,0.5) {$\Delta$};
+            
+            \draw[thick, ->] (6,0.5) -- node[above]{\tiny $V_{i3}$} (7,0.5);
+            \draw[thick] (7,0) rectangle (8,1);
+            \draw[thick, ->] (6.5, 0.5) -- (6.5,-0.8) -- node[right, inner sep = 10]{\tiny D} (7,-0.8);
+            \draw[thick] (7,-1.5) rectangle (8,-0.5);
+            \draw[thick] (7,-1.1) -- (7.3,-1.25) -- (7,-1.4);
+            \draw[thick, ->] (8,-1) node[left]{\tiny Q} -- (8.25,-1) -- (8.25,-2.5) node[below]{\tiny Q$_4$};
+            \draw[thick] node at (7.5,0.5) {$\Delta$};
+            \draw[thick, ->] (8,0.5) -- node[above]{\tiny $V_o$} (8.5,0.5);
 
-    Superior Phase Resolution: TDCs can achieve sub-picosecond resolution, enabling ultra-low-jitter clock generation, which is critical in high-speed communication systems like SerDes and RF synthesizers.
+            \draw[thick] (-0.05,-2) node[above]{$V_{feed}$} circle (0.1);
+            \draw[thick] (0,-2) -- (6.5,-2);
+            \draw[thick, ->] (0.5,-2) -- (0.5,-1.3) -- (1,-1.3);
+            \draw[thick, ->] (2.5,-2) -- (2.5,-1.3) -- (3,-1.3);
+            \draw[thick, ->] (4.5,-2) -- (4.5,-1.3) -- (5,-1.3);
+            \draw[thick, ->] (6.5,-2) -- (6.5,-1.3) -- (7,-1.3);
 
-    Digital Process Compatibility: As CMOS technology scales, analog components become increasingly difficult to design due to reduced voltage headroom and increased variability. TDCs, being primarily digital, are more robust in advanced nodes.
+        \end{tikzpicture}
+        \captionof{figure}{Delay line TDC schematic.}
+        \label{fig:delay_line_TDC_schematic}
+    \end{center}
 
-    Reduced Sensitivity to Supply Noise: Unlike charge pumps, which are highly susceptible to power supply fluctuations, TDCs operate in the time domain, making them less affected by voltage noise.
+The TDC of figure \ref{fig:delay_line_TDC_schematic} consists of a series of delay elements ($\Delta$) that are used to measure the time difference between the input signals $V_i$ 
+and $V_{feed}$. This delay elements must be identical to each other and have a fixed delay which is the LSB of the TDC. The time difference between the two signals is measured by counting
+the number of delay elements that are crossed by the input signal $V_i$ before it reaches the output signal $V_o$ (and both signals are in phase after one complete cycle). The way this is done is by an array of samplers (in this case D flip-flops
+but can be any type of sampler) that read the output of each $\Delta$ and hold it until the next clock cycle. Because the outputs of the samplers are sequentially read, the combination
+of them represent a digital word in the form of a thermometer code.
 
-    Easier Integration with Digital Calibration: Since the TDC output is digital, it can be processed using adaptive algorithms to compensate for process, voltage, and temperature (PVT) variations.
+The number of delay elements determines the resolution of the TDC and can be calculated as a power of two ($2^n$), thus the number of bits of the TDC with the
+waveforms shown in \ref{fig:delay_line_TDC_timing} is given by $2^3 = 8$, after that number of stages the output of the nth delay element would be in phase with the input signal $V_i$.
 
-However, TDCs are not without trade-offs. Their quantization noise introduces phase error that must be filtered by the PLL loop, and their limited dynamic range makes them unsuitable for initial frequency acquisition in wide-band PLLs. This limitation has led to the development of hybrid PFD-TDC architectures, where a coarse PFD handles frequency locking, and the TDC refines phase alignment once the PLL is near lock.
-4. Challenges in TDC Design and Emerging Solutions
+\begin{center}
+    \begin{tikzpicture}
+        \draw[thick] (0,0) node[left]{\scriptsize $V_i$} -- (0.5,0) -- (0.5,0.5) -- (2.5,0.5) -- (2.5,0) -- (4.5,0) -- (4.5,0.5) -- (6.5,0.5) -- (6.5,0) -- (8.5,0) -- (8.5,0.5) -- (9,0.5);
+        \draw[thick] (0,-1) node[left]{\scriptsize $V_{i1}$} -- (1,-1) -- (1,-0.5) -- (3,-0.5) -- (3,-1) -- (5,-1) -- (5,-0.5) -- (7,-0.5) -- (7,-1) -- (9,-1) -- (9,-0.5);
+        \draw[thick] (0,-2) node[left]{\scriptsize $V_{i2}$} -- (1.5,-2) -- (1.5,-1.5) -- (3.5,-1.5) -- (3.5,-2) -- (5.5,-2) -- (5.5,-1.5) -- (7.5,-1.5) -- (7.5,-2) -- (9,-2);
+        \draw[thick] (0,-3) node[left]{\scriptsize $V_{i3}$} -- (2,-3) -- (2,-2.5) -- (4,-2.5) -- (4,-3) -- (6,-3) -- (6,-2.5) -- (8,-2.5) -- (8,-3) -- (9,-3);
+        \draw[thick] (0,-4) node[left]{\scriptsize $V_{i4}$} -- (2.5,-4) -- (2.5,-3.5) -- (4.5,-3.5) -- (4.5,-4) -- (6.5,-4) -- (6.5,-3.5) -- (8.5,-3.5) -- (8.5,-4) -- (9,-4);
+        \draw[thick] (0,-5) node[left]{\scriptsize $V_{feed}$} -- (1.75,-5) -- (1.75,-4.5) -- (5,-4.5) -- (5,-5) -- (8.25,-5) -- (8.25,-4.5) -- (9,-4.5);
+        \draw[thick, dashed] (1.75,0.5) node[anchor = south east, inner sep = 2]{\scriptsize 1} -- (1.75,-0.5) node[anchor = south east, inner sep = 2]{\scriptsize 1} -- (1.75,-1.5) node[anchor = south east, inner sep = 2]{\scriptsize 1} -- (1.75,-3) node[anchor = south east, inner sep = 2]{\scriptsize 0} -- (1.75,-4) node[anchor = south east, inner sep = 2]{\scriptsize 0} -- (1.75,-4.5);
+    \end{tikzpicture}
+    \captionof{figure}{3-bit delay line TDC timing diagram.}
+    \label{fig:delay_line_TDC_timing}
+\end{center}
 
-Despite their benefits, TDC-based PLLs face several design challenges that must be addressed to achieve optimal performance:
+It is critically important to design the delay line TDC so that the delays are identical to each other, otherwise the TDC will measure the time difference incorrectly. Furthermore, the
+delay elements are usually implemented with a chain of CMOS inverters or differential pairs, both of which are sensitive to process variations, thus the complexity of designing this
+otherwise simple circuits. Several techniques have been proposed to address these challenges, such as calibration methods, layout optimization, and the use of delay locked loops (DLLs) to
+ensure the delay elements are matched even under PVT variations. The next chapter reviews some of these techniques in detail.
 
-    Nonlinearity and Metastability
-    Variations in delay stages cause nonlinearities, while sampling uncertainties can lead to metastability in the flip-flops capturing the TDC output. Recent solutions include Vernier delay-line TDCs, which use two delay lines with slightly different delays to improve resolution, and time amplifiers, which stretch small time intervals before digitization to reduce quantization error.
-
-    Power Consumption vs. Resolution Trade-off
-    Higher resolution requires longer delay lines or more complex architectures, increasing power consumption. Two-step TDCs and successive-approximation register (SAR) TDCs have been proposed to reduce power while maintaining precision.
-
-    Dynamic Range Limitations
-    Pure TDC-based PLLs struggle with large frequency offsets, necessitating hybrid approaches. An alternative is the bang-bang PLL (BBPLL), which uses a binary TDC for simplicity but requires careful loop stabilization.
-
-5. Evolution of TDC Architectures and Future Directions
-
-Recent advancements in TDC design focus on improving linearity, resolution, and power efficiency. Noise-shaping TDCs, inspired by delta-sigma modulation, push quantization noise to higher frequencies, where it can be filtered by the PLL loop. Gated ring oscillator (GRO) TDCs offer inherent noise filtering by only activating during measurement intervals, while SAR-TDCs reduce conversion time and energy consumption through binary search techniques.
-
-The integration of machine learning for adaptive TDC calibration is an emerging trend, where real-time algorithms adjust delay-line characteristics to compensate for PVT variations. Furthermore, the rise of all-digital PLLs (ADPLLs) has solidified the TDC’s role as a critical component in next-generation clocking systems, particularly in applications requiring ultra-low jitter and fast locking, such as 5G transceivers and high-performance computing.
-
-\subsubsection{TDC as a phase detector}
 \subsubsection{Delay-locked loop fundamentals}
+
+DLLs are used to generate a stable clock signal that is robust to PVT variations due to negative feedback. The basic operation of a DLL is to compare the phase of an input clock 
+signal with a delayed version of itself and adjust the delay of the delayed clock signal until they are in phase. This is done by using a voltage-controlled delay line (VCDL), a phase 
+frequency detector (PFD), a charge pump (CP) and a loop filter (LF). Such an architecture is shown in figure \ref{fig:DLL_architecture}.
+
+\begin{center}
+    \begin{tikzpicture}[scale=0.95]
+            \draw[thick] (0,0) rectangle (2,2.5);   %PFD
+            \draw node at (1,1.25) {\small PFD};
+            \draw[->, thick] (2,0.5) -- (3,0.5) node[anchor=south east] {\tiny DOWN};
+            \draw[->, thick] (2,2) -- (3,2);
+            \draw node at (2.5,2.2) {\tiny UP};
+            \draw (3,0) -- (3,1) -- (4,0.5) -- (3,0);   %TG
+            \draw (3,0.5) -- (4,1) -- (4,0) -- (3,0.5); %NOT
+            \draw (3.5,0.85) circle (0.1);
+            \draw (3,1.5) -- (3,2.5) -- (4,2) -- (3,1.5);
+            \draw (4.1,2) circle (0.1);
+            \draw[->, thick] (4.2,2) -- (5,2);
+            \draw[->, thick] (4,0.5) -- (5,0.5);
+            \draw[thick] (5,2.5) rectangle (7,0);   %CP
+            \draw node at (6,1.25) {CP};
+            \draw[thick] (7,1.25) -- (9,1.25);  %LF
+            \draw[thick] (8,1.25) node[anchor=south] {\footnotesize $V_{control}$} -- (8,0.75);
+            \draw[thick] (7.75,0.75) -- (8.25,0.75);
+            \draw[thick] (7.75,0.6) -- (8.25,0.6) node[anchor=west] {\footnotesize C};
+            \draw[thick] (8,0.6) -- (8,0);
+            \draw[thick] (7.75,0) -- (8.25,0);
+            \draw[thick] (7.85,-0.1) -- (8.15,-0.1);
+            \draw[thick] (7.95,-0.2) -- (8.05,-0.2);
+            \draw[->, thick] (9,1.25) -- (9,3.5);
+            \draw[thick] (7.5,3.5) rectangle (10.5,5);  %VCDL
+            \draw[thick] node at (9,4.25) {\small VCDL};
+            \draw[->, thick] (-1,2) -- (-1,4.25) -- (7.5,4.25);
+            \draw[->, thick] (-1,2) -- (0,2) node[anchor=south east] {\footnotesize $\phi_i$};
+            \draw[thick] (-2,4.25) node[anchor=south] {\footnotesize $CLK_{in}$} -- (-1,4.25);
+            \draw (-2.1,4.25) circle (0.1);
+            \draw[->, thick] (10.5, 3.75) node[anchor=east, inner sep=9pt] {\tiny $DL_n$} -- (11.5,3.75) -- (11.5,-1) -- (-1,-1) -- (-1, 0.5) -- (0,0.5) node[anchor=south east] {\footnotesize $\phi_o$};
+            \draw[->, thick] (10.5, 4) node[anchor=east, inner sep=2pt] {\tiny $DL_{n-1}$} -- (11.5,4);
+            \draw[->, thick] (10.5, 4.75) node[anchor=east, inner sep=9pt] {\tiny $DL_{1}$} -- (11.5,4.75);
+            \filldraw (11,4.55) circle (0.05);
+            \filldraw (11,4.37) circle (0.05);
+            \filldraw (11,4.18) circle (0.05);
+    \end{tikzpicture}
+    \captionof{figure}{DLL architecture.}
+    \label{fig:DLL_architecture}
+\end{center}
+
+Since the output of the DLL is a delayed version of the input clock signal, it can be used to synchronize the clock signal with the phase of the input clock signal. The delay of the 
+VCDL is controlled by the output of the CP, which is in turn controlled by the PFD. The PFD compares the phase of the input clock signal with the delayed version of itself and 
+generates an UP or DOWN signal that is used to control the CP. The CP generates a control voltage that is used to adjust the delay of the VCDL until the two clock signals are in phase.
+This means that the DLL can be interchangeable with the delay line, thus the TDC can be implemented with a DLL.
+
 \subsection{Digital loop filter}
+
+It has already been mentioned that an analog PLL requires a loop filter to stabilize the feedback loop, the same is true for a DPLL. The digital loop filter (DLF) is used to filter the 
+output of the TDC and to generate a control signal that is used to adjust the frequency of the DCO. The DLF is typically implemented as a low-pass filter or a proportional-integral (PI)
+controller.
+
+Recalling the first order passive LF of figure \ref{fig:LF_schematic} one can arrive at equation \eqref{eq:LF_transfer_function},where $R_1$ contains the proportional path and 
+1/$S \cdot C_1$ contains the integral path.
+
+\begin{equation}
+    H(s) = R_1 + \frac{1}{S \cdot C_1}
+    \label{eq:LF_transfer_function}
+\end{equation}
+
+\begin{minipage}
+{0.4\textwidth}
+    \begin{center}
+        \begin{tikzpicture}[scale = 0.9]
+            \draw node[above] at (0.05,0) {\small x};
+            \draw[thick] (0.05,0) circle (0.05);
+            \draw[thick, ->] (0,0) -- (1,0) node[right]{$\alpha$};
+            \draw[thick] (1,-0.5) -- (1,0.5) -- (2,0) -- (1,-0.5);
+            \draw[thick, ->] (2,0) -- (5,0) node[right, inner sep = 3]{$+$};
+            \draw[thick] (5.32,0) circle (0.32);
+            \draw[thick, ->] (5.64,0) -- (6.64,0) node[above]{\small y};
+            \draw[thick, ->] (0.5,0) -- (0.5,-2) -- (1,-2) node[right]{\small $\beta$};
+            \draw[thick] (1,-2.5) -- (1,-1.5) -- (2,-2) -- (1,-2.5);
+            \draw[thick, ->] (2,-2) -- (3,-2) node[right, inner sep = 10]{\small $\int$};
+            \draw[thick] (3,-2.5) rectangle (4,-1.5);
+            \draw[thick, ->] (4,-2) -- (5.32,-2) -- (5.32,-0.32);
+
+            \draw[color=white] (0,-2.75) rectangle (6.64,-3.05);
+        \end{tikzpicture}
+        \captionof{figure}{Conceptual filter using a proportional and an integral path.}
+        \label{fig:LF_conceptual_topology}
+    \end{center}
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}{0.4\textwidth}
+    \begin{center}
+        \begin{tikzpicture}[scale = 0.9]
+            \draw node[above] at (0.05,0) {\small x};
+            \draw[thick] (0.05,0) circle (0.05);
+            \draw[thick, ->] (0,0) -- (1,0) node[right]{$\alpha$};
+            \draw[thick] (1,-0.5) -- (1,0.5) -- (2,0) -- (1,-0.5);
+            \draw[thick, ->] (2,0) -- (5,0) node[right, inner sep = 3]{$+$};
+            \draw[thick] (5.32,0) circle (0.32);
+            \draw[thick, ->] (5.64,0) -- (6.64,0) node[above]{\small y};
+            \draw[thick, ->] (0.5,0) -- (0.5,-2) -- (1,-2) node[right]{\small $\beta$};
+            \draw[thick] (1,-2.5) -- (1,-1.5) -- (2,-2) -- (1,-2.5);
+            \draw[thick, ->] (2,-2) -- (3,-2) node[right, inner sep = 3]{$+$};
+            \draw[thick] (3.32,-2) circle (0.32);
+            \draw[thick, ->] (3.64,-2) -- (5.32,-2) -- (5.32,-0.32);
+            \draw[thick, ->] (5.32,-2) -- (5.32,-2.75) -- (4.82,-2.75) node[left, inner sep = 2]{\tiny Register};
+            \draw[thick] (4.82,-3) rectangle (3.82,-2.5);
+            \draw[thick, ->] (3.82,-2.75) -- (3.32,-2.75) -- (3.32,-2.32);
+        \end{tikzpicture}
+        \captionof{figure}{DLF implementation using an adder and a register.}
+        \label{fig:DLF_implementation}
+    \end{center}
+\end{minipage}
+
+Knowing the analog transfer function of the LF, a conceptual topology similar to that of figure \ref{fig:LF_conceptual_topology} could be proposed, where $y = \alpha + \beta \int_{}^{} x \,dx$
+for continuous-time quantities. To arrive at a digital counterpart, one could change x to D$_{in}$ and y to D$_{out}$, rewrite this equation as the discrete-time expression
+\eqref{eq:conceptual_equation}, and take the Z transform of both sides to obtain the transfer function of the DLF \eqref{eq_DLF_transfer_function}, noting that a discrete-time integrator
+is represented by $1/(1 - z^{-1})$ [Razavi PLL book reference].
+
+\begin{equation}
+    D_{out}(k) = \alpha + \beta \sum_{k=0}^{\infty} D_{in}[k]
+    \label{eq:conceptual_equation}
+\end{equation}
+
+\begin{equation}
+    H(z) = \frac{D_{out}}{D_{in}}(z) = \alpha + \frac{\beta}{1 - z^{-1}}
+    \label{eq_DLF_transfer_function}
+\end{equation}
+
+Depicted in figure \ref{fig:DLF_implementation} is an implementation of the DLF that realizes the discrete-time integrator as an accumulator consisting of an adder and a register. The
+clock of such register is typically the same as the PLL reference.
+
 \subsection{Digitally controlled oscillator}
+
+Having already discussed the VCO fundamentals and a couple of implementations, the digitally controlled oscillator (DCO) can be viewed as a VCO that is controlled by a digital word instead
+of an analog voltage. Taking a look back at the VCO schematic of figure \ref{fig:cross_coupled_pair_VCO_schematic} it can be observed that the frequency is controlled by the bias
+voltage $V_c$ at the gate of both MOSFET varactors. If the varactors are replaced by either a binary weighted capacitor array or current steering DAC, then the frequency of the circuit can
+be controlled digitally.
+
+\begin{center}
+    \begin{circuitikz}
+        \draw[thick] 
+            (0,-1.5) node[ground]{} (0,-1.5) to[Tnmos, n = n1, mirror] (0,1.5)
+            (3,-1.5) node[ground]{} to[Tnmos, n = n2] (3,1.5)
+            (n1.G) to[short, -*] (n2.S)
+            (n2.G) to[short, -*] (n1.S)
+
+            (-1,4.5) node[above]{\small $Out_{1}$} to[short, o-] (0,4.5) to[C = C$_u$, *-] (1,4.5) to[switch = D$_0$] (2,4.5) to[C = C$_u$, -*] (3,4.5) to[short, -o] node[above]{\small $Out_{2}$} (4,4.5)
+            (0,3) to[C = 2 C$_u$, *-] (1,3) to[switch = D$_1$] (2,3) to[C = 2 C$_u$, -*] (3,3)
+            (0,1.5) to[C = 4 C$_u$, *-] (1,1.5) to[switch = D$_2$] (2,1.5) to[C = 4 C$_u$, -*] (3,1.5)
+            (0,6) to[L = L, *-*] (3,6)
+            (0,7.5) to[R = R$_P$, *-*] (3,7.5)
+
+            (3,8.5) -- (3,1.5)
+            (0,8.5) -- (0,1.5)
+            (-1,8.5) -- node[above]{VDD} (4,8.5);
+    \end{circuitikz}
+    \captionof{figure}{Cross-coupled DCO implementation with binary weighted capacitive array.}
+    \label{fig:DCO_schematic}
+\end{center}
+
+Figure \ref{fig:DCO_schematic} shows a cross-coupled DCO realization that makes use of a binary weighted capacitor array as the control mechanism. This binary weighted branches
+are controlled by switches that must be transmission gates (TG) because of the differential nature of the circuit. When the switches are closed, the capacitance of the
+branches is added to the total capacitance of the circuit, thus reducing the frequency of oscillation. It is desirable that the reverse occurs, so the digital word is
+typically inverted before being applied to the switches, that way if the digital word rises from one cycle to the next the frequency of oscillation will also rise.
+
+It is necessary to pay attention to the design of this capacitive array because the parasitic capacitance of the switches and the interconnects can significantly alter the 
+desired frequency step of the DCO, another factor to take into account is the mismatch between the capacitors, which can cause the frequency steps to be uneven. To mitigate these issues
+minimum capacitor values should be avoided if possible.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  10 JUL 2025 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  19 JUL 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1255,15 +1255,15 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 
 
-[7] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof)
+[7] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+
+[8
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
-
-[8
-
-]
 
 [9] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
 \tf@lot=\write8
@@ -1417,29 +1417,49 @@ Underfull \vbox (badness 1552) has occurred while \output is active []
 
 
 [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [29]
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+
 
 [30]
-Overfull \hbox (2.98837pt too wide) in paragraph at lines 856--857
-[]\T1/phv/m/n/12 Despite their ben-e-fits, TDC-based PLLs face sev-eral de-sign chal-lenges
+
+[31]
+
+[32]
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1036--1037
+ [] 
+ []
+
+
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1060--1061
+ [] 
  []
 
 
 
-[31]) (chapters/Literature review.tex
+[33]
+Underfull \vbox (badness 1152) has occurred while \output is active []
 
-[32]
+
+
+[34]) (chapters/Literature review.tex
+
+[35]
 Chapter 3.
 
-LaTeX Warning: Citation 'di_tdc_2023' on page 33 undefined on input line 7.
+LaTeX Warning: Citation 'di_tdc_2023' on page 36 undefined on input line 7.
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7.
 (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 
-LaTeX Warning: Citation 'hybrid_pll_2022' on page 33 undefined on input line 10.
+LaTeX Warning: Citation 'hybrid_pll_2022' on page 36 undefined on input line 10.
 
 
 Overfull \hbox (6.08015pt too wide) in paragraph at lines 10--13
@@ -1453,14 +1473,14 @@ Overfull \hbox (21.53052pt too wide) in paragraph at lines 10--13
 
 
 
-[33
+[36
 
 ]
 
-LaTeX Warning: Citation 'ro_tdc_2023' on page 34 undefined on input line 14.
+LaTeX Warning: Citation 'ro_tdc_2023' on page 37 undefined on input line 14.
 
 
-LaTeX Warning: Citation 'low_power_2024' on page 34 undefined on input line 17.
+LaTeX Warning: Citation 'low_power_2024' on page 37 undefined on input line 17.
 
 
 Overfull \hbox (2.08528pt too wide) in paragraph at lines 17--20
@@ -1473,7 +1493,7 @@ Overfull \hbox (12.18077pt too wide) in paragraph at lines 17--20
  []
 
 
-LaTeX Warning: Citation 'noise_shaping_2023' on page 34 undefined on input line 21.
+LaTeX Warning: Citation 'noise_shaping_2023' on page 37 undefined on input line 21.
 
 
 Overfull \hbox (3.09212pt too wide) in paragraph at lines 21--23
@@ -1485,15 +1505,15 @@ Underfull \vbox (badness 2726) has occurred while \output is active []
 
 
 
-[34]
+[37]
 
-LaTeX Warning: Citation 'pvt_robust_2024' on page 35 undefined on input line 24.
-
-
-LaTeX Warning: Citation 'sar_tdc_2023' on page 35 undefined on input line 28.
+LaTeX Warning: Citation 'pvt_robust_2024' on page 38 undefined on input line 24.
 
 
-LaTeX Warning: Citation 'time_amp_2024' on page 35 undefined on input line 31.
+LaTeX Warning: Citation 'sar_tdc_2023' on page 38 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'time_amp_2024' on page 38 undefined on input line 31.
 
 
 Overfull \hbox (22.35205pt too wide) in paragraph at lines 56--57
@@ -1502,7 +1522,7 @@ Overfull \hbox (22.35205pt too wide) in paragraph at lines 56--57
 
 
 
-[35]
+[38]
 Overfull \hbox (3.73996pt too wide) in paragraph at lines 57--58
 []\T1/phv/m/n/12 Sub-10nm in-te-gra-tion re-quires dig-i-tally in-ten-sive TDCs with self-healing
  []
@@ -1514,20 +1534,20 @@ Overfull \hbox (0.47623pt too wide) in paragraph at lines 58--59
 
 
 
-[36]
+[39]
 
-[37]
+[40]
 
-LaTeX Warning: Citation 'hybrid_patent' on page 38 undefined on input line 118.
-
-
-LaTeX Warning: Citation 'dual_loop' on page 38 undefined on input line 119.
+LaTeX Warning: Citation 'hybrid_patent' on page 41 undefined on input line 118.
 
 
-LaTeX Warning: Citation 'ro_tdc' on page 38 undefined on input line 120.
+LaTeX Warning: Citation 'dual_loop' on page 41 undefined on input line 119.
 
 
-LaTeX Warning: Citation 'sar_tdc' on page 38 undefined on input line 121.
+LaTeX Warning: Citation 'ro_tdc' on page 41 undefined on input line 120.
+
+
+LaTeX Warning: Citation 'sar_tdc' on page 41 undefined on input line 121.
 
 
 Overfull \hbox (89.25272pt too wide) in paragraph at lines 114--124
@@ -1536,47 +1556,47 @@ Overfull \hbox (89.25272pt too wide) in paragraph at lines 114--124
 
 ) (chapters/Methodology.tex
 
-[38]
+[41]
 Chapter 4.
 ) (chapters/Results.tex
 
-[39
+[42
 
 ]
 
-[40]
+[43]
 Chapter 5.
 ) (chapters/Discussion.tex
 
-[41
+[44
 
 ]
 
-[42]
+[45]
 Chapter 6.
 ) (chapters/Conclusion.tex
 
-[43
+[46
 
 ]
 
-[44]
+[47]
 Chapter 7.
 ) (chapters/Appendix.tex
 
-[45
+[48
 
 ]
 
-[46]
+[49]
 Appendix A.
 )
 
-[47
+[50
 
 ]
 
-[48
+[51
 
 ] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
@@ -1597,17 +1617,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64790 strings out of 473530
- 1704862 string characters out of 5714794
- 3153909 words of memory out of 5000000
- 87228 multiletter control sequences out of 15000+600000
- 600418 words of font info for 124 fonts, out of 8000000 for 9000
+ 65258 strings out of 473530
+ 1719719 string characters out of 5714794
+ 3154204 words of memory out of 5000000
+ 87695 multiletter control sequences out of 15000+600000
+ 603308 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,105p,903b,2018s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (48 pages, 389231 bytes).
+ 99i,13n,105p,856b,2018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (51 pages, 430374 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
+ 611 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,6 +24,13 @@
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Cross-coupled pair VCO schematic.}}{27}{}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces $\%2$ frequency divider using D flip-flops.}}{28}{}%
 \contentsline {figure}{\numberline {2.23}{\ignorespaces CML frequency divider.}}{28}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Digital PLL architecture.}}{29}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Delay line TDC schematic.}}{30}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces 3-bit delay line TDC timing diagram.}}{31}{}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces DLL architecture.}}{32}{}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Conceptual filter using a proportional and an integral path.}}{33}{}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces DLF implementation using an adder and a register.}}{33}{}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Cross-coupled DCO implementation with binary weighted capacitive array.}}{34}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
