@@ -51,6 +51,19 @@
       \range{pages}{9}
     \endentry
   \enddatalist
+  \missing{bib:tdc_flash}
+  \missing{di_tdc_2023}
+  \missing{dual_loop}
+  \missing{hybrid_patent}
+  \missing{hybrid_pll_2022}
+  \missing{low_power_2024}
+  \missing{noise_shaping_2023}
+  \missing{pvt_robust_2024}
+  \missing{ro_tdc}
+  \missing{ro_tdc_2023}
+  \missing{sar_tdc}
+  \missing{sar_tdc_2023}
+  \missing{time_amp_2024}
 \endrefsection
 \endinput
 

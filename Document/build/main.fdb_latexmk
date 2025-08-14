@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 0 "build/main.bcf" "build/main.bbl" "build/main" 1752912350.71084 -1
+["biber build/main"] 1755138537.3472 "build/main.bcf" "build/main.bbl" "build/main" 1755156743.12443 0
   "bibliography.bib" 1739547993 433 381b988b04f545364c0dcf6bac90fb71 ""
-  "build/main.bcf" 1752912350 109362 7bdf041e198d16287971d14df7804247 "pdflatex"
+  "build/main.bcf" 1755156742 109431 18a3a2884849d6b0775697c73c420f6a "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1752912345.43523 "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" "build/main.pdf" "main" 1752912350.71187 0
+["pdflatex"] 1755156737.73034 "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" "build/main.pdf" "main" 1755156743.12545 0
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746569123 155044 bf57f817cb3c2bae6d8750483836b617 ""
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1739429448 31952 4e7da544b9beb1ee7f05a08130fec989 ""
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1739512832 40136 69ae63a07f35fbf418ac7e150cddf206 ""
@@ -327,23 +327,25 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "build/main.aux" 1752912350 15008 d81561ae2cee3479efee9b897cac6ebd "pdflatex"
-  "build/main.bbl" 1752159303 1907 67e5727a93dbeeb465783d7c265ae1f1 "biber build/main"
-  "build/main.lof" 1752912350 3138 460567ae577c3cad2ad414d557339966 "pdflatex"
-  "build/main.lot" 1752912350 432 de937d9cddc09070f9d45fc7b5765ebf "pdflatex"
-  "build/main.run.xml" 1752912350 2307 ac2ce71e5aa17739084a4395f6c0648f "pdflatex"
-  "build/main.toc" 1752912350 3481 f58cc98e2ce2c95c3de0ab71e6b65d2e "pdflatex"
+  "build/main.aux" 1755156742 16126 7a3edf92476bfd3d70609fb1b87f3775 "pdflatex"
+  "build/main.bbl" 1755138539 2246 6466796e6d96873f30f10ea3d2e03439 "biber build/main"
+  "build/main.lof" 1755156742 3322 6b9e82483228feab14fe9511a393de39 "pdflatex"
+  "build/main.lot" 1755156742 432 de937d9cddc09070f9d45fc7b5765ebf "pdflatex"
+  "build/main.run.xml" 1755156742 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "build/main.toc" 1755156742 3903 91f444a71366e8a4459aeb65f02fcb8a "pdflatex"
   "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" 1752159934 4871 ccf806e1633b9bdf827483da1a1b7f9f ""
   "chapters/Appendix.tex" 1739427683 30 ffe7b33d6cb0b6e2fca7fc8c08686b98 ""
   "chapters/Conclusion.tex" 1739422330 34 528cd5ffc26dddb069a5f0e3dad67888 ""
   "chapters/Discussion.tex" 1739422322 34 51588403445d1e53c1917c265b90819d ""
   "chapters/Introduction.tex" 1739512826 573 d162a7a66f917a2436ac39fe746ab49a ""
   "chapters/Literature review.tex" 1752160534 8672 41cfe00a75dc96c0086ea2c3431b6b4c ""
-  "chapters/Methodology.tex" 1739422299 35 b8cfa6f9117fb0b3ef29cfe10c35ee96 ""
+  "chapters/Methodology.tex" 1755156737 4136 1fe4a1874ecefae32a0b26772debe7b2 ""
   "chapters/Results.tex" 1739422311 31 e2b0a754ee275635105360b6f399bc1d ""
   "chapters/Theoretical framework.tex" 1752912343 69576 c0665bcc6dc837276aebff05ac5847ce ""
   "data/MOS_varactor_data.txt" 1746578463 687 93c10d3a449b084cbed4ccaa82579c45 ""
   "data/VCO_characteristic_example.txt" 1746307314 26830 b196d9db870a0b944cf47a7c626cf279 ""
+  "figures/TDC_conventional_architecture.png" 1755150998 82479 087a244a30e79153a8c4ee59605829ec ""
+  "figures/TDC_proposed_architecture.png" 1755156707 111651 dc4fc3ee4d084c3b535f60983f6465f9 ""
   "main.tex" 1752159934 4871 ccf806e1633b9bdf827483da1a1b7f9f ""
   (generated)
   "build/main.aux"

@@ -1,0 +1,69 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{van1994}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=71fdca2707b8b9513af118440bab5f77}{%
+           family={Van\bibnamedelima Paemel},
+           familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{fullhash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{fullhashraw}{71fdca2707b8b9513af118440bab5f77}
+      \strng{bibnamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorbibnamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authornamehash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorfullhash}{71fdca2707b8b9513af118440bab5f77}
+      \strng{authorfullhashraw}{71fdca2707b8b9513af118440bab5f77}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on communications}
+      \field{number}{7}
+      \field{title}{Analysis of a charge-pump PLL: A new model}
+      \field{volume}{42}
+      \field{year}{1994}
+      \field{pages}{2490\bibrangedash 2498}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+  \missing{bib:tdc_flash}
+  \missing{di_tdc_2023}
+  \missing{dual_loop}
+  \missing{hybrid_patent}
+  \missing{hybrid_pll_2022}
+  \missing{low_power_2024}
+  \missing{noise_shaping_2023}
+  \missing{pvt_robust_2024}
+  \missing{ro_tdc}
+  \missing{ro_tdc_2023}
+  \missing{sar_tdc}
+  \missing{sar_tdc_2023}
+  \missing{time_amp_2024}
+\endrefsection
+\endinput
+
