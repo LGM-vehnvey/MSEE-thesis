@@ -53,10 +53,16 @@
 \contentsline {section}{\numberline {4.1}Time to Digital Converter}{42}{}%
 \contentsline {subsection}{\numberline {4.1.1}specifications}{42}{}%
 \contentsline {subsection}{\numberline {4.1.2}Architecture}{42}{}%
-\contentsline {subsection}{\numberline {4.1.3}Design}{45}{}%
-\contentsline {section}{\numberline {4.2}Digitally controlled oscillator}{45}{}%
-\contentsline {section}{\numberline {4.3}Digital loop filter}{45}{}%
-\contentsline {chapter}{\numberline {5}Results}{46}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{48}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{50}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{52}{}%
+\contentsline {subsection}{\numberline {4.1.3}System behavior}{45}{}%
+\contentsline {subsection}{\numberline {4.1.4}Design}{46}{}%
+\contentsline {subsubsection}{DLL}{46}{}%
+\contentsline {subsubsection}{D flip-flops}{46}{}%
+\contentsline {subsubsection}{modified thermometer-to-binary decoders}{46}{}%
+\contentsline {subsubsection}{PFD selector circuit}{46}{}%
+\contentsline {subsubsection}{multiplexer}{46}{}%
+\contentsline {section}{\numberline {4.2}Digitally controlled oscillator}{46}{}%
+\contentsline {section}{\numberline {4.3}Digital loop filter}{46}{}%
+\contentsline {chapter}{\numberline {5}Results}{47}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{49}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{51}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{53}{}%

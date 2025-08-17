@@ -1,9 +1,9 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: C:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\XCircuit_files\TDC_proposed_architecture
 %%Creator: XCircuit v3.4 rev10
-%%CreationDate: Thu Aug 14 01:31:08 2025
+%%CreationDate: Sat Aug 16 23:27:11 2025
 %%Pages: 1
-%%BoundingBox: 68 68 640 536
+%%BoundingBox: 68 68 640 574
 %%DocumentNeededResources: font Helvetica font Helvetica-Bold font Times-Roman 
 %%EndComments
 %%BeginProlog
@@ -227,15 +227,22 @@ begingate
 endgate
 } def
 
+/arrow_terminal {
+begingate
+1.00 0 24 0 tap
+1 1.00 24 0 -24 0 2 polygon
+1.00 180 -24 0 circle
+endgate
+} def
+
 
 %%EndSetup
 
 %%Page: C:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\XCircuit_files\TDC_conventional_arc 1
 %%PageOrientation: Portrait
 /pgsave save def bop
-% 32.00 8.00 gridspace
 1.0000 inchscale
-2.6000 setlinewidth 944 831 translate
+2.6000 setlinewidth 944 887 translate
 
 1 1.00 128 432 128 368 2 polygon
 1 1.00 160 432 160 368 2 polygon
@@ -324,10 +331,10 @@ endgate
 1.00 0 384 160 dot
 1.00 0 256 160 dot
 1.00 0 128 160 dot
-1 1.00 352 -224 352 -192 2 polygon
-1 1.00 368 -224 368 -192 2 polygon
-1 1.00 336 -224 336 -192 2 polygon
-1 1.00 384 -224 384 -192 2 polygon
+1 1.00 352 -280 352 -248 2 polygon
+1 1.00 368 -280 368 -248 2 polygon
+1 1.00 336 -280 336 -248 2 polygon
+1 1.00 384 -280 384 -248 2 polygon
 (Decoder fwd) {/Helvetica cf} 2 16 0 1.00 248 -40 label
 1 1.00 -128 432 -128 368 2 polygon
 1 1.00 -160 432 -160 368 2 polygon
@@ -412,10 +419,10 @@ endgate
 -1.00 0 -384 160 dot
 -1.00 0 -256 160 dot
 -1.00 0 -128 160 dot
-1 1.00 -352 -208 -352 -176 2 polygon
-1 1.00 -368 -208 -368 -176 2 polygon
-1 1.00 -336 -208 -336 -176 2 polygon
-1 1.00 -384 -208 -384 -176 2 polygon
+1 1.00 -352 -264 -352 -232 2 polygon
+1 1.00 -368 -264 -368 -232 2 polygon
+1 1.00 -336 -264 -336 -232 2 polygon
+1 1.00 -384 -264 -384 -232 2 polygon
 (Decoder bwd) {/Helvetica cf} 2 19 0 1.00 -248 -24 label
 1.00 0 -64 160 circle
 1.00 180 64 160 circle
@@ -425,53 +432,48 @@ endgate
 1.00 180 48 480 circle
 (Reference) {/Helvetica cf} 2 16 0 0.50 -112 176 label
 (Feedback) {/Helvetica cf} 2 16 0 0.50 -96 496 label
-1 1.00 8 -560 8 -592 2 polygon
-1 1.00 24 -560 24 -592 2 polygon
-1 1.00 40 -560 40 -592 2 polygon
-1 1.00 -8 -560 -8 -592 2 polygon
-1 1.00 -24 -560 -24 -592 2 polygon
-(T4) {/Helvetica-Bold cf} 2 16 270 0.35 -18 -639 label
-(T3) {/Helvetica-Bold cf} 2 16 270 0.35 -2 -639 label
-(T2) {/Helvetica-Bold cf} 2 16 270 0.35 14 -639 label
-(T1) {/Helvetica-Bold cf} 2 16 270 0.35 30 -639 label
-(T0) {/Helvetica-Bold cf} 2 16 270 0.35 46 -639 label
-1.00 0 272 -304 TG
-1.00 0 272 -352 TG
-1.00 0 272 -400 TG
-1.00 0 272 -448 TG
-1 1.00 336 -272 336 -304 304 -304 3 polygon
-1 1.00 352 -272 352 -352 304 -352 3 polygon
-1 1.00 368 -272 368 -400 304 -400 3 polygon
-1 1.00 384 -256 384 -448 304 -448 3 polygon
-1.00 180 -272 -240 NOT
-1.00 180 -272 -288 NOT
-1.00 180 -272 -336 NOT
-1.00 180 -272 -384 NOT
-1.00 90 -24 -592 circle
-1.00 90 -8 -592 circle
-1.00 90 8 -592 circle
-1.00 90 24 -592 circle
-1.00 90 40 -592 circle
-(Mux) {/Helvetica cf} 2 16 0 1.00 -32 -528 label
-1 1.00 -336 -208 -336 -240 -304 -240 3 polygon
-1 1.00 -352 -208 -352 -288 -320 -288 3 polygon
-1 1.00 -320 -336 -368 -336 -368 -208 3 polygon
-1 1.00 -384 -208 -384 -384 -320 -384 3 polygon
-1 1.00 112 -560 112 -544 2 polygon
-0 1.00 112 -560 112 -480 -112 -480 -112 -560 4 polygon
-1 1.00 -96 -480 -96 -448 2 polygon
-1 1.00 -80 -480 -80 -448 2 polygon
-1 1.00 -64 -480 -64 -448 2 polygon
-1 1.00 -48 -480 -48 -448 2 polygon
-1 1.00 48 -480 48 -448 2 polygon
-1 1.00 64 -480 64 -448 2 polygon
-1 1.00 80 -480 80 -448 2 polygon
-1 1.00 96 -480 96 -448 2 polygon
-1 1.00 0 -480 0 -448 2 polygon
-1 1.00 96 -448 240 -448 2 polygon
-1 1.00 240 -400 80 -400 80 -464 3 polygon
-1 1.00 64 -448 64 -368 64 -352 240 -352 4 polygon
-1 1.00 240 -304 48 -304 48 -448 3 polygon
+1 1.00 8 -616 8 -648 2 polygon
+1 1.00 24 -616 24 -648 2 polygon
+1 1.00 40 -616 40 -648 2 polygon
+1 1.00 -8 -616 -8 -648 2 polygon
+1 1.00 -24 -616 -24 -648 2 polygon
+(T4) {/Helvetica-Bold cf} 2 16 270 0.35 -18 -695 label
+(T3) {/Helvetica-Bold cf} 2 16 270 0.35 -2 -695 label
+(T2) {/Helvetica-Bold cf} 2 16 270 0.35 14 -695 label
+(T1) {/Helvetica-Bold cf} 2 16 270 0.35 30 -695 label
+(T0) {/Helvetica-Bold cf} 2 16 270 0.35 46 -695 label
+-1.00 0 280 -344 TG
+1.00 0 280 -384 TG
+1.00 0 280 -424 TG
+1.00 0 280 -464 TG
+1 1.00 336 -312 336 -344 304 -344 3 polygon
+1 1.00 352 -304 352 -384 304 -384 3 polygon
+1 1.00 368 -296 368 -424 304 -424 3 polygon
+1 1.00 384 -272 384 -464 304 -464 3 polygon
+1.00 180 -272 -296 NOT
+1.00 180 -272 -344 NOT
+1.00 180 -272 -392 NOT
+1.00 180 -272 -440 NOT
+1.00 90 -24 -648 circle
+1.00 90 -8 -648 circle
+1.00 90 8 -648 circle
+1.00 90 24 -648 circle
+1.00 90 40 -648 circle
+(Mux) {/Helvetica cf} 2 16 0 1.00 -32 -584 label
+1 1.00 -336 -264 -336 -296 -304 -296 3 polygon
+1 1.00 -352 -264 -352 -344 -320 -344 3 polygon
+1 1.00 -320 -392 -368 -392 -368 -264 3 polygon
+1 1.00 -384 -264 -384 -440 -320 -440 3 polygon
+0 1.00 104 -616 104 -536 -104 -536 -104 -616 4 polygon
+1 1.00 -96 -536 -96 -504 2 polygon
+1 1.00 -80 -536 -80 -504 2 polygon
+1 1.00 -64 -536 -64 -504 2 polygon
+1 1.00 -48 -536 -48 -504 2 polygon
+1 1.00 48 -536 48 -504 2 polygon
+1 1.00 64 -536 64 -504 2 polygon
+1 1.00 80 -536 80 -504 2 polygon
+1 1.00 96 -536 96 -504 2 polygon
+1 1.00 0 -536 0 -504 2 polygon
 0 1.00 -48 80 -48 -16 48 -16 48 80 4 polygon
 (PFD) {/Helvetica cf} 2 16 0 1.00 -37 17 label
 1 1.00 -32 -16 -32 -48 2 polygon
@@ -500,16 +502,16 @@ endgate
 1 1.00 -128 -80 -112 -80 2 polygon
 1 1.00 -116 -128 -136 -128 2 polygon
 1.00 0 8 -220 dot
-1 1.00 -336 -176 -336 -48 2 polygon
-1 1.00 -352 -176 -352 -48 2 polygon
-1 1.00 -368 -176 -368 -48 2 polygon
-1 1.00 -384 -176 -384 -48 2 polygon
-1 1.00 336 -192 336 -64 2 polygon
-1 1.00 352 -192 352 -64 2 polygon
-1 1.00 368 -192 368 -64 2 polygon
-1 1.00 384 -192 384 -64 2 polygon
-1 1.00 0 -272 0 -400 2 polygon
-(sel) {/Helvetica cf} 2 16 270 0.50 -4 -476 label
+1 1.00 -336 -232 -336 -104 2 polygon
+1 1.00 -352 -232 -352 -104 2 polygon
+1 1.00 -368 -232 -368 -104 2 polygon
+1 1.00 -384 -232 -384 -104 2 polygon
+1 1.00 336 -248 336 -120 2 polygon
+1 1.00 352 -248 352 -120 2 polygon
+1 1.00 368 -248 368 -120 2 polygon
+1 1.00 384 -248 384 -120 2 polygon
+1 1.00 0 -328 0 -456 2 polygon
+(sel) {/Helvetica cf} 2 16 270 0.50 -4 -532 label
 1 1.00 -32 112 -80 112 -80 160 3 polygon
 1 1.00 32 112 80 112 80 160 3 polygon
 1.00 0 80 160 dot
@@ -517,41 +519,112 @@ endgate
 -1.00 0 -96 520 tap
 1 1.00 -96 520 -48 520 2 polygon
 1 1.00 -48 520 -48 568 408 568 408 512 408 480 384 480 6 polygon
-(Vcontrol) {/Helvetica cf} 2 16 0 0.50 120 576 label
-0 1.00 -224 -224 -224 -400 -144 -400 -144 -224 4 polygon
-(Adder) {/Helvetica cf} 2 16 270 1.00 -176 -368 label
-1 1.00 -184 -400 -184 -440 2 polygon
-1.00 90 -184 -432 circle
-(Cin = 1) {/Helvetica cf} 2 16 0 0.50 -264 -448 label
-1 1.00 -144 -328 -112 -328 2 polygon
-1 1.00 -144 -312 -112 -312 2 polygon
-1 1.00 -144 -296 -112 -296 2 polygon
-1 1.00 -144 -280 -112 -280 2 polygon
-1 1.00 -32 -480 -32 -448 2 polygon
+(Vcontrol) {/Helvetica cf} 2 16 0 0.50 40 576 label
+0 1.00 -224 -280 -224 -456 -144 -456 -144 -280 4 polygon
+(Adder) {/Helvetica cf} 2 16 270 1.00 -176 -424 label
+1 1.00 -184 -456 -184 -496 2 polygon
+1.00 90 -184 -488 circle
+(Cin = 1) {/Helvetica cf} 2 16 0 0.50 -264 -504 label
+1 1.00 -144 -384 -112 -384 2 polygon
+1 1.00 -144 -368 -112 -368 2 polygon
+1 1.00 -144 -352 -112 -352 2 polygon
+1 1.00 -144 -336 -112 -336 2 polygon
+1 1.00 -32 -536 -32 -504 2 polygon
 1 1.00 8 -220 8 -244 2 polygon
-1 1.00 8 -244 0 -244 0 -284 3 polygon
-1 1.00 32 -480 32 -272 32 -256 240 -256 4 polygon
-1.00 0 272 -256 TG
-1 1.00 320 -256 320 -64 2 polygon
-1 1.00 304 -256 320 -256 2 polygon
-1 1.00 336 -224 336 -272 2 polygon
-1 1.00 352 -208 352 -288 2 polygon
-1 1.00 368 -272 368 -208 2 polygon
-1 1.00 384 -208 384 -272 2 polygon
-1 1.00 0 -400 0 -448 2 polygon
-1 1.00 -144 -344 -112 -344 2 polygon
-1 1.00 -120 -344 -96 -344 -96 -448 3 polygon
-1 1.00 -80 -448 -80 -328 -120 -328 3 polygon
-1 1.00 -120 -312 -64 -312 -64 -456 3 polygon
-1 1.00 -48 -456 -48 -296 -128 -296 3 polygon
-1 1.00 -120 -280 -32 -280 -32 -448 3 polygon
+1 1.00 8 -300 0 -300 0 -340 3 polygon
+1.00 0 280 -304 TG
+1 1.00 304 -304 320 -304 2 polygon
+1 1.00 336 -280 336 -328 2 polygon
+1 1.00 352 -264 352 -344 2 polygon
+1 1.00 368 -328 368 -264 2 polygon
+1 1.00 384 -264 384 -328 2 polygon
+1 1.00 0 -456 0 -504 2 polygon
+1 1.00 -144 -400 -112 -400 2 polygon
+1 1.00 -120 -400 -96 -400 -96 -504 3 polygon
+1 1.00 -80 -504 -80 -384 -120 -384 3 polygon
+1 1.00 -120 -368 -64 -368 -64 -512 3 polygon
+1 1.00 -48 -512 -48 -352 -128 -352 3 polygon
+1 1.00 -120 -336 -32 -336 -32 -504 3 polygon
 1 1.00 -240 64 -240 144 2 polygon
-(T5) {/Helvetica-Bold cf} 2 16 270 0.35 -34 -639 label
-1 1.00 -40 -560 -40 -592 2 polygon
-1.00 90 -40 -592 circle
+(T5) {/Helvetica-Bold cf} 2 16 270 0.35 -34 -695 label
+1 1.00 -40 -616 -40 -648 2 polygon
+1.00 90 -40 -648 circle
 1 1.00 -752 64 -480 64 2 polygon
 1 1.00 -496 128 -496 80 -272 80 -272 56 4 polygon
 1 1.00 -368 128 -368 96 -256 96 -256 64 4 polygon
+0 1.00 144 -280 144 -456 224 -456 224 -280 4 polygon
+(Adder) {/Helvetica cf} 2 16 270 1.00 192 -424 label
+1 1.00 184 -456 184 -496 2 polygon
+1.00 90 184 -488 circle
+(Cin = 0) {/Helvetica cf} 2 16 0 0.50 200 -504 label
+1 1.00 224 -368 240 -368 2 polygon
+1 1.00 224 -336 240 -336 2 polygon
+1 1.00 224 -304 240 -304 2 polygon
+1 1.00 224 -400 240 -400 2 polygon
+1 1.00 224 -432 240 -432 2 polygon
+1 1.00 248 -304 232 -304 2 polygon
+1 1.00 320 -304 320 -120 2 polygon
+1 1.00 240 -336 240 -344 248 -344 3 polygon
+1 1.00 240 -368 240 -384 248 -384 3 polygon
+1 1.00 240 -400 240 -424 248 -424 3 polygon
+1 1.00 240 -432 240 -464 248 -464 3 polygon
+1 1.00 144 -384 112 -384 2 polygon
+1 1.00 144 -368 112 -368 2 polygon
+1 1.00 144 -352 112 -352 2 polygon
+1 1.00 144 -336 112 -336 2 polygon
+1 1.00 144 -400 112 -400 2 polygon
+1 1.00 120 -400 96 -400 96 -504 3 polygon
+1 1.00 80 -504 80 -384 120 -384 3 polygon
+1 1.00 120 -368 64 -368 64 -512 3 polygon
+1 1.00 48 -512 48 -352 128 -352 3 polygon
+1 1.00 120 -336 32 -336 32 -504 3 polygon
+1 1.00 32 -504 32 -536 2 polygon
+1 1.00 168 -280 168 -248 2 polygon
+1 1.00 176 -280 176 -248 2 polygon
+1 1.00 184 -280 184 -248 2 polygon
+1 1.00 192 -280 192 -248 2 polygon
+1 1.00 200 -280 200 -248 2 polygon
+1 1.00 200 -248 200 -216 2 polygon
+1 1.00 192 -248 192 -216 2 polygon
+1 1.00 184 -248 184 -216 2 polygon
+1 1.00 176 -248 176 -216 2 polygon
+1 1.00 168 -248 168 -216 2 polygon
+1 1.00 168 -216 256 -216 256 -232 3 polygon
+1 1.00 248 -256 264 -256 2 polygon
+1 1.00 240 -248 272 -248 2 polygon
+1 1.00 232 -240 280 -240 2 polygon
+1 1.00 256 -232 256 -240 2 polygon
+1 1.00 -168 -280 -168 -248 2 polygon
+1 1.00 -176 -280 -176 -248 2 polygon
+1 1.00 -184 -280 -184 -248 2 polygon
+1 1.00 -192 -280 -192 -248 2 polygon
+1 1.00 -200 -280 -200 -248 2 polygon
+1 1.00 -200 -248 -200 -216 2 polygon
+1 1.00 -192 -248 -192 -216 2 polygon
+1 1.00 -184 -248 -184 -216 2 polygon
+1 1.00 -176 -248 -176 -216 2 polygon
+1 1.00 -168 -248 -168 -216 2 polygon
+1 1.00 -168 -216 -256 -216 -256 -232 3 polygon
+1 1.00 -248 -256 -264 -256 2 polygon
+1 1.00 -240 -248 -272 -248 2 polygon
+1 1.00 -232 -240 -280 -240 2 polygon
+1 1.00 -256 -232 -256 -240 2 polygon
+1 1.00 320 -128 320 -64 2 polygon
+1 1.00 336 -128 336 -64 2 polygon
+1 1.00 352 -128 352 -64 2 polygon
+1 1.00 368 -128 368 -64 2 polygon
+1 1.00 384 -128 384 -64 2 polygon
+1 1.00 -336 -112 -336 -48 2 polygon
+1 1.00 -352 -112 -352 -48 2 polygon
+1 1.00 -368 -112 -368 -48 2 polygon
+1 1.00 -384 -112 -384 -48 2 polygon
+(Vbn) {/Helvetica cf} 2 16 0 0.50 188 620 label
+(Vbp) {/Helvetica cf} 2 16 0 0.50 264 620 label
+1.00 90 208 568 arrow_terminal
+1.00 90 280 568 arrow_terminal
+1 1.00 8 -300 8 -236 2 polygon
+1.000 0.000 0.000 scb
+4 1.00 -160 96 -160 -240 160 -240 160 96 4 polygon
 pgsave restore showpage
 
 %%Trailer

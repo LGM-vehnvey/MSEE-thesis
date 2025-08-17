@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  14 AUG 2025 01:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  17 AUG 2025 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1663,11 +1663,11 @@ File: figures/TDC_conventional_architecture.png Graphic file (type png)
 <use figures/TDC_conventional_architecture.png>
 Package pdftex.def Info: figures/TDC_conventional_architecture.png  used on input line 24.
 (pdftex.def)             Requested size: 398.3386pt x 263.94328pt.
-<figures/TDC_proposed_architecture.png, id=187, 574.0647pt x 469.755pt>
+<figures/TDC_proposed_architecture.png, id=187, 574.0647pt x 507.8172pt>
 File: figures/TDC_proposed_architecture.png Graphic file (type png)
 <use figures/TDC_proposed_architecture.png>
 Package pdftex.def Info: figures/TDC_proposed_architecture.png  used on input line 36.
-(pdftex.def)             Requested size: 398.3386pt x 325.9591pt.
+(pdftex.def)             Requested size: 398.3386pt x 352.37015pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1679,63 +1679,73 @@ Underfull \vbox (badness 1478) has occurred while \output is active []
 
 [43 <./figures/TDC_conventional_architecture.png>]
 
-[44 <./figures/TDC_proposed_architecture.png>]) (chapters/Results.tex
+[44 <./figures/TDC_proposed_architecture.png>]
 
 [45]
+
+LaTeX Warning: Reference `fig:TDC_conventional_timing_diagram' on page 46 undefined on input line 73.
+
+) (chapters/Results.tex
+
+[46]
 Chapter 5.
 ) (chapters/Discussion.tex
 
-[46
+[47
 
 ]
 
-[47]
+[48]
 Chapter 6.
 ) (chapters/Conclusion.tex
 
-[48
+[49
 
 ]
 
-[49]
+[50]
 Chapter 7.
 ) (chapters/Appendix.tex
 
-[50
+[51
 
 ]
 
-[51]
+[52]
 Appendix A.
 )
 
-[52
+[53
 
 ]
 
-[53
+[54
 
 ] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65277 strings out of 473530
- 1720493 string characters out of 5714794
+ 65278 strings out of 473530
+ 1720530 string characters out of 5714794
  3154479 words of memory out of 5000000
- 87714 multiletter control sequences out of 15000+600000
+ 87715 multiletter control sequences out of 15000+600000
  603308 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,105p,856b,2018s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (53 pages, 583385 bytes).
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (54 pages, 600755 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
+ 631 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,13 +48,50 @@ The thermometer-to-binary decoder is modified to allow for the reading of both c
 to read a phase difference of more than 2$\pi$ each cycle and as far as the author is aware, this is the first time that such a modification has been proposed in the literature.
 
 Finally, the outputs of the two TDCs are combined using a multiplexer that selects the output based on the frequency state of the feedback signal. The selector needs to be able to
-determine whether the feedback signal is leading or lagging the reference clock, which is done by retrieving the frequency information that was lost because of the decoder modification.
+determine whether the feedback signal is leading or lagging the reference clock, which is done by retrieving the information lost because of the decoder modification.
 
 
 All of this changes done to the conventional TDC architecture will be further explained in the following sections of this chapter, where the design of the TDC will be presented in 
 detail.
 
+\subsection{System behavior}
+Both architectures have the same principle of operation and each of their blocks have the same behavior. Both architectures have some sort of delay line that measures the phase difference
+between the reference clock and the feedback signal, a thermometer-to-binary decoder that processes the sampled data to produce a workable digital output, and both have the same number of 
+D flip-flops to sample the state of the delay line which is equal to $2^n-1$ where $n$ is the number of bits of the TDC.
+
+The operation of the TDC of \ref{fig:TDC_conventional_architecture} is as follows: When the rising edge of the reference clock occurs and a new cycle starts, the circuit in charge of reading the case where the feedback signal is lagging (forward) with 
+respect to the reference will start its operation, meaning that its VCDL will be reset and start counting the delay until the next rising edge of either the reference clock or the feedback signal
+occurs. If the former occurs first, then the circuit in charge of reading the case where the feedback signal is leading (backward) will never start its operation and the TDC output will be the
+same as the last cycle. If the latter occurs first, then the backward circuit will start its operation and count the remaining delay until the next rising edge of the reference clock and the TDC
+output will be the subtraction of the forward output minus the backward output.
+
+Because the decoders of the TDC of figure \ref{fig:TDC_conventional_architecture} are thermometer-to-binary decoders, their output is equal to 0 after half of the reference clock period time has
+passed, meaning the result of the TDC will be either the forward output or the 2's complement of the backward output depending on which of the half cycle of the clock period the feedback signal
+occurs. This feature is what allows the TDC to detect whether the feedback signal is leading or lagging the reference clock, but it is also what limits the TDC to a phase difference of $\pm \pi$
+each cycle.
+
+Figure \ref{fig:TDC_conventional_timing_diagram} further elaborates on this point, showing the timing diagram and the ideal TDC characteristic of the conventional architecture, the decoder 
+will not output a value greater than 7 or less than -8 for a 4-bit TDC.
+
+%figura%
+
+
+
 \subsection{Design}
+
+\subsubsection{DLL}
+
+\textbf{VCDL}
+\textbf{Charge pump}
+\textbf{PFD}
+
+\subsubsection{D flip-flops}
+
+\subsubsection{modified thermometer-to-binary decoders}
+
+\subsubsection{PFD selector circuit}
+
+\subsubsection{multiplexer}
 
 \section{Digitally controlled oscillator}
 
