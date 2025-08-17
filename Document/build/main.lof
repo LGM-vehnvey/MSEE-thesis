@@ -3,12 +3,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{16}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{16}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{19}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{18}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces VCO characteristic example.}}{19}{}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Second-order passive loop filter.}}{19}{}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Block diagram of the linear phase PLL with each block transfer function.}}{20}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{22}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{22}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{21}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{21}{}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{23}{}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{23}{}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces CMOS ring oscillator.}}{24}{}%
@@ -35,6 +35,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Conventional TDC architecture}}{43}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Proposed TDC architecture}}{44}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces a) Conventional TDC timing diagram for a positive phase error, and b) its ideal characteristic.}}{46}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

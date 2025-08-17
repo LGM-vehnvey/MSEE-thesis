@@ -376,6 +376,10 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\circuitikz\pgfcir
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\circuitikz\pgfcircvoltage.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\circuitikz\pgfcirccurrent.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\circuitikz\pgfcircflow.tex
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\tikzmark\tikzlibrarytikzmark.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\tikzmark\tikzlibrarytikzmark.code.tex
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
@@ -409,8 +413,6 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -575,6 +577,13 @@ INPUT .\figures\TDC_proposed_architecture.png
 INPUT .\figures\TDC_proposed_architecture.png
 INPUT .\figures\TDC_proposed_architecture.png
 INPUT .\figures\TDC_proposed_architecture.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
+INPUT .\figures\TDC_timing_diagram.png
 INPUT .\chapters\Results.tex
 INPUT .\chapters\Results.tex
 INPUT chapters\Results.tex
