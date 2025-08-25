@@ -41,31 +41,32 @@
 \contentsline {subsubsection}{\numberline {2.1.3.2}Phase frequency detector}{21}{}%
 \contentsline {subsubsection}{\numberline {2.1.3.3}Loop filter}{21}{}%
 \contentsline {subsubsection}{\numberline {2.1.3.4}Charge pump}{22}{}%
-\contentsline {subsubsection}{\numberline {2.1.3.5}Voltage-controlled oscillator}{23}{}%
-\contentsline {subsubsection}{\numberline {2.1.3.6}Frequency divider}{27}{}%
-\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{29}{}%
-\contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{29}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Delay-locked loop fundamentals}{31}{}%
-\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{32}{}%
+\contentsline {subsubsection}{\numberline {2.1.3.5}Voltage-controlled oscillator}{24}{}%
+\contentsline {subsubsection}{\numberline {2.1.3.6}Frequency divider}{28}{}%
+\contentsline {section}{\numberline {2.2}Digital phase-locked loop}{30}{}%
+\contentsline {subsection}{\numberline {2.2.1}Time-to-digital converter}{30}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Delay-locked loop fundamentals}{32}{}%
+\contentsline {subsection}{\numberline {2.2.2}Digital loop filter}{33}{}%
 \contentsline {subsection}{\numberline {2.2.3}Digitally controlled oscillator}{34}{}%
-\contentsline {chapter}{\numberline {3}Literature review}{36}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{42}{}%
-\contentsline {section}{\numberline {4.1}Time to Digital Converter}{42}{}%
-\contentsline {subsection}{\numberline {4.1.1}specifications}{42}{}%
-\contentsline {subsection}{\numberline {4.1.2}Architecture}{43}{}%
-\contentsline {subsection}{\numberline {4.1.3}System behavior}{45}{}%
-\contentsline {subsection}{\numberline {4.1.4}Design}{47}{}%
-\contentsline {subsubsection}{\numberline {4.1.4.1}DLL}{47}{}%
-\contentsline {paragraph}{VCDL}{47}{}%
-\contentsline {paragraph}{Charge pump}{48}{}%
-\contentsline {paragraph}{PFD}{48}{}%
-\contentsline {subsubsection}{\numberline {4.1.4.2}D flip-flops}{48}{}%
-\contentsline {subsubsection}{\numberline {4.1.4.3}modified thermometer-to-binary decoders}{48}{}%
-\contentsline {subsubsection}{\numberline {4.1.4.4}PFD selector circuit}{48}{}%
-\contentsline {subsubsection}{\numberline {4.1.4.5}multiplexer}{48}{}%
-\contentsline {section}{\numberline {4.2}Digitally controlled oscillator}{48}{}%
-\contentsline {section}{\numberline {4.3}Digital loop filter}{48}{}%
-\contentsline {chapter}{\numberline {5}Results}{49}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{51}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{53}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{55}{}%
+\contentsline {chapter}{\numberline {3}Literature review}{37}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{43}{}%
+\contentsline {section}{\numberline {4.1}Time to Digital Converter}{43}{}%
+\contentsline {subsection}{\numberline {4.1.1}specifications}{43}{}%
+\contentsline {subsection}{\numberline {4.1.2}Architecture}{44}{}%
+\contentsline {subsection}{\numberline {4.1.3}System behavior}{46}{}%
+\contentsline {subsection}{\numberline {4.1.4}Design}{48}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}DLL}{48}{}%
+\contentsline {paragraph}{VCDL}{48}{}%
+\contentsline {paragraph}{PFD}{49}{}%
+\contentsline {paragraph}{Charge pump}{50}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.2}Sampling flip-flops}{51}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.3}modified thermometer-to-binary decoders}{51}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.4}PFD selector circuit}{54}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.5}Adder}{55}{}%
+\contentsline {subsubsection}{\numberline {4.1.4.6}multiplexer}{56}{}%
+\contentsline {section}{\numberline {4.2}Digitally controlled oscillator}{56}{}%
+\contentsline {section}{\numberline {4.3}Digital loop filter}{56}{}%
+\contentsline {chapter}{\numberline {5}Results}{57}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{59}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{61}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{63}{}%

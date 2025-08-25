@@ -483,9 +483,38 @@ charge pump, while figure \ref{fig:CP_schematic} shows the schematic of a CMOS d
 \noindent The greatest challenge in designing a charge pump resides in eliminating any current mismatch between $I_1$ and $I_2$ while maintaining a
 large output voltage compliance. This task is particularly difficult to achieve because the channel length modulation in the MOSFETs
 causes the output current to be dependent on the output voltage ($V_{DS}$ modulates the current). This means that both the output voltage
-compliance and the lessening of the current mismatch trade off with each other.
+compliance and the current mismatch performance trade off with each other.
 
-\noindent There are multiple solutions to this problem (some involving more complex topologies dealing also with the issue of clock feedthrough), yet 
+The current mismatch ($I_{up} - I_{down}$) flows through the loop filter for the time it takes the PFD to reset both the UP and DOWN signals (approximately 5 gate delays) in every
+input period. The cumulative effect implies that $V_{control} \to \infty $, which cannot happen because the PLL attempts to lock and keep the output frequency constant
+\cite{bib:Razavi_PLL_book}. consequently, the loop will settle with a steady-state phase error ($\Delta_t$) and thus, the smaller current will last longer to keep the charge
+constant. This behavior of the CP is illustrated in figure \ref{fig:CP_transient_response}.
+
+\noindent The static phase error $\Delta_t$ can be approximated by equation \eqref{eq:steady_state_phase_error} in the steady state because the rise and fall of $V_{cntrl}$ must cancel each 
+other out. The peak-to-peak amplitude ripple in $V_{cntrl}$ on the other hand can be estimated with equation \eqref{eq:V_control_ripple}.
+
+\pagebreak
+
+\begin{equation}
+    \Delta_t = \frac{I_{up} - I_{down}}{I_{p}} \cdot t_{res}
+    \label{eq:steady_state_phase_error}
+\end{equation}
+
+\noindent Where $t_{res}$ is the time it takes the PFD to reset both the UP and DOWN signals, and $I_{p}$ is the nominal charge pump current.
+
+\begin{equation}
+    \Delta V_{cntrl} = \frac{I_{up} - I_{down}}{C_L} \cdot t_{res}
+    \label{eq:V_control_ripple}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/CP_transient_response.png}
+    \caption{Charge pump transient response due to current mismatch.}
+    \label{fig:CP_transient_response}
+\end{figure}
+
+\noindent There are multiple approaches to minimize this problem (some involving more complex topologies dealing also with the issue of clock feedthrough), yet 
 the simplest one is to use wide enough (also large enough in the case of the current sources) transistors to minimize the channel length 
 modulation effect. This solution is far from ideal, but is good enough for some applications.
 

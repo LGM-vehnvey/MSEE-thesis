@@ -11,31 +11,38 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{21}{}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{23}{}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{23}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces CMOS ring oscillator.}}{24}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces VCO characteristic curve.}}{24}{}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{25}{}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{25}{}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Ideal LC tank circuit.}}{25}{}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Real LC tank circuit.}}{25}{}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Equivalent LC tank circuit.}}{26}{}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Cross-coupled pair.}}{26}{}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces MOS varactor.}}{27}{}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor characteristic.}}{27}{}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Cross-coupled pair VCO schematic.}}{27}{}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces $\%2$ frequency divider using D flip-flops.}}{28}{}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces CML frequency divider.}}{28}{}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Digital PLL architecture.}}{29}{}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Delay line TDC schematic.}}{30}{}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces 3-bit delay line TDC timing diagram.}}{31}{}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces DLL architecture.}}{32}{}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Conceptual filter using a proportional and an integral path.}}{33}{}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces DLF implementation using an adder and a register.}}{33}{}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Cross-coupled DCO implementation with binary weighted capacitive array.}}{34}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Charge pump transient response due to current mismatch.}}{24}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces CMOS ring oscillator.}}{25}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces VCO characteristic curve.}}{25}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{26}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{26}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Ideal LC tank circuit.}}{26}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Real LC tank circuit.}}{26}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Equivalent LC tank circuit.}}{27}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Cross-coupled pair.}}{27}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor.}}{28}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces MOS varactor characteristic.}}{28}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Cross-coupled pair VCO schematic.}}{28}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces $\%2$ frequency divider using D flip-flops.}}{29}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces CML frequency divider.}}{29}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Digital PLL architecture.}}{30}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Delay line TDC schematic.}}{31}{}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces 3-bit delay line TDC timing diagram.}}{32}{}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces DLL architecture.}}{33}{}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Conceptual filter using a proportional and an integral path.}}{34}{}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces DLF implementation using an adder and a register.}}{34}{}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Cross-coupled DCO implementation with binary weighted capacitive array.}}{35}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Conventional TDC architecture}}{43}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Proposed TDC architecture}}{44}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces a) Conventional TDC timing diagram for a positive phase error, and b) its ideal characteristic.}}{46}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Conventional TDC architecture}}{44}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proposed TDC architecture}}{45}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces a) Conventional TDC timing diagram for a positive phase error, and b) its ideal characteristic.}}{47}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMOS inverter with variable resistors at the source of each transistor to control its delay.}}{49}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simple resettable D flip-flop consisting of two cross-couped latches.}}{50}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CMOS drain switched charge pump.}}{50}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Timing diagram of the DLL output.}}{52}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal characteristic of the TDC with the modified decoders.}}{53}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PFD selector circuit schematic.}}{55}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

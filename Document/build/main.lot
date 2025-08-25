@@ -2,9 +2,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Performance Summary of State-of-the-Art TDC-PLLs}}{38}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Full-Range ($\pm 2\pi $) TDC-Based PLL Architectures}}{41}{}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Performance Summary of State-of-the-Art TDC-PLLs}}{39}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Full-Range ($\pm 2\pi $) TDC-Based PLL Architectures}}{42}{}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Dimensions of the VCDL delay elements}}{49}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Dimensions of the charge pump transistors}}{51}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Truth table of the standard thermometer-to-binary decoder for a 4-bit TDC.}}{52}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Truth table of the modified forward thermometer-to-binary decoder for a 4-bit TDC.}}{53}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Truth table of the modified backward thermometer-to-binary decoder for a 4-bit TDC.}}{53}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
