@@ -651,6 +651,13 @@ INPUT .\figures\TDC_shifted_characteristic.png
 INPUT .\figures\TDC_shifted_characteristic.png
 INPUT .\figures\TDC_shifted_characteristic.png
 INPUT .\figures\TDC_shifted_characteristic.png
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT .\figures\TDC_shifted_characteristic.png
+INPUT .\figures\TDC_shifted_characteristic.png
+INPUT .\figures\TDC_shifted_characteristic.png
+INPUT .\figures\TDC_shifted_characteristic.png
 INPUT .\chapters\Results.tex
 INPUT .\chapters\Results.tex
 INPUT chapters\Results.tex
@@ -717,3 +724,5 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb

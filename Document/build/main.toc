@@ -68,11 +68,12 @@
 \contentsline {subsection}{\numberline {4.2.1}System behavior}{57}{}%
 \contentsline {subsection}{\numberline {4.2.2}Specifications}{57}{}%
 \contentsline {subsection}{\numberline {4.2.3}Design process}{57}{}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}Inductor}{57}{}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}Capacitor array}{58}{}%
-\contentsline {subsubsection}{\numberline {4.2.3.3}Switches}{58}{}%
-\contentsline {section}{\numberline {4.3}Digital loop filter}{58}{}%
-\contentsline {chapter}{\numberline {5}Results}{59}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{61}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{63}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{65}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Inductor}{58}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Cross-coupled pair}{58}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}Capacitor array}{59}{}%
+\contentsline {subsubsection}{\numberline {4.2.3.4}Switches}{59}{}%
+\contentsline {section}{\numberline {4.3}Digital loop filter}{60}{}%
+\contentsline {chapter}{\numberline {5}Results}{61}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{63}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{65}{}%
+\contentsline {chapter}{\numberline {A}Appendix}{67}{}%
