@@ -342,7 +342,7 @@ The implementation of the DCO is shown in figure \ref{fig:DCO_implementation}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/TDC_shifted_characteristic.png}
+    \includegraphics[width=0.6\textwidth]{figures/DCO_implementation.png}
     \caption{DCO implementation schematic.}
     \label{fig:DCO_implementation}
 \end{figure}
@@ -364,7 +364,7 @@ The specifications for the DCO are the following:
     \item Phase noise: < -80 dBc/Hz at 100 kHz offset from the carrier.
     \item Tail current = 5 mA.
 \end{itemize}
-All of the above specifications are set to be met at the nominal corner considering a layout parasitic contribution of 50 fF (so a proper layout for this design should have equal or less capacitance). 
+All of the above specifications are set to be met at the nominal corner considering a layout routing parasitic contribution of 50 fF (so a proper layout for this design should have equal or less capacitance). 
 
 
 \subsection{Design process}
@@ -397,21 +397,29 @@ the frequency of oscillation once the layout is done).
 \subsubsection{Capacitor array}
 The capacitor array is the method used to control the frequency of oscillation, turning on or off the branches containing the binary weighted capacitors to either increase or decrease the output frequency. Each
 branch connecting both output nodes of the DCO is composed of 2 identical capacitors in series with a bidirectional switch between them, the values of such capacitors are binary weighted multiples of a unit capacitor
-($C_u$). Figure \ref{fig:capacitor_array} further illustrates this concept.
+($C_u$) like in the schematic of figure \ref{fig:DCO_implementation}.
 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{figures/TDC_shifted_characteristic.png}
-    \caption{DCO implementation schematic.}
-    \label{fig:DCO_implementation}
-\end{figure}
 
 The unit capacitance is designed to be 9 fF, so accounting for all five branches there is a total of 558 fF in the array, though this is not the load in parallel with the inductor even if all branches are switched on.
 The analysis for both cases (either switched on or off) is done below.
 
 \subsubsection{Switches}
-Figure ... shows the equivalent circuit of a single branch in figure \ref{fig:capacitor_array} for the case in which the switch is turned on, 
+Figure \ref{fig:DCO_switches} a) shows the equivalent circuit of a single branch in figure \ref{fig:DCO_implementation} for the case in which the switch is turned on, while figure \ref{fig:DCO_switches} b) shows
+the case for which the switched is turned off.
 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/DCO_switches.png}
+    \caption{Capacitor array branch: a) turned on and b) turned off}
+    \label{fig:DCO_switches}
+\end{figure}
+
+\subsubsection{Summary}
+
+Table ... is a summary of all the different capacitance contributions for the DCO as well as its estimated frequency range ($f_{max} \, \& \, f_{min}$).
+
+
+Table ... shows the dimensions for all devices in the DCO.
 
 \section{Digital loop filter}
