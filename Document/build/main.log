@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  8 SEP 2025 11:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  15 SEP 2025 01:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,6 +840,16 @@ Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
@@ -1215,124 +1225,44 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `main.bcf'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bib:DLL_Razavi_paper
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bib:Razavi_DLL_paper
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bib:Razavi_PLL_book
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bib:tdc_flash
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                di_tdc_2023
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                dual_loop
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                hybrid_patent
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                hybrid_pll_2022
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                low_power_2024
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                noise_shaping_2023
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                pvt_robust_2024
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ro_tdc
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ro_tdc_2023
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sar_tdc
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                sar_tdc_2023
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                time_amp_2024
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl)
+Package biblatex Info: ... file 'main1-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main1-blx.bbl)
+Package biblatex Info: ... file 'main2-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main2-blx.bbl)
+Package biblatex Info: ... file 'main3-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main3-blx.bbl)
+Package biblatex Info: ... file 'main4-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main4-blx.bbl)
+Package biblatex Info: ... file 'main5-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main5-blx.bbl)
+Package biblatex Info: ... file 'main6-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main6-blx.bbl)
+Package biblatex Info: ... file 'main7-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main7-blx.bbl)
+Package biblatex Info: ... file 'main8-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main8-blx.bbl)
+Package biblatex Info: ... file 'main9-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main9-blx.bbl)
+Package biblatex Info: ... file 'main10-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main10-blx.bbl)
+Package biblatex Info: ... file 'main11-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main11-blx.bbl)
+Package biblatex Info: ... file 'main12-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main12-blx.bbl)
+Package biblatex Info: ... file 'main13-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main13-blx.bbl)
+Package biblatex Info: ... file 'main14-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main14-blx.bbl)
+Package biblatex Info: ... file 'main15-blx.bbl' found.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main15-blx.bbl)
 Package biblatex Info: Reference section=0 on input line 82.
 Package biblatex Info: Reference segment=0 on input line 82.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1356,22 +1286,61 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 85.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
+\blx@maxsegment@1=\count517
+\blx@sectionciteorder@1=\count518
+Package biblatex Info: Reference section=1 on input line 86.
+\openout5 = `main1-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:1' on input line 86.
+
 
 [2
 
 {C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+Package biblatex Info: Reference section=0 on input line 88.
+\blx@maxsegment@2=\count519
+\blx@sectionciteorder@2=\count520
+Package biblatex Info: Reference section=2 on input line 88.
+\openout5 = `main2-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:2' on input line 88.
+
 
 [3
 
 ]
+Package biblatex Info: Reference section=0 on input line 90.
+\blx@maxsegment@3=\count521
+\blx@sectionciteorder@3=\count522
+Package biblatex Info: Reference section=3 on input line 90.
+\openout5 = `main3-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:3' on input line 90.
+
 
 [4
 
 ]
+Package biblatex Info: Reference section=0 on input line 93.
+\blx@maxsegment@4=\count523
+\blx@sectionciteorder@4=\count524
+Package biblatex Info: Reference section=4 on input line 93.
+\openout5 = `main4-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:4' on input line 93.
+
 
 [5
 
-] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
+]
+Package biblatex Info: Reference section=0 on input line 94.
+\blx@maxsegment@5=\count525
+\blx@sectionciteorder@5=\count526
+Package biblatex Info: Reference section=5 on input line 94.
+\openout5 = `main5-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:5' on input line 94.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
 
 [6
 
@@ -1381,17 +1350,35 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 
 
-[7] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
+[7]
+Package biblatex Info: Reference section=0 on input line 95.
+\blx@maxsegment@6=\count527
+\blx@sectionciteorder@6=\count528
+Package biblatex Info: Reference section=6 on input line 95.
+\openout5 = `main6-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:6' on input line 95.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lof
 
 [8
 
-])
+]
+\blx@sectionciteorder@9=\count529
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[9] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
+[9]
+Package biblatex Info: Reference section=0 on input line 97.
+\blx@maxsegment@7=\count530
+\blx@sectionciteorder@7=\count531
+Package biblatex Info: Reference section=7 on input line 97.
+\openout5 = `main7-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:7' on input line 97.
+ (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1401,30 +1388,46 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 ]
 Chapter 1.
-) (chapters/Theoretical framework.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@8=\count532
+\blx@sectionciteorder@8=\count533
+Package biblatex Info: Reference section=8 on input line 1.
+\openout5 = `main8-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:8' on input line 1.
+
+Overfull \hbox (3.6813pt too wide) in paragraph at lines 9--12
+\T1/phv/m/n/12 tween the ref-er-ence clock and the feed-back clock from the Digitally-controlled
+ []
 
 
 
 [11
 
 ]
-Overfull \vbox (177.05836pt too high) has occurred while \output is active []
-
-
 
 [12]
-Chapter 2.
 
-
-[13
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[13]) (chapters/Theoretical framework.tex
 
 [14]
+Chapter 2.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@9=\count534
+Package biblatex Info: Reference section=9 on input line 1.
+\openout5 = `main9-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:9' on input line 1.
+
+
+[15
+
+]
+Underfull \vbox (badness 7099) has occurred while \output is active []
+
+
+
+[16]
 Overfull \hbox (2.15225pt too wide) in paragraph at lines 66--67
  [] 
  []
@@ -1444,28 +1447,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[15]
-
-[16]
-
 [17]
 
 [18]
-PGFPlots: reading {data/VCO_characteristic_example.txt}
-
-Underfull \vbox (badness 2884) has occurred while \output is active []
-
-
 
 [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [20]
-Overfull \hbox (6.3527pt too wide) in paragraph at lines 373--374
- [] 
- []
+PGFPlots: reading {data/VCO_characteristic_example.txt}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1475,65 +1466,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [22]
-
-LaTeX Warning: Citation 'bib:Razavi_PLL_book' on page 23 undefined on input line 490.
-
-
-Overfull \hbox (12.43808pt too wide) in paragraph at lines 488--492
-\T1/phv/m/n/12 keep the out-put fre-quency con-stant [[]]. con-se-quently,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[23]
-<figures/CP_transient_response.png, id=121, 555.9972pt x 161.6439pt>
-File: figures/CP_transient_response.png Graphic file (type png)
-<use figures/CP_transient_response.png>
-Package pdftex.def Info: figures/CP_transient_response.png  used on input line 512.
-(pdftex.def)             Requested size: 398.3386pt x 115.81375pt.
-
-
-[24 <./figures/CP_transient_response.png>]
-PGFPlots: reading {data/VCO_characteristic_example.txt}
-
-Overfull \hbox (21.30559pt too wide) in paragraph at lines 591--592
+Overfull \hbox (6.3527pt too wide) in paragraph at lines 371--372
  [] 
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 631--631
-[]\T1/cmr/m/n/12 Figure 2.14: |CMOS ring os-cil-la-tor
- []
 
+[23]
 
+[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [25]
+<figures/CP_transient_response.png, id=132, 555.9972pt x 161.6439pt>
+File: figures/CP_transient_response.png Graphic file (type png)
+<use figures/CP_transient_response.png>
+Package pdftex.def Info: figures/CP_transient_response.png  used on input line 510.
+(pdftex.def)             Requested size: 398.3386pt x 115.81375pt.
 
-[26]
-Underfull \hbox (badness 1320) in paragraph at lines 705--705
-[]\T1/cmr/m/n/12 Figure 2.18: |Equiv-a-lent LC
- []
 
+[26 <./figures/CP_transient_response.png>]
+PGFPlots: reading {data/VCO_characteristic_example.txt}
 
-Underfull \hbox (badness 5008) in paragraph at lines 719--719
-[]\T1/cmr/m/n/12 Figure 2.19: |Cross-coupled
- []
-
-PGFPlots: reading {data/MOS_varactor_data.txt}
-
-Overfull \hbox (3.569pt too wide) in paragraph at lines 768--769
+Overfull \hbox (21.30559pt too wide) in paragraph at lines 589--590
  [] 
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 769--769
-[]\T1/cmr/m/n/12 Figure 2.21: |MOS var-ac-tor
+Underfull \hbox (badness 1360) in paragraph at lines 629--629
+[]\T1/cmr/m/n/12 Figure 2.14: |CMOS ring os-cil-la-tor
  []
 
 
@@ -1544,13 +1507,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [27]
 
 [28]
-Overfull \hbox (21.61797pt too wide) in paragraph at lines 821--822
+Underfull \hbox (badness 1320) in paragraph at lines 703--703
+[]\T1/cmr/m/n/12 Figure 2.18: |Equiv-a-lent LC
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 717--717
+[]\T1/cmr/m/n/12 Figure 2.19: |Cross-coupled
+ []
+
+PGFPlots: reading {data/MOS_varactor_data.txt}
+
+Overfull \hbox (3.569pt too wide) in paragraph at lines 766--767
  [] 
  []
 
 
-Overfull \hbox (17.96938pt too wide) in paragraph at lines 846--847
- [] 
+Underfull \hbox (badness 1789) in paragraph at lines 767--767
+[]\T1/cmr/m/n/12 Figure 2.21: |MOS var-ac-tor
  []
 
 
@@ -1561,48 +1535,110 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [29]
 
 [30]
+Overfull \hbox (21.61797pt too wide) in paragraph at lines 819--820
+ [] 
+ []
+
+
+Overfull \hbox (17.96938pt too wide) in paragraph at lines 844--845
+ [] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [32]
-Underfull \vbox (badness 6944) has occurred while \output is active []
+<figures/TDC_nonlinearities.png, id=158, 349.305pt x 342.5297pt>
+File: figures/TDC_nonlinearities.png Graphic file (type png)
+<use figures/TDC_nonlinearities.png>
+Package pdftex.def Info: figures/TDC_nonlinearities.png  used on input line 916.
+(pdftex.def)             Requested size: 199.1693pt x 195.30667pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [33]
-Overfull \hbox (22.89311pt too wide) in paragraph at lines 1065--1066
- [] 
- []
-
-
-Overfull \hbox (22.89311pt too wide) in paragraph at lines 1089--1090
- [] 
- []
+Underfull \vbox (badness 1275) has occurred while \output is active []
 
 
 
-[34]
-Overfull \hbox (3.60785pt too wide) in paragraph at lines 1142--1146
-\T1/phv/m/n/12 gates (TG) be-cause of the dif-fer-en-tial na-ture of the cir-cuit. When the switches
- []
-
-
+[34 <./figures/TDC_nonlinearities.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[35]) (chapters/Literature review.tex
+[35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [36]
-Chapter 3.
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1085--1086
+ [] 
+ []
 
-LaTeX Warning: Citation 'di_tdc_2023' on page 37 undefined on input line 7.
+
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1109--1110
+ [] 
+ []
+
+
+
+[37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[38]
+Overfull \hbox (3.60785pt too wide) in paragraph at lines 1162--1166
+\T1/phv/m/n/12 gates (TG) be-cause of the dif-fer-en-tial na-ture of the cir-cuit. When the switches
+ []
+
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
+
+
+[39]
+Overfull \hbox (1.12648pt too wide) in paragraph at lines 1173--1173
+[]\T1/cmr/m/n/12 Yuncheng Zhang, Dingxin Xu, and Kenichi Okada. ^^P  Dig-i-tal Phase-Locked
+ []
+
+
+Overfull \hbox (3.20497pt too wide) in paragraph at lines 1173--1173
+\T1/cmr/m/it/12 Solid-State Cir-cuits So-ci-ety \T1/cmr/m/n/12 4 (2024), pp. 176^^U192. \T1/cmr/m/sc/12 doi\T1/cmr/m/n/12 : $\T1/cmtt/m/n/12 10 . 1109 / OJSSCS .
+ []
+
+
+
+[40]
+Overfull \hbox (0.37802pt too wide) in paragraph at lines 1173--1173
+[]\T1/cmr/m/n/12 Assia El-Hadbi, Ous-sama Elis-sati, and Lau-rent Fes-quet. ^^P  Time-to-Digital
+ []
+
+
+Overfull \hbox (15.4143pt too wide) in paragraph at lines 1173--1173
+\T1/cmr/m/n/12 vert-ers^^Q. In: \T1/cmr/m/it/12 Sen-sors \T1/cmr/m/n/12 23.5 (2023). \T1/cmr/m/sc/12 issn\T1/cmr/m/n/12 : 1424-8220. \T1/cmr/m/sc/12 doi\T1/cmr/m/n/12 : $\T1/cmtt/m/n/12 10 . 3390 / s23052791$\T1/cmr/m/n/12 .
+ []
+
+) (chapters/Literature review.tex
+
+[41]
+Chapter 3.
+Package biblatex Info: Reference section=0 on input line 2.
+\blx@maxsegment@10=\count535
+\blx@sectionciteorder@10=\count536
+Package biblatex Info: Reference section=10 on input line 2.
+\openout5 = `main10-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:10' on input line 2.
+
+LaTeX Warning: Citation 'di_tdc_2023' on page 42 undefined on input line 7.
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7.
 (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
@@ -1613,7 +1649,7 @@ Overfull \hbox (13.7352pt too wide) in paragraph at lines 7--9
  []
 
 
-LaTeX Warning: Citation 'hybrid_pll_2022' on page 37 undefined on input line 10.
+LaTeX Warning: Citation 'hybrid_pll_2022' on page 42 undefined on input line 10.
 
 
 Overfull \hbox (21.53052pt too wide) in paragraph at lines 10--13
@@ -1622,11 +1658,11 @@ Overfull \hbox (21.53052pt too wide) in paragraph at lines 10--13
 
 
 
-[37
+[42
 
 ]
 
-LaTeX Warning: Citation 'ro_tdc_2023' on page 38 undefined on input line 14.
+LaTeX Warning: Citation 'ro_tdc_2023' on page 43 undefined on input line 14.
 
 
 Overfull \hbox (31.39789pt too wide) in paragraph at lines 14--16
@@ -1639,7 +1675,7 @@ Overfull \hbox (10.93056pt too wide) in paragraph at lines 14--16
  []
 
 
-LaTeX Warning: Citation 'low_power_2024' on page 38 undefined on input line 17.
+LaTeX Warning: Citation 'low_power_2024' on page 43 undefined on input line 17.
 
 
 Overfull \hbox (11.98483pt too wide) in paragraph at lines 17--20
@@ -1647,22 +1683,22 @@ Overfull \hbox (11.98483pt too wide) in paragraph at lines 17--20
  []
 
 
-LaTeX Warning: Citation 'noise_shaping_2023' on page 38 undefined on input line 21.
+LaTeX Warning: Citation 'noise_shaping_2023' on page 43 undefined on input line 21.
 
 
 Underfull \vbox (badness 2726) has occurred while \output is active []
 
 
 
-[38]
+[43]
 
-LaTeX Warning: Citation 'pvt_robust_2024' on page 39 undefined on input line 24.
-
-
-LaTeX Warning: Citation 'sar_tdc_2023' on page 39 undefined on input line 28.
+LaTeX Warning: Citation 'pvt_robust_2024' on page 44 undefined on input line 24.
 
 
-LaTeX Warning: Citation 'time_amp_2024' on page 39 undefined on input line 31.
+LaTeX Warning: Citation 'sar_tdc_2023' on page 44 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'time_amp_2024' on page 44 undefined on input line 31.
 
 
 Overfull \hbox (22.35205pt too wide) in paragraph at lines 56--57
@@ -1676,25 +1712,25 @@ Overfull \hbox (3.73996pt too wide) in paragraph at lines 57--58
 
 
 
-[39]
+[44]
 Overfull \hbox (0.47623pt too wide) in paragraph at lines 58--59
 []\T1/phv/m/n/12 Wideband ap-pli-ca-tions de-mand multi-core ar-chi-tec-tures for GHz-range
  []
 
 
 
-[40]
+[45]
 
-LaTeX Warning: Citation 'hybrid_patent' on page 41 undefined on input line 118.
-
-
-LaTeX Warning: Citation 'dual_loop' on page 41 undefined on input line 119.
+LaTeX Warning: Citation 'hybrid_patent' on page 46 undefined on input line 118.
 
 
-LaTeX Warning: Citation 'ro_tdc' on page 41 undefined on input line 120.
+LaTeX Warning: Citation 'dual_loop' on page 46 undefined on input line 119.
 
 
-LaTeX Warning: Citation 'sar_tdc' on page 41 undefined on input line 121.
+LaTeX Warning: Citation 'ro_tdc' on page 46 undefined on input line 120.
+
+
+LaTeX Warning: Citation 'sar_tdc' on page 46 undefined on input line 121.
 
 
 Overfull \hbox (89.25272pt too wide) in paragraph at lines 114--124
@@ -1703,102 +1739,96 @@ Overfull \hbox (89.25272pt too wide) in paragraph at lines 114--124
 
 ) (chapters/Methodology.tex
 
-[41]
+[46]
 
-[42]
+[47]
 Chapter 4.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@11=\count537
+\blx@sectionciteorder@11=\count538
+Package biblatex Info: Reference section=11 on input line 1.
+\openout5 = `main11-blx.aux'.
 
-LaTeX Warning: Citation 'bib:tdc_flash' on page 43 undefined on input line 18.
-
+Package biblatex Info: Setting label 'refsection:11' on input line 1.
 
 Underfull \vbox (badness 5954) has occurred while \output is active []
 
 
 
-[43
+[48
 
 ]
-<figures/TDC_conventional_architecture.png, id=192, 574.0647pt x 380.3811pt>
+<figures/TDC_conventional_architecture.png, id=212, 574.0647pt x 380.3811pt>
 File: figures/TDC_conventional_architecture.png Graphic file (type png)
 <use figures/TDC_conventional_architecture.png>
 Package pdftex.def Info: figures/TDC_conventional_architecture.png  used on input line 26.
 (pdftex.def)             Requested size: 398.3386pt x 263.94328pt.
 
 
-[44 <./figures/TDC_conventional_architecture.png>]
-<figures/TDC_proposed_architecture.png, id=197, 574.0647pt x 507.8172pt>
+[49 <./figures/TDC_conventional_architecture.png>]
+<figures/TDC_proposed_architecture.png, id=218, 574.0647pt x 507.8172pt>
 File: figures/TDC_proposed_architecture.png Graphic file (type png)
 <use figures/TDC_proposed_architecture.png>
 Package pdftex.def Info: figures/TDC_proposed_architecture.png  used on input line 38.
 (pdftex.def)             Requested size: 398.3386pt x 352.37015pt.
 
 
-[45 <./figures/TDC_proposed_architecture.png>]
+[50 <./figures/TDC_proposed_architecture.png>]
 
-[46]
-<figures/TDC_timing_diagram.png, id=205, 574.0647pt x 300.1614pt>
+[51]
+<figures/TDC_timing_diagram.png, id=226, 574.0647pt x 300.1614pt>
 File: figures/TDC_timing_diagram.png Graphic file (type png)
 <use figures/TDC_timing_diagram.png>
 Package pdftex.def Info: figures/TDC_timing_diagram.png  used on input line 77.
 (pdftex.def)             Requested size: 398.3386pt x 208.27951pt.
 
 
-[47 <./figures/TDC_timing_diagram.png>]
-
-LaTeX Warning: Citation 'bib:DLL_Razavi_paper' on page 48 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'bib:Razavi_PLL_book' on page 48 undefined on input line 99.
-
-<figures/VCDL_delay_elements.png, id=210, 215.8464pt x 230.7822pt>
+[52 <./figures/TDC_timing_diagram.png>]
+<figures/VCDL_delay_elements.png, id=231, 215.8464pt x 230.7822pt>
 File: figures/VCDL_delay_elements.png Graphic file (type png)
 <use figures/VCDL_delay_elements.png>
 Package pdftex.def Info: figures/VCDL_delay_elements.png  used on input line 104.
 (pdftex.def)             Requested size: 199.1693pt x 212.95253pt.
 
-Underfull \vbox (badness 1968) has occurred while \output is active []
+Underfull \vbox (badness 6110) has occurred while \output is active []
 
 
 
-[48]
+[53]
 
-[49 <./figures/VCDL_delay_elements.png>]
-<figures/PFD_ff.png, id=219, 185.7339pt x 221.8689pt>
+[54 <./figures/VCDL_delay_elements.png>]
+<figures/PFD_ff.png, id=239, 185.7339pt x 221.8689pt>
 File: figures/PFD_ff.png Graphic file (type png)
 <use figures/PFD_ff.png>
 Package pdftex.def Info: figures/PFD_ff.png  used on input line 142.
 (pdftex.def)             Requested size: 137.66481pt x 164.45801pt.
 
-
-LaTeX Warning: Citation 'bib:Razavi_DLL_paper' on page 50 undefined on input line 207.
-
-
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
 
 
-[50 <./figures/PFD_ff.png>]
+[55 <./figures/PFD_ff.png>]
 
-[51]
-<figures/standard_decoder_truth_table.png, id=227, 402.00188pt x 267.24844pt>
+[56]
+<figures/standard_decoder_truth_table.png, id=248, 402.00188pt x 267.24844pt>
 File: figures/standard_decoder_truth_table.png Graphic file (type png)
 <use figures/standard_decoder_truth_table.png>
 Package pdftex.def Info: figures/standard_decoder_truth_table.png  used on input line 240.
 (pdftex.def)             Requested size: 278.83578pt x 185.36807pt.
-<figures/DLL_TRAN.png, id=228, 1077.27469pt x 520.19344pt>
+<figures/DLL_TRAN.png, id=249, 1077.27469pt x 520.19344pt>
 File: figures/DLL_TRAN.png Graphic file (type png)
 <use figures/DLL_TRAN.png>
 Package pdftex.def Info: figures/DLL_TRAN.png  used on input line 247.
 (pdftex.def)             Requested size: 398.3386pt x 192.34949pt.
-<figures/TDC_shifted_characteristic.png, id=229, 258.0039pt x 234.8775pt>
+<figures/TDC_shifted_characteristic.png, id=250, 258.0039pt x 234.8775pt>
 File: figures/TDC_shifted_characteristic.png Graphic file (type png)
 <use figures/TDC_shifted_characteristic.png>
 Package pdftex.def Info: figures/TDC_shifted_characteristic.png  used on input line 258.
 (pdftex.def)             Requested size: 239.00558pt x 217.58441pt.
 
 
-[52 <./figures/standard_decoder_truth_table.png> <./figures/DLL_TRAN.png>]
-<figures/fwd_truth_table.png, id=235, 417.81094pt x 505.13719pt>
+[57 <./figures/standard_decoder_truth_table.png> <./figures/DLL_TRAN.png>]
+<figures/fwd_truth_table.png, id=256, 417.81094pt x 505.13719pt>
 File: figures/fwd_truth_table.png Graphic file (type png)
 <use figures/fwd_truth_table.png>
 Package pdftex.def Info: figures/fwd_truth_table.png  used on input line 269.
@@ -1808,20 +1838,20 @@ Overfull \hbox (7.64674pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
-<figures/bwd_truth_table.png, id=236, 400.49625pt x 505.13719pt>
+<figures/bwd_truth_table.png, id=257, 400.49625pt x 505.13719pt>
 File: figures/bwd_truth_table.png Graphic file (type png)
 <use figures/bwd_truth_table.png>
 Package pdftex.def Info: figures/bwd_truth_table.png  used on input line 276.
 (pdftex.def)             Requested size: 191.20082pt x 241.16048pt.
 
 
-[53 <./figures/TDC_shifted_characteristic.png> <./figures/fwd_truth_table.png> <./figures/bwd_truth_table.png>]
+[58 <./figures/TDC_shifted_characteristic.png> <./figures/fwd_truth_table.png> <./figures/bwd_truth_table.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[54]
-<figures/PFD_selector.png, id=246, 122.3772pt x 161.6439pt>
+[59]
+<figures/PFD_selector.png, id=267, 122.3772pt x 161.6439pt>
 File: figures/PFD_selector.png Graphic file (type png)
 <use figures/PFD_selector.png>
 Package pdftex.def Info: figures/PFD_selector.png  used on input line 317.
@@ -1831,8 +1861,8 @@ Underfull \vbox (badness 2512) has occurred while \output is active []
 
 
 
-[55 <./figures/PFD_selector.png>]
-<figures/DCO_implementation.png, id=252, 349.305pt x 588.2778pt>
+[60 <./figures/PFD_selector.png>]
+<figures/DCO_implementation.png, id=272, 349.305pt x 588.2778pt>
 File: figures/DCO_implementation.png Graphic file (type png)
 <use figures/DCO_implementation.png>
 Package pdftex.def Info: figures/DCO_implementation.png  used on input line 345.
@@ -1842,83 +1872,120 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[56]
+[61]
 
-[57 <./figures/DCO_implementation.png>]
+[62 <./figures/DCO_implementation.png>]
 
-[58]
+[63]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 391.
 
-Overfull \hbox (4.86931pt too wide) in paragraph at lines 403--405
+
+[64]
+Overfull \hbox (4.86931pt too wide) in paragraph at lines 413--415
 []\T1/phv/m/n/12 The unit ca-pac-i-tance is de-signed to be 9 fF, so ac-count-ing for all five branches
  []
 
-
-
-[59]
-<figures/DCO_switches.png, id=267, 361.35pt x 251.0178pt>
+<figures/DCO_switches.png, id=288, 361.35pt x 251.0178pt>
 File: figures/DCO_switches.png Graphic file (type png)
 <use figures/DCO_switches.png>
-Package pdftex.def Info: figures/DCO_switches.png  used on input line 413.
+Package pdftex.def Info: figures/DCO_switches.png  used on input line 423.
 (pdftex.def)             Requested size: 239.00558pt x 166.02846pt.
-) (chapters/Results.tex
 
-[60 <./figures/DCO_switches.png>]
+
+[65 <./figures/DCO_switches.png>]
+
+[66]) (chapters/Results.tex
+
+[67]
 Chapter 5.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@12=\count539
+\blx@sectionciteorder@12=\count540
+Package biblatex Info: Reference section=12 on input line 1.
+\openout5 = `main12-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:12' on input line 1.
 ) (chapters/Discussion.tex
 
-[61
+[68
 
 ]
 
-[62]
+[69]
 Chapter 6.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@13=\count541
+\blx@sectionciteorder@13=\count542
+Package biblatex Info: Reference section=13 on input line 1.
+\openout5 = `main13-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:13' on input line 1.
 ) (chapters/Conclusion.tex
 
-[63
+[70
 
 ]
 
-[64]
+[71]
 Chapter 7.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@14=\count543
+\blx@sectionciteorder@14=\count544
+Package biblatex Info: Reference section=14 on input line 1.
+\openout5 = `main14-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:14' on input line 1.
 ) (chapters/Appendix.tex
 
-[65
+[72
 
 ]
 
-[66]
+[73]
 Appendix A.
+Package biblatex Info: Reference section=0 on input line 1.
+\blx@maxsegment@15=\count545
+\blx@sectionciteorder@15=\count546
+Package biblatex Info: Reference section=15 on input line 1.
+\openout5 = `main15-blx.aux'.
+
+Package biblatex Info: Setting label 'refsection:15' on input line 1.
 )
 
-[67
-
-]
-
-[68
+[74
 
 ] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main10-blx
+(biblatex)                main15-blx
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65713 strings out of 473530
- 1728220 string characters out of 5714794
- 3164802 words of memory out of 5000000
- 88144 multiletter control sequences out of 15000+600000
- 606324 words of font info for 128 fonts, out of 8000000 for 9000
+ 66210 strings out of 473530
+ 1743199 string characters out of 5714794
+ 3156687 words of memory out of 5000000
+ 88590 multiletter control sequences out of 15000+600000
+ 607312 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,105p,21268b,2018s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (68 pages, 976223 bytes).
+ 99i,13n,105p,21268b,2937s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (74 pages, 1094004 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
+ 832 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

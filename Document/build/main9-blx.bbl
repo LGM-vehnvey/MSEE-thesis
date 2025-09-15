@@ -1,0 +1,425 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{PengLi2001}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=LMP}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Mike\bibnamedelima Peng},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=TM}{%
+         family={Taub},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{LMP1}
+    \strng{fullhash}{LMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Jitter, Noise, and Signal Integrity at High-Speed}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Bae_jitterFOM_2022}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={Bae},
+         familyi={B\bibinitperiod},
+         given={Woorham},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{Phase locked loops;Voltage-controlled oscillators;Jitter;Phase
+  noise;Oscillators;Clocks;Bandwidth;All-digital PLL;clock-multiplying
+  DLL;figure-of-merit;injection-locked PLL;jitter;PLL;sub-sampling PLL}
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2022.3195687
+    \endverb
+    \field{pages}{80680\bibrangedash 80694}
+    \field{title}{Benchmark Figure of Merit Extensions for Low Jitter Phase
+  Locked Loops Inspired by New PLL Architectures}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Razavi_analogDesign_book}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=RB}{%
+         family={Razavi},
+         familyi={R\bibinitperiod},
+         given={Behzad},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill Education}%
+    }
+    \strng{namehash}{RB1}
+    \strng{fullhash}{RB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Design of Analog CMOS Integrated Circuits}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Leonov2015}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=LGA}{%
+         family={Leonov},
+         familyi={L\bibinitperiod},
+         given={Gennady\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KNV}{%
+         family={Kuznetsov},
+         familyi={K\bibinitperiod},
+         given={Nikolay\bibnamedelima V.},
+         giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=YMV}{%
+         family={Yuldashev},
+         familyi={Y\bibinitperiod},
+         given={Marat\bibnamedelima V.},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=YRV}{%
+         family={Yuldashev},
+         familyi={Y\bibinitperiod},
+         given={Renat\bibnamedelima V.},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \keyw{Phase locked loops;Circuit stability;Stability analysis;Mathematical
+  model;Voltage-controlled oscillators;Trajectory;Transfer functions;Analog
+  PLL;capture range;cycle slipping;definition;Gardner’s paradox on lock-in
+  range;Gardner’s problem on unique lock-in frequency;global
+  stability;high-order filter;hold-in range;local stability;lock-in
+  range;nonlinear analysis;phase-locked loop;pull-in range;stability in the
+  large}
+    \strng{namehash}{LGA+1}
+    \strng{fullhash}{LGAKNVYMVYRV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TCSI.2015.2476295
+    \endverb
+    \field{number}{10}
+    \field{pages}{2454\bibrangedash 2464}
+    \field{title}{Hold-In, Pull-In, and Lock-In Ranges of PLL Circuits:
+  Rigorous Mathematical Definitions and Limitations of Classical Theory}
+    \field{volume}{62}
+    \field{journaltitle}{IEEE Transactions on Circuits and Systems I: Regular
+  Papers}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Wolaver1991}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=WDH}{%
+         family={Wolaver},
+         familyi={W\bibinitperiod},
+         given={Dan\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{WDH1}
+    \strng{fullhash}{WDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{0-13-662743-9}
+    \field{note}{Part of the Prentice Hall Advanced Reference Series}
+    \field{pages}{262}
+    \field{title}{Phase-Locked Loop Circuit Design}
+    \list{location}{1}{%
+      {Englewood Cliffs}%
+    }
+    \field{year}{1991}
+  \endentry
+
+  \entry{Razavi_PLL_book}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=RB}{%
+         family={Razavi},
+         familyi={R\bibinitperiod},
+         given={Behzad},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{RB1}
+    \strng{fullhash}{RB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Design of CMOS phase-locked loops: From circuit level to
+  architecture level}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Palumbo2010}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=PG}{%
+         family={Palumbo},
+         familyi={P\bibinitperiod},
+         given={Gaetano},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pappalardo},
+         familyi={P\bibinitperiod},
+         given={Domenico},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Charge pumps;Circuit topology;Switches;Power supplies;Application
+  specific integrated circuits;Radiofrequency integrated circuits;Nonvolatile
+  memory;Switched capacitor circuits;Operational amplifiers;Power amplifiers}
+    \strng{namehash}{PGPD1}
+    \strng{fullhash}{PGPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/MCAS.2009.935695
+    \endverb
+    \field{number}{1}
+    \field{pages}{31\bibrangedash 45}
+    \field{title}{Charge Pump Circuits: An Overview on Design Strategies and
+  Topologies}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Circuits and Systems Magazine}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Yuncheng2024}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yuncheng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XD}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Dingxin},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okada},
+         familyi={O\bibinitperiod},
+         given={Kenichi},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Phase locked loops;Delays;Noise measurement;Consumer
+  electronics;Wireless communication;Quantization (signal);Injection-locked
+  oscillators;Phase detection;Digital systems;Converters;ADPLL;bang–bang
+  phase detector;CMOS;digital;digital-to-time converter;fully synthesizable
+  PLL;injection-locked PLL (IL-PLL);oversampling PLL (OSPLL);phase
+  detector;phaselocked loops (PLLs);time-to-digital converter (TDC)}
+    \strng{namehash}{ZYXDOK1}
+    \strng{fullhash}{ZYXDOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/OJSSCS.2024.3464551
+    \endverb
+    \field{pages}{176\bibrangedash 192}
+    \field{title}{Digital Phase-Locked Loops: Exploring Different Boundaries}
+    \field{volume}{4}
+    \field{journaltitle}{IEEE Open Journal of the Solid-State Circuits Society}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Henzler2010}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Henzler},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{series}{Springer Series in Advanced Microelectronics}
+    \field{title}{Time-to-Digital Converters}
+    \field{volume}{29}
+    \list{location}{1}{%
+      {Dordrecht}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{EL-Hadbi_TDC_review_2019}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=EHA}{%
+         family={El-Hadbi},
+         familyi={E\bibinithyphendelim H\bibinitperiod},
+         given={Assia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EO}{%
+         family={Elissati},
+         familyi={E\bibinitperiod},
+         given={Oussama},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fesquet},
+         familyi={F\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Logic gates;Delays;Dynamic range;Linearity;Clocks;Time-to-digital
+  converter;time precision;coarse-fine measurements;self-timed ring}
+    \strng{namehash}{EHAEOFL1}
+    \strng{fullhash}{EHAEOFL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 5th International Conference on Event-Based Control,
+  Communication, and Signal Processing (EBCCSP)}
+    \verb{doi}
+    \verb 10.1109/EBCCSP.2019.8836857
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Time-to-Digital Converters: A Literature Review and New
+  Perspectives}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Khaddour2023}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=KW}{%
+         family={Khaddour},
+         familyi={K\bibinitperiod},
+         given={Wassim},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=UW}{%
+         family={Uhring},
+         familyi={U\bibinitperiod},
+         given={Wilfried},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Dadouche},
+         familyi={D\bibinitperiod},
+         given={Foudil},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Dumas},
+         familyi={D\bibinitperiod},
+         given={Norbert},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Madec},
+         familyi={M\bibinitperiod},
+         given={Morgan},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KW+1}
+    \strng{fullhash}{KWUWDFDNMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper, two of the most common calibration methods of synchronous
+  TDCs, which are the bin-by-bin calibration and the average-bin-width
+  calibration, are first presented and compared. Then, an innovative new robust
+  calibration method for asynchronous TDCs is proposed and evaluated.
+  Simulation results showed that: (i) For a synchronous TDC, the bin-by-bin
+  calibration, applied to a histogram, does not improve the TDC’s
+  differential non-linearity (DNL); nevertheless, it improves its Integral
+  Non-Linearity (INL), whereas the average-bin-width calibration significantly
+  improves both the DNL and the INL. (ii) For an asynchronous TDC, the DNL can
+  be improved up to 10 times by applying the bin–by-bin calibration, whereas
+  the proposed method is almost independent of the non-linearity of the TDC and
+  can improve the DNL up to 100 times. The simulation results were confirmed by
+  experiments carried out using real TDCs implemented on a Cyclone V SoC-FPGA.
+  For an asynchronous TDC, the proposed calibration method is 10 times better
+  than the bin-by-bin method in terms of the DNL improvement.%
+    }
+    \verb{doi}
+    \verb 10.3390/s23052791
+    \endverb
+    \field{issn}{1424-8220}
+    \field{number}{5}
+    \field{title}{Calibration Methods for Time-to-Digital Converters}
+    \verb{url}
+    \verb https://www.mdpi.com/1424-8220/23/5/2791
+    \endverb
+    \field{volume}{23}
+    \field{journaltitle}{Sensors}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Razavi_DLL_article}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=RB}{%
+         family={Razavi},
+         familyi={R\bibinitperiod},
+         given={Behzad},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Delays;Phase noise;Phase frequency detector;Delay lines;Phase locked
+  loops;Inverters}
+    \strng{namehash}{RB1}
+    \strng{fullhash}{RB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/MSSC.2018.2844615
+    \endverb
+    \field{number}{3}
+    \field{pages}{9\bibrangedash 15}
+    \field{title}{The Delay-Locked Loop [A Circuit for All Seasons]}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Solid-State Circuits Magazine}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput

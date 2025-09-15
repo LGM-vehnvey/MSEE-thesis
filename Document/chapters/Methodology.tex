@@ -15,7 +15,7 @@ The TDC implements a 4-bit flash architecture for a time resolution of 625 ps ($
 range of -2$\pi$ to 2$\pi$ for a clock frequency of 100 MHz.
 
 \subsection{Architecture}
-The TDC architecture is based on the design presented in \cite{bib:tdc_flash}. The core of the TDC consist of a voltage-controlled delay line (VCDL), a set of D flip-flops to sample the
+The TDC architecture is based on the replica delay line presented in \cite{Priyanka2015}. The core of the TDC consist of a voltage-controlled delay line (VCDL), a set of D flip-flops to sample the
 state of the VCDL, and a thermometer-to-binary decoder that process the sampled data to produce a workable digital output. This arrangement is used twice, once for the case when the
 feedback signal has a lower frequency (or delayed phase) than the reference clock, and the other for the case when the feedback signal has a higher frequency (or advanced phase) than
 the reference clock. The two outputs are then combined to produce the final output of the TDC. Such an architecture (Fig. \ref{fig:TDC_conventional_architecture}) would be the 
@@ -89,14 +89,14 @@ both paths (forward and backward) of the TDC, the blocks are the exact same for 
 slight modifications.
 
 \subsubsection{DLL}
-The implementation of the DLL is that of figure \ref{fig:DLL_architecture}, which is based on \cite{bib:DLL_Razavi_paper}. The DLL is composed of a voltage-controlled delay line (VCDL) that is used
+The implementation of the DLL is that of figure \ref{fig:DLL_architecture}, which is based on \cite{Razavi_DLL_article}. The DLL is composed of a voltage-controlled delay line (VCDL) that is used
 to measure the phase difference between the reference clock and the feedback signal, a charge pump that is used to control the delay of the VCDL, and a phase frequency detector (PFD) that is used to
 determine whether the feedback signal is leading or lagging the reference clock.
 
 \paragraph{VCDL}
 The delay elements of the VCDL are implemented using a series of CMOS inverters whose delay is controlled by two variable resistors at the source of each transistor (see Fig. \ref{fig:VCDL_delay_elements}).
 Each one of this elements must have a delay equal to 625 ps for a total of 10 ns (the period of the reference clock) after 16 of them. 625 ps is a relatively high amount of delay for a CMOS inverter of
-minimum dimensions in 65 nm, there are multiple approaches towards meeting such a high delay, but the preferable method from the perspective of optimizing the phase noise according to \cite{bib:Razavi_PLL_book}
+minimum dimensions in 65 nm, there are multiple approaches towards meeting such a high delay, but the preferable method from the perspective of optimizing the phase noise according to \cite{Razavi_PLL_book}
 is to increase the number of stages.
 
 \begin{figure}[H]
@@ -204,7 +204,7 @@ figure \ref{fig:CP_schematic} are designed to have a current of 150 $\mu$A, whic
 The specifications set $\Delta_t$ percentage to be less than 1\%, which corresponds to a maximum $\Delta_I$ of 14.6 $\mu$A for a t$_{res}$ of 64.34 ps according to equation
 \eqref{eq:steady_state_phase_error}. The designed dimensions that meet this requirements are shown in table \ref{tab:CP_dimensions}. All that is left is to design the loop filter,
 which for the DLL it consist of a single capacitor (C$_L$) connected to the output of the CP. There is no need for a second order filter because the DLL doesn't have a VCO that 
-contributes with a pole at the origin, making the choice of C$_L$ less critical than in a PLL \cite{bib:Razavi_DLL_paper}. The considerations for choosing C$_L$ are mainly the
+contributes with a pole at the origin, making the choice of C$_L$ less critical than in a PLL \cite{Razavi_DLL_article}. The considerations for choosing C$_L$ are mainly the
 stability of the loop and the locking time, for this design a value of 3 pF is chosen as it provides a good trade-off between both parameters.
 
 
@@ -391,35 +391,99 @@ In order to compensate for the inductor losses and sustain oscillation, the nega
 to achieve such a resistance is therefore 1.71 mS according to \eqref{eq:cross_coupled_pair_equation}, but it will be designed to be 10 times bigger at 17.1 mS. The dimensions needed to achieve that \textit{gm}
 are L = 120 nm and W = 9 $\mu$m.
 
-The cross-coupled pair adds an additional 18.6 fF in parallel with the inductor (note that increasing the width of the cross-coupled pair too much would increase the parasitic capacitance and thus decrease
-the frequency of oscillation once the layout is done).
+By doing the small signal analysis of the circuit it can be shown that the cross-coupled pair adds an additional capacitance in parallel to the inductor and its value is given by equation \eqref{eq:pair_parasitic_cap}.
+Only the gate-drain capacitance ($C_{gd}$) and the gate-source capacitance ($C_{gs}$) are considered for this analysis.
+
+\begin{equation}
+    C_{pair} = \frac{1}{3} W L \cdot C_{ox} + \frac{5}{2} C_{ov} W 
+    \label{eq:pair_parasitic_cap}
+\end{equation}
+
+Where C$_{ox}$ is the oxide capacitance per unit area (13.275 fF/$\mu^2$ for this technology) and C$_{ov}$ is the overlap capacitance per unit width (0.212 fF/$\mu^2$).
+
+Notice that the previous analysis assumes that the cross-coupled pair is perfectly matched and at the zero common-mode output voltage point to take into account the worst case for the noise performance.
+
+For this design the cross-coupled pair adds an additional 9.55 fF in parallel with the inductor.
 
 \subsubsection{Capacitor array}
 The capacitor array is the method used to control the frequency of oscillation, turning on or off the branches containing the binary weighted capacitors to either increase or decrease the output frequency. Each
 branch connecting both output nodes of the DCO is composed of 2 identical capacitors in series with a bidirectional switch between them, the values of such capacitors are binary weighted multiples of a unit capacitor
 ($C_u$) like in the schematic of figure \ref{fig:DCO_implementation}.
 
-
-The unit capacitance is designed to be 9 fF, so accounting for all five branches there is a total of 558 fF in the array, though this is not the load in parallel with the inductor even if all branches are switched on.
-The analysis for both cases (either switched on or off) is done below.
+The unit capacitance is designed to be 9 fF, so accounting for all five branches there is a total of 558 fF in the array, though this is not the load in parallel with the inductor even if all branches are
+switched on. The analysis for both cases (either switched on or off) is done below.
 
 \subsubsection{Switches}
-Figure \ref{fig:DCO_switches} a) shows the equivalent circuit of a single branch in figure \ref{fig:DCO_implementation} for the case in which the switch is turned on, while figure \ref{fig:DCO_switches} b) shows
-the case for which the switched is turned off.
+The switches themselves add parasitic capacitance to the circuit,depending on whether theyre are turned on or off. Figure \ref{fig:DCO_switches} a) shows the equivalent circuit of a single branch in figure
+\ref{fig:DCO_implementation} for the case in which the switch is turned on, while figure \ref{fig:DCO_switches} b) shows the case for which the switched is turned off.
 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{figures/DCO_switches.png}
-    \caption{Capacitor array branch: a) turned on and b) turned off}
+    \caption{Capacitor array branch: a) turned-on and b) turned-off}
     \label{fig:DCO_switches}
 \end{figure}
 
+If the switches are designed in such a way that the on-resistance can be assumed to be negligible, then an approximation can be made for the equivalent capacitance of each branch for the case in which the switch
+is on. This is shown in equation \eqref{eq:branch_on}, where the equivalent capacitance of each branch per unit capacitor is half the value of the unit capacitor ($C_u$) itself. Therefore, if all branches are 
+turned on, the total capacitance of the array is 139.5 fF. If the analysis is done for the case in which the switches are turned off, then the equivalent capacitance per unit capacitor is dominated by the parasitic
+capacitances of the NMOS and the PMOS, so assuming $C_{gs} = C_{gd}$ and that the PMOS device is 2.5 times wider than the NMOS the expression for the off case is given by equation \eqref{eq:branch_off}.
+
+\begin{equation}
+    C_{on} \approx \frac{C_u}{2}
+    \label{eq:branch_on}
+\end{equation}
+
+\begin{equation}
+    C_{off} \approx 1.75 \cdot C_{gs, NMOS}
+    \label{eq:branch_off}
+\end{equation}
+
 \subsubsection{Summary}
 
-Table ... is a summary of all the different capacitance contributions for the DCO as well as its estimated frequency range ($f_{max} \, \& \, f_{min}$).
+Table \ref{tab:DCO_capacitance_contribution} is a summary of all the different capacitance contributions for the DCO as well as its estimated frequency range ($f_{max} \, \& \, f_{min}$). Table \ref{tab:DCO_dimensions}
+shows the dimensions of all the transistors used in the DCO design.
 
+\begin{table}[H]
+    \centering
+    \caption{DCO capacitance contributions.}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Contribution & Capacitance (fF) & Frequency (GHz) \\
+        \hline
+        Inductor parasitic & 38.66 & - \\
+        Cross-coupled pair parasitic & 9.55 & - \\
+        Capacitor array (all on) & 139.5 & - \\
+        Capacitor array (all off) & 67.44 & - \\
+        Routing parasitic & 50 & - \\
+        \hline
+        Total (all on) & 237.71 & 7.3 \\
+        Total (all off) & 165.65 & 8.74 \\
+        \hline
+    \end{tabular}
+    \label{tab:DCO_capacitance_contribution}
+\end{table}
 
-Table ... shows the dimensions for all devices in the DCO.
+\begin{table}[H]
+    \centering
+    \caption{DCO transistor dimensions.}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Transistor & L (nm) & W ($\mu$m) \\
+        \hline
+        M1, M2 (cross-coupled pair) & 120 & 9 \\
+        M3 (tail current source) & 300 & 100 \\
+        M4 (biasing diode) & 300 & 12.5 \\
+        NMOS switch (unitary) & 120 & 5.5 \\
+        PMOS switch (unitary) & 120 & 13 \\
+        \hline
+    \end{tabular}
+    \label{tab:DCO_dimensions}
+\end{table}
 
 \section{Digital loop filter}
+
+\noindent\rule{\textwidth}{1pt}
+
+\printbibliography[heading=subbibintoc]

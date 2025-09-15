@@ -1,22 +1,53 @@
 \chapter{Introduction}
 \section{Context and motivation}
-\subsection{Low jitter PLLs in modern IC design}
-\subsection{Limitations of analog PLLs}
-\subsection{Limitations of traditional PFDs}
+Systems that require precise timing and synchronization, such as high-speed communication systems, data converters, and clock generation circuits, often rely on phase-locked loops (PLLs) to maintain
+signal integrity and minimize jitter. For a long time the field of PLLs has been entirely dominated by analog designs, particularly the charge-pump PLL (CP-PLL) architecture, which has been the go-to
+solution for many applications. However, as technology scales down the limitations of analog PLLs (and analog circuits in general) become more pronounced because of the signal representation
+in the voltage domain \cite{Henzler2010}. This has led to a growing interest in digital PLLs (DPLLs), which exploit the several advantages that come with the technology scaling (like the inherit robustness of
+digital circuits against noise, coupling and PVT variations).
 
-\section{Problem statement}
+At the heart of most DPLLs is the time-to-digital converter (TDC), which serves as the phase detector (PD) by measuring the time difference between the reference clock and the feedback clock from the
+Digitally-controlled oscillator (DCO). In addition to the lower sensitivity to most disturbances that the TDC provides for the DPLL, it also eliminates the ever present problems of charge pump mismatch
+and static phase error (dead-zone) of the analog PLL.
+
+Between the several types of TDC developed in recent years, there hasn't been much interest in improving the simplest type of TDC, the delay line TDC (also called flash TDC because of its resemblance to flash ADCs).
+The majority of the research has been focused on improving the resolution and linearity of the TDC by using more complex architectures, such as local passive interpolation TDCs \cite{Mantyniemi2009} or the TAC-ADCs
+\cite{Kratyuk2006}. While these architectures do provide better performance in terms of resolution and linearity, they also come with increased complexity, area and signal integrity issues. The delay line TDC, on the
+other hand is a simple, yet fast architecture that can provide sufficient resolution for many applications. 
+
+It is the motivation of this thesis to explore the design of a delay line TDC that can be used as a phase detector in a DPLL, with a focus on improving the dynamic range of a typical delay line TDC without
+compromising its conversion time or noise performance.
 
 \section{Objectives}
 \subsection{General objective}
+Design a time-to-digital converter to be used as a phase detector in a phase-locked loop in 65 nm technology.
 \subsection{Specific objectives}
+\begin{itemize}
+    \item Review the state of the art of time-to-digital converters and phase-locked loops.
+    \item Design a delay line TDC with a dynamic range of 20 ns and a resolution of 625 ps.
+    \item Design a 5-bit digitally-controlled oscillator (DCO) with a tuning range of 1 GHz and a center frequency of 8 GHz.
+    \item Simulate the designed TDC and DCO in a 65 nm CMOS technology using Cadence Virtuoso.
+    \item Analyze the performance of the designed TDC in terms of resolution, linearity and power consumption
+    \item Compare the performance of the designed TDC with other state-of-the-art TDCs.
+\end{itemize}
 
-\section{Significance}
-\subsection{Academic significance}
-\subsection{Industry significance}
-\subsubsection{Clock generation}
-\subsubsection{SerDes}
-\subsubsection{Wireless communication}
+\section{Academic significance}
+The academic value of this research lies in the development of a new technique to extend the dynamic range of delay line TDCs and the establishment of a comprehensive design methodology for TDCs and DCOs in
+general. The findings of this research can be used as a reference for future research in the field of TDCs and DPLLs, and can also be applied to other areas of digital circuit design that require precise
+timing measurements. Furthermore, the design and simulation of the TDC and DCO in a 65 nm CMOS technology provides valuable insights into the challenges and considerations involved in designing high-speed
+mixed-signal circuits in advanced technology nodes.
 
 \section{Scope and limitations}
+This thesis focuses on the design and simulation of a delay line TDC to be used as a phase detector in a DPLL. The scope of the research is limited to the design of the TDC and DCO, and does not include the
+design of the complete DPLL. The performance of the TDC is evaluated in terms of resolution, linearity, noise and dynamic range, but does not include a detailed analysis of the impact of the TDC on the overall
+performance of the DPLL.
 
 \section{Thesis roadmap}
+This thesis is organized into seven chapters. Chapter 2 provides a theoretical framework for understanding the fundamental concepts and principles of PLLs and their building blocks. Chapter 3 reviews the state of
+the art of TDCs and DPLLs, highlighting the strengths and weaknesses of different architectures. Chapter 4 describes the design methodology used to develop the TDC and DCO, including the design choices and
+trade-offs made during the process. Chapter 5 presents the simulation results of the designed TDC and DCO, including a detailed analysis of their performance. Chapter 6 discusses the implications of the results
+and comments on future work. Finally, Chapter 7 states the conclusions.
+
+\noindent\rule{\textwidth}{1pt}
+
+\printbibliography[heading=subbibintoc]

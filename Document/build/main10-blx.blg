@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main10-blx.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: bibliography.bib
+Warning--I didn't find a database entry for "di_tdc_2023"
+Warning--I didn't find a database entry for "hybrid_pll_2022"
+Warning--I didn't find a database entry for "ro_tdc_2023"
+Warning--I didn't find a database entry for "low_power_2024"
+Warning--I didn't find a database entry for "noise_shaping_2023"
+Warning--I didn't find a database entry for "pvt_robust_2024"
+Warning--I didn't find a database entry for "sar_tdc_2023"
+Warning--I didn't find a database entry for "time_amp_2024"
+Warning--I didn't find a database entry for "hybrid_patent"
+Warning--I didn't find a database entry for "dual_loop"
+Warning--I didn't find a database entry for "ro_tdc"
+Warning--I didn't find a database entry for "sar_tdc"
+Biblatex version: 3.20
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 2 entries,
+            6402 wiz_defined-function locations,
+            1224 strings with 9257 characters,
+and the built_in function-call counts, 6863 in all, are:
+= -- 469
+> -- 146
+< -- 22
++ -- 145
+- -- 49
+* -- 418
+:= -- 883
+add.period$ -- 0
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 42
+cite$ -- 2
+duplicate$ -- 517
+empty$ -- 645
+format.name$ -- 45
+if$ -- 1456
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 44
+num.names$ -- 45
+pop$ -- 375
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 238
+stack$ -- 0
+substring$ -- 909
+swap$ -- 125
+text.length$ -- 38
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 56
+warning$ -- 0
+while$ -- 117
+width$ -- 0
+write$ -- 43
+(There were 12 warnings)

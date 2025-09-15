@@ -23,9 +23,9 @@ such as in RF synthesizers.
 
 \subsection{Key PLL parameters}
 \subsubsection{Phase noise / jitter}
-Jitter is defined as the time deviation ($\Delta_t$) of a signal's transition edges from their ideal positions in time. It is a metric of the outmost importance in the design of PLLs 
+Jitter is defined as the time deviation ($\Delta_t$) of a signal's transition edges from their ideal positions in time \cite{PengLi2001}. It is a metric of the outmost importance in the design of PLLs 
 as it is a direct measure of the quality of the clock signal generated. Phase noise describes the same phenomenon in the frequency domain (the phase noise of a signal is the Fourier 
-transform of the jitter) and is usually expressed in dBc/Hz.
+transform of the jitter) and is usually expressed in dBc/Hz. It is often used in most figures of merit (FOM) to benchmark PLLs \cite{Bae_jitterFOM_2022}.
 \subsubsection{Output frequency}
 It is defined as the range of frequencies that the PLL is capable of generating and can be determined by the VCO output range and the division ratio of the feedback frequency divider. This
 is a key metric in establishing the application of the PLL (e.g., clock generation or RF synthesizer) and it bears significant importance in the design process due to the tradeoff 
@@ -36,7 +36,7 @@ The closed-loop bandwidth of a PLL is the frequency range over which the PLL can
 performance of the PLL.
 \subsubsection{Noise bandwidth}
 It is the PLL's noise due to the filter's loop bandwidth, the higher frequencies of the voltage-controlled oscillator (VCO) are the major
-contributor to this effect, therefore the need to set a low enough bandwidth in order to suppress the most out of it. Even if reducing the loop
+contributor to this effect \cite{Razavi_analogDesign_book}, therefore the need to set a low enough bandwidth in order to suppress the most out of it. Even if reducing the loop
 bandwidth would be desirable to suppress in-band phase noise, it's also necessary to take into consideration that there is a tradeoff between the
 lock-in time and in-band phase noise.
 \subsubsection{Beat-note period}
@@ -85,7 +85,7 @@ the feedback signals.
     \end{center}
 \end{minipage}
 \subsubsection{Lock-in time}
-Lock-in time (also called aquisition or settling time) is defined as the time for the PLL to lock on to the input reference phase and frequency within one 
+Lock-in time (also called acquisition or settling time) is defined as the time for the PLL to lock on to the input reference phase and frequency within one 
 beat-note period ($T_{beat}$) after a frequency change or startup of the system. This parameter measures the time required for the PLL
 to achieve the final phase lock once the VCO frequency is within the lock-in range. The lock-in time can be estimated with equation
 \eqref{eq:lock-in_time}.
@@ -103,22 +103,20 @@ where:
 
 
 \subsubsection{Pull-in time}
-In contrast with the lock-in time, the pull-in time is the required amount of time for the PLL to initially aquire lock on to the 
+In contrast with the lock-in time, the pull-in time is the required amount of time for the PLL to initially acquire lock on to the 
 reference signal from an arbitrary starting frequency (when the VCO's initial frequency is far from the target).
 \subsubsection{Lock-in range}
 The frequency range within which the PLL locks to the reference frequency in one $T_{beat}$. Once the feedback signal is in this 
 range, the PLL will enter lock state within the next T$_{beat}$.
 \subsubsection{Pull-in range}
-Range of frequency within which the PLL can aquire lock on to the reference signal once the VCO has the correct frequency and several 
+Range of frequency within which the PLL can acquire lock on to the reference signal once the VCO has the correct frequency and several 
 beat-note periods have passed.
 \subsubsection{Pull-out range}
 The maximum allowed frequency or phase abrupt change applied to the reference signal beyond which the PLL unlocks.
 \subsubsection{Hold range}
-This parameter establishes the maximun theoretical frequency range for an input reference beyond which the PLL never locks. Hold range
+This parameter establishes the maximum theoretical frequency range for an input reference beyond which the PLL never locks \cite{Leonov2015}. Hold range
 is bigger than both lock-in and pull-in ranges.
-\subsubsection{SNR}
-The signal to noise ratio is an appropiate way to measure the impact of noise on a circuit. It's often used in most figures
-of merit (FOM) for making fair comparisons between PLLs.
+
 \subsubsection{Power consumption}
 An important parameter in measuring the performance of integrated circuits. Often used in most FOMs.
 \subsubsection{Spurs}
@@ -131,7 +129,7 @@ building blocks of the analog PLL as well as a simplified model of the system wh
 
 \subsubsection{Linear phase model of the PLL}
 The PLL is a non-linear system, yet it can be approximated quite accurately into the linear system of figure \ref{fig:PFD_block} if certain
-assumptions are taken in to consideration. The first of this assumptions is that the phase error ($\phi_{e}$) must be small enough, 
+assumptions are taken in to consideration \cite{Wolaver1991}. The first of this assumptions is that the phase error ($\phi_{e}$) must be small enough, 
 meaning the PLL is near lock state. Another one is that the characteristic of the phase detector must be approximately linear and given
 by \eqref{eq:PD_linear_equation}. Lastly, the VCO's tuning range must be within its linear region of operation (it is generally desirable to limit the
 variation of $K_{VCO}$ to no more than 20\%) like the frequency range between $\omega_1$ and $\omega_2$ in figure \ref{fig:VCO_characteristic_example}, only in this conditions the VCO can be considered
@@ -308,7 +306,7 @@ and transient response of the system.
     \label{eq:zeta}
 \end{equation}
 
-\noindent It can be proven that the loop bandwidth ($\omega_u$) is related with $\omega_{n}$ and $\zeta$ by equation \eqref{eq:loop_bandwidth}.
+\noindent It can be proven that the loop bandwidth ($\omega_u$) is related with $\omega_{n}$ and $\zeta$ by equation \eqref{eq:loop_bandwidth} \cite{Razavi_PLL_book}.
 
 \begin{equation}
     \omega_{u}^2 = (2 \zeta^2 \, + \, \sqrt{4 \zeta^4 \, + \, 1}) \omega_{n}^2
@@ -386,9 +384,9 @@ of the components of the filter should be designed first and foremost to achieve
 
 \noindent The -3dB closed-loop bandwidth and the open-loop unity-gain bandwidth are fairly close to each other for $\zeta \geq 1$. It is 
 for this reason that both quantities are often used interchangeably. In order to achieve a good transient response and noise performance,
-the loop bandwidth should be set to a value of $\omega_{ref}/10 \, [rad/s]$ or less, where $\omega_{ref}$ is the reference frequency.
+the loop bandwidth should be set to a value of $\omega_{ref}/10 \, [rad/s]$ or less \cite{Razavi_PLL_book}, where $\omega_{ref}$ is the reference frequency.
 \subsubsection{Charge pump}
-Charge pumps (CP) are circuits designed to either source or sink charge to/from a capacitor for a controlled amount of time. There are
+Charge pumps (CP) are circuits designed to either source or sink charge to/from a capacitor for a controlled amount of time \cite{Palumbo2010}. There are
 many different implementations of charge pumps, but all of them consist of a current source, a switch and a capacitor (which is usually 
 part of the loop filter). Most of the PLLs designed today are CPPLLs (or type-II PLLs) because the combination of PFD/CP/LF exhibit an 
 infinite gain for a finite phase error, which means that for the control voltage to be finite, the phase error must be zero. This is a 
@@ -487,7 +485,7 @@ compliance and the current mismatch performance trade off with each other.
 
 The current mismatch ($I_{up} - I_{down}$) flows through the loop filter for the time it takes the PFD to reset both the UP and DOWN signals (approximately 5 gate delays) in every
 input period. The cumulative effect implies that $V_{control} \to \infty $, which cannot happen because the PLL attempts to lock and keep the output frequency constant
-\cite{bib:Razavi_PLL_book}. consequently, the loop will settle with a steady-state phase error ($\Delta_t$) and thus, the smaller current will last longer to keep the charge
+\cite{Razavi_PLL_book}. consequently, the loop will settle with a steady-state phase error ($\Delta_t$) and thus, the smaller current will last longer to keep the charge
 constant. This behavior of the CP is illustrated in figure \ref{fig:CP_transient_response}.
 
 \noindent The static phase error $\Delta_t$ can be approximated by equation \eqref{eq:steady_state_phase_error} in the steady state because the rise and fall of $V_{cntrl}$ must cancel each 
@@ -524,7 +522,7 @@ that the loop filter provides. It is a non-linear circuit that converts a voltag
 for the conditions mentioned in the previous section). The VCO response looks like that of figure \ref{fig:VCO_response}, where the gain 
 of the VCO ($K_{VCO}$) is an important design parameter. In general, it is desirable to have a relatively small (without compromising the 
 stability of the PLL) $K_{VCO}$ value so that any noise coupled to the previous stage does not translate into a large phase/frequency 
-fluctuation at the output. A good rule of thumb is to keep $K_{VCO}$ below $0.1 f_m Hz/V$ where $f_m$ is the center frequency of the VCO
+fluctuation at the output \cite{Razavi_PLL_book}. A good rule of thumb is to keep $K_{VCO}$ below $0.1 f_m Hz/V$ where $f_m$ is the center frequency of the VCO
 tuning range.
 
 \begin{minipage}{0.4\textwidth}
@@ -858,9 +856,9 @@ A CML signal resembles a sinusoidal wave and has a lower harmonic content than a
 due to the current source of the differential pair.
 \section{Digital phase-locked loop}
 One of the main problems of analog PLLs is that they are very sensitive to process, voltage and temperature (PVT) variations, which can cause the PLL to become unstable or to fail to lock.
-To address this issue, digital PLLs (DPLLs) have been developed. DPLLs take advantage of the technology scaling (whereas analog PLLs suffer from it) to achieve a better performance
+To address this issue, digital PLLs (DPLLs) have been developed \cite{Yuncheng2024}. DPLLs take advantage of the technology scaling (whereas analog PLLs suffer from it) to achieve a better performance
 and robustness in modern CMOS processes. To realize a circuit that performs well under this technology nodes it is necessary to avoid the analog domain as much as possible (at least on
-the critical path). The fundamental block that allows this task is the time-to-digital converter (TDC).
+the critical path). The fundamental block that allows this task is the time-to-digital converter (TDC) \cite{Henzler2010}.
 
 The general architecture of a digital PLL is shown in figure \ref{fig:DPLL_architecture}. The DPLL consists of a TDC, a digital loop filter (DLF) and a digitally controlled oscillator (DCO).
 The basic operation of this three circuits will be explained in the following sections.
@@ -898,7 +896,29 @@ The basic operation of this three circuits will be explained in the following se
 
 The TDC substitutes the phase detector of the analog PLL, it measures the time difference ($\Delta_t$) between two signals and converts it into a digital value that is proportional to 
 that $\Delta_t$, thus it transforms a signal in the time domain into a signal in the digital domain (avoiding the analog domain entirely). The TDC is a critical block in the DPLL, as 
-it determines the resolution and accuracy of the phase measurement. There are several types of TDCs, but the most common one is the delay line TDC, which uses a series of delay elements
+it determines the resolution and accuracy of the phase measurement. 
+
+The main metrics characterizing a TDC are the following \cite{EL-Hadbi_TDC_review_2019}:
+\begin{itemize}
+    \item Time resolution: It measures the precision of a time interval and represents the smallest time input that a TDC can correctly quantify.
+    \item Dynamic range (also called acquisition-range): It is the maximum time interval that a TDC can measure.
+    \item Conversion time: It is the minimum time required by a TDC to convert an input time interval into a digital output (time counted from the rising edge of the start signal). This
+    parameter is very important for high-speed applications, as a minimum dead time is desired.
+    \item Latency: It is the time interval between the rising edge of the stop signal and the time when the digital output becomes valid.
+    \item DNL (Differential non-linearity): It is the difference between the actual step width and the ideal value of 1 LSB.
+    \item INL (Integral non-linearity): It is defined as the maximum deviation of the actual input-output characteristic from the ideal transfer characteristic.
+\end{itemize}
+
+Figure \ref{fig:TDC_nonlinearities} shows an example of DNL and INL in a TDC. The red line represents the ideal transfer function, while the blue line represents the actual transfer
+function of a TDC.
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{figures/TDC_nonlinearities.png}
+    \captionof{figure}{Example of DNL and INL in a TDC. Reprinted from "Time-to-Digital Converters: A literature review and new perspectives" by El-Hadbi, 2019 \cite{EL-Hadbi_TDC_review_2019}.}
+    \label{fig:TDC_nonlinearities}
+\end{center}
+
+There are several types of TDCs, but the most common one is the delay line TDC, which uses a series of delay elements
 to measure the time difference between two signals. A delay line TDC is shown in figure \ref{fig:delay_line_TDC_schematic} and its timing diagram is shown in figure \ref{fig:delay_line_TDC_timing}.
 
     \begin{center}
@@ -974,8 +994,8 @@ waveforms shown in \ref{fig:delay_line_TDC_timing} is given by $2^3 = 8$, after 
 
 It is critically important to design the delay line TDC so that the delays are identical to each other, otherwise the TDC will measure the time difference incorrectly. Furthermore, the
 delay elements are usually implemented with a chain of CMOS inverters or differential pairs, both of which are sensitive to process variations, thus the complexity of designing this
-otherwise simple circuits. Several techniques have been proposed to address these challenges, such as calibration methods, layout optimization, and the use of delay locked loops (DLLs) to
-ensure the delay elements are matched even under PVT variations. The next chapter reviews some of these techniques in detail.
+otherwise simple circuits. Several techniques have been proposed to address these challenges, such as calibration methods \cite{Khaddour2023}, layout optimization, and the use of delay locked loops (DLLs) to
+ensure the delay elements are matched even under PVT variations \cite{Razavi_DLL_article}. The next chapter reviews some of these techniques in detail.
 
 \subsubsection{Delay-locked loop fundamentals}
 
@@ -1095,7 +1115,7 @@ Recalling the first order passive LF of figure \ref{fig:LF_schematic} one can ar
 Knowing the analog transfer function of the LF, a conceptual topology similar to that of figure \ref{fig:LF_conceptual_topology} could be proposed, where $y = \alpha + \beta \int_{}^{} x \,dx$
 for continuous-time quantities. To arrive at a digital counterpart, one could change x to D$_{in}$ and y to D$_{out}$, rewrite this equation as the discrete-time expression
 \eqref{eq:conceptual_equation}, and take the Z transform of both sides to obtain the transfer function of the DLF \eqref{eq_DLF_transfer_function}, noting that a discrete-time integrator
-is represented by $1/(1 - z^{-1})$ [Razavi PLL book reference].
+is represented by $1/(1 - z^{-1})$ \cite{Razavi_PLL_book}.
 
 \begin{equation}
     D_{out}(k) = \alpha + \beta \sum_{k=0}^{\infty} D_{in}[k]
@@ -1147,3 +1167,7 @@ typically inverted before being applied to the switches, that way if the digital
 It is necessary to pay attention to the design of this capacitive array because the parasitic capacitance of the switches and the interconnects can significantly alter the 
 desired frequency step of the DCO, another factor to take into account is the mismatch between the capacitors, which can cause the frequency steps to be uneven. To mitigate these issues
 minimum capacitor values should be avoided if possible.
+
+\noindent\rule{\textwidth}{1pt}
+
+\printbibliography[heading=subbibintoc]
