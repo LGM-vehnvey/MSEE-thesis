@@ -47,5 +47,8 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces DCO implementation schematic.}}{57}{}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Capacitor array branch: a) turned-on and b) turned-off}}{61}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Transient simulation results for the forward path (TT).}}{64}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Transient simulation results for the backward path (TT).}}{64}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces TDC Transfer Characteristic for the TT corner.}}{65}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
