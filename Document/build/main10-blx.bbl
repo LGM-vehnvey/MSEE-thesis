@@ -17,28 +17,250 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
-  \entry{van1994}{article}{}{}
+  \entry{Henzler2010}{book}{}{}
     \name{author}{1}{}{%
-      {{hash=VPM}{%
-         family={Van\bibnamedelima Paemel},
-         familyi={V\bibinitperiod\bibinitdelim P\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
+      {{hash=HS}{%
+         family={Henzler},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {IEEE}%
+      {Springer}%
     }
-    \strng{namehash}{VPM1}
-    \strng{fullhash}{VPM1}
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{7}
-    \field{pages}{2490\bibrangedash 2498}
-    \field{title}{Analysis of a charge-pump PLL: A new model}
-    \field{volume}{42}
-    \field{journaltitle}{IEEE Transactions on communications}
-    \field{year}{1994}
+    \field{series}{Springer Series in Advanced Microelectronics}
+    \field{title}{Time-to-Digital Converters}
+    \field{volume}{29}
+    \list{location}{1}{%
+      {Dordrecht}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{EL-Hadbi_TDC_review_2019}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=EHA}{%
+         family={El-Hadbi},
+         familyi={E\bibinithyphendelim H\bibinitperiod},
+         given={Assia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EO}{%
+         family={Elissati},
+         familyi={E\bibinitperiod},
+         given={Oussama},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Fesquet},
+         familyi={F\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Logic gates;Delays;Dynamic range;Linearity;Clocks;Time-to-digital
+  converter;time precision;coarse-fine measurements;self-timed ring}
+    \strng{namehash}{EHAEOFL1}
+    \strng{fullhash}{EHAEOFL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 5th International Conference on Event-Based Control,
+  Communication, and Signal Processing (EBCCSP)}
+    \verb{doi}
+    \verb 10.1109/EBCCSP.2019.8836857
+    \endverb
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Time-to-Digital Converters: A Literature Review and New
+  Perspectives}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Meng2025}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=MX}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Xi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Haoran},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yin},
+         familyi={Y\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MRP}{%
+         family={Martins},
+         familyi={M\bibinitperiod},
+         given={Rui\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MPI}{%
+         family={Mak},
+         familyi={M\bibinitperiod},
+         given={Pui-In},
+         giveni={P\bibinithyphendelim I\bibinitperiod},
+      }}%
+    }
+    \keyw{Phase frequency detectors;Delays;Phase locked
+  loops;Jitter;Time-frequency analysis;Noise;Frequency
+  synthesizers;Detectors;Clocks;Thermal noise;Bang-bang phase detector
+  (BBPD);digital phase-locked loop (DPLL);digital-to-time converter
+  (DTC);fast-locking;fractional-N;frequency synthesis;low-jitter;phase and
+  frequency detector (PFD);time-to-digital converter (TDC)}
+    \strng{namehash}{MX+1}
+    \strng{fullhash}{MXLHCPYJMRPMPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TMTT.2025.3596262
+    \endverb
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{An 18.4 GHz Low-Jitter and Fast-Locking Fractional-N Digital
+  PLL Using Function-Reused TDC and Path-Selection BBPDs}
+    \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+    \field{year}{2025}
+  \endentry
+
+  \entry{Narku-Tetteh2014}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=NTN}{%
+         family={Narku-Tetteh},
+         familyi={N\bibinithyphendelim T\bibinitperiod},
+         given={Noble},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Titriku},
+         familyi={T\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Palermo},
+         familyi={P\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Delays;Radiation detectors;Dynamic range;Quantization (signal);Delay
+  lines;Image resolution;Signal resolution;coarse-fine
+  architecture;time-of-flight (ToF);TDC;Vernier delay loop;positron-emission
+  tomography (PET);laser/light detection and ranging (LIDAR)}
+    \strng{namehash}{NTNTAPS1}
+    \strng{fullhash}{NTNTAPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2014 IEEE 57th International Midwest Symposium on
+  Circuits and Systems (MWSCAS)}
+    \verb{doi}
+    \verb 10.1109/MWSCAS.2014.6908340
+    \endverb
+    \field{pages}{13\bibrangedash 16}
+    \field{title}{A 15b, Sub-10ps resolution, low dead time, wide range
+  two-stage TDC}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Lai2017}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LJC}{%
+         family={Lai},
+         familyi={L\bibinitperiod},
+         given={Jung-Chin},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=HTY}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={Terng-Yin},
+         giveni={T\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Feedforward neural networks;Delay lines;Radiation
+  detectors;Switches;Delays;Propagation delay;Cyclic-ring Vernier;feedback;time
+  amplifier (TA);time residue;time-to-digital converter (TDC)}
+    \strng{namehash}{LJCHTY1}
+    \strng{fullhash}{LJCHTY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TIE.2017.2669883
+    \endverb
+    \field{number}{6}
+    \field{pages}{4690\bibrangedash 4700}
+    \field{title}{Cost-Effective Time-to-Digital Converter Using Time-Residue
+  Feedback}
+    \field{volume}{64}
+    \field{journaltitle}{IEEE Transactions on Industrial Electronics}
+    \field{year}{2017}
+  \endentry
+
+  \entry{MohammadAmin2022}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=YMA}{%
+         family={Yaldagard},
+         familyi={Y\bibinitperiod},
+         given={Mohammad\bibnamedelima Amin},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shamsi},
+         familyi={S\bibinitperiod},
+         given={Hossein},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Digital PLL (DPLL), Pipeline, Time amplifier (TA), Time-to-current
+  conversion, Time-to-digital converter (TDC)}
+    \strng{namehash}{YMASH1}
+    \strng{fullhash}{YMASH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A bipolar low-power pipeline time-to-digital converter (TDC) for digital
+  phase-locked loop (DPLL) applications is implemented with six 1-bit cascaded
+  stages. The stages consist of a compensated ×2 time amplifier (TA) using
+  the time-to-current conversion technique, two modified SR-latch-based time
+  comparators, and a static logic called offset-64, which aligns the output bit
+  of the stage to create a 7-bit output code without the zero-gain issue. The
+  presented mathematical analyses reveal the low sensitivity of the proposed
+  TDC to the offset of the TA. The layout of the proposed TDC was designed in a
+  65 nm CMOS technology. Post-layout simulation results demonstrate a 1.7 ps
+  time resolution and power consumption of 450 μW for a sampling frequency of
+  125 MS/s.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.aeue.2021.154072
+    \endverb
+    \field{issn}{1434-8411}
+    \field{pages}{154072}
+    \field{title}{A bipolar offset binary time-to-digital converter using time
+  amplifiers based on time-to-current compensation}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1434841121004696
+    \endverb
+    \field{volume}{144}
+    \field{journaltitle}{AEU - International Journal of Electronics and
+  Communications}
+    \field{year}{2022}
   \endentry
 \enddatalist
 \endinput

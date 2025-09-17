@@ -2,17 +2,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Performance Summary of State-of-the-Art TDC-PLLs}}{44}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of Full-Range ($\pm 2\pi $) TDC-Based PLL Architectures}}{47}{}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of state-of-the-art TDC implementations.}}{43}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Dimensions of the VCDL delay elements}}{54}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Dimensions of the charge pump transistors}}{56}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Truth table of the standard thermometer-to-binary decoder for a 4-bit TDC.}}{57}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Truth table of the modified forward thermometer-to-binary decoder for a 4-bit TDC.}}{58}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Truth table of the modified backward thermometer-to-binary decoder for a 4-bit TDC.}}{58}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces DCO capacitance contributions.}}{66}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces DCO transistor dimensions.}}{67}{}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Dimensions of the VCDL delay elements}}{50}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Dimensions of the charge pump transistors}}{52}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Truth table of the standard thermometer-to-binary decoder for a 4-bit TDC.}}{53}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Truth table of the modified forward thermometer-to-binary decoder for a 4-bit TDC.}}{54}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Truth table of the modified backward thermometer-to-binary decoder for a 4-bit TDC.}}{54}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces DCO capacitance contributions.}}{62}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces DCO transistor dimensions.}}{62}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

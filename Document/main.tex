@@ -19,7 +19,7 @@
 \usepackage{pgfplots}   % For plotting beautiful graphs
 \usepackage{bm}
 \usepackage[english]{babel}
-\usepackage[backend=bibtex, sorting=none, refsection=chapter]{biblatex}
+\usepackage[backend=bibtex, sorting=none]{biblatex} %refsection=chapter
 \usepackage{csquotes} 
 \usepackage{setspace}
 \usepackage{multicol}  
@@ -88,7 +88,7 @@
     \chapter*{Acknowledgements}
     \lipsum[2]
     \chapter*{Dedications}
-    \lipsum[3]
+    To my parents, for their unconditional support and love.
     %%%%%%%%%%%%%%%%% Index $$$$$$$$$$$$$$$$$$$$$$$$
     \chapter*{}
     \tableofcontents
@@ -97,6 +97,7 @@
     \listoftables
     \addcontentsline{toc}{chapter}{List of tables}
 
+    %\input{chapters/portada.tex}
     \input{chapters/Introduction.tex}
     \input{chapters/Theoretical framework.tex}
     \input{chapters/Literature review.tex}
@@ -105,8 +106,8 @@
     \input{chapters/Discussion.tex}
     \input{chapters/Conclusion.tex}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \appendix
-    \input{chapters/Appendix.tex}
+    %\appendix
+    %\input{chapters/Appendix.tex}
 
-    %\printbibliography  % Print bibliography
+    \printbibliography  % Print bibliography
 \end{document}

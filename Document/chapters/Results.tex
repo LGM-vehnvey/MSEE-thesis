@@ -1,2 +1,12 @@
 \chapter{Results}
-\lipsum[1-2]
+
+\section{TDC}
+The TDC was simulated in Cadence Virtuoso using the Spectre simulator. The test bench (TB) is that of figure \ref{fig:TB_TDC_Schematic}, where the reference input signal is connected
+to a square wave voltage source with a frequency of 100 MHz and a 50\% duty cycle, the other input (feedback) is connected to a similar source but with a frequency of either 100.1 MHz
+or 99.9 MHz depending on whether a positive or negative phase difference is to be measured. Both of these cases simulate conditions that would occur in a PLL when the DCO frequency is
+slightly higher or lower than the reference frequency, respectively. The outputs of the TDC are connected to a load capacitance of 10 fF to simulate the effect of the subsequent DLF.
+
+
+\section{DCO}
+
+\noindent\rule{\textwidth}{1pt}

@@ -8,14 +8,14 @@ The main specifications for the TDC are the following:
     \item Static phase error ($\Delta_t$) < 1\%.
     \item Clock reference frequency: 100 MHz.
     \item Number of bits: 4.
-    \item Acquisition range: -2$\pi$ to 2$\pi$.
+    \item Acquisition range (dynamic range): -2$\pi$ to 2$\pi$.
 \end{itemize}
 
 The TDC implements a 4-bit flash architecture for a time resolution of 625 ps ($\Delta$) in each half of the clock period. The acquisition range is 20 ns, which corresponds to a phase 
 range of -2$\pi$ to 2$\pi$ for a clock frequency of 100 MHz.
 
 \subsection{Architecture}
-The TDC architecture is based on the replica delay line presented in \cite{Priyanka2015}. The core of the TDC consist of a voltage-controlled delay line (VCDL), a set of D flip-flops to sample the
+The TDC architecture is based on the bipolar TDC presented in \cite{Henzler2010}. The core of the TDC consist of a voltage-controlled delay line (VCDL), a set of D flip-flops to sample the
 state of the VCDL, and a thermometer-to-binary decoder that process the sampled data to produce a workable digital output. This arrangement is used twice, once for the case when the
 feedback signal has a lower frequency (or delayed phase) than the reference clock, and the other for the case when the feedback signal has a higher frequency (or advanced phase) than
 the reference clock. The two outputs are then combined to produce the final output of the TDC. Such an architecture (Fig. \ref{fig:TDC_conventional_architecture}) would be the 
@@ -24,7 +24,7 @@ conventional way to implement a TDC that reads both cases for the phase differen
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{figures/TDC_conventional_architecture.png}
-    \caption{Conventional TDC architecture}
+    \caption{Conventional bipolar TDC architecture}
     \label{fig:TDC_conventional_architecture}
 \end{figure}
 
@@ -36,25 +36,25 @@ the TDC architecture of figure \ref{fig:TDC_proposed_architecture} is proposed.
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{figures/TDC_proposed_architecture.png}
-    \caption{Proposed TDC architecture}
+    \caption{Proposed bipolar TDC architecture}
     \label{fig:TDC_proposed_architecture}
 \end{figure}
 
-The main differences between the conventional architecture and the proposed one are that the latter uses a DLL instead of a VCDL to implement the delay line, a slight modification
+The main differences between the conventional bipolar architecture and the proposed one are that the latter uses a DLL instead of a VCDL to implement the delay line, a slight modification
 to the thermometer-to-binary decoder, and a different way to combine the outputs of the two TDCs.
 
 The DLL allows for a more robust and stable delay line as it is less sensitive to PVT variations. This is important for the PLL, as it needs to be able to operate under different
 conditions and still be able to correct the phase difference between the reference clock and the feedback signal.
 
-The thermometer-to-binary decoder is modified to allow for the reading of both cases of the phase/frequency difference between the signals. This is the main way that the TDC is able
+The thermometer-to-binary decoder is modified to allow for the reading of both cases of the phase/frequency difference between the signals. This is the main way that the proposed bipolar TDC is able
 to read a phase difference of more than 2$\pi$ each cycle and as far as the author is aware, this is the first time that such a modification has been proposed in the literature.
 
 Finally, the outputs of the two TDCs are combined using a multiplexer that selects the output based on the frequency state of the feedback signal. The selector needs to be able to
 determine whether the feedback signal is leading or lagging the reference clock, which is done by retrieving the information lost because of the decoder modification.
 
 
-All of this changes done to the conventional TDC architecture will be further explained in the following sections of this chapter, where the design of the TDC will be presented in 
-detail.
+All of this modifications achieve a 5-bit bipolar TDC with no zero-gain region using just two 4-bit delay line TDCs. Such changes done to the conventional bipolar TDC architecture will be further 
+explained in the following sections of this chapter, where the design of the TDC will be presented in detail.
 
 \subsection{System behavior}
 Both architectures have the same principle of operation and each of their blocks have the same behavior. Both architectures have some sort of delay line that measures the phase difference
@@ -75,11 +75,11 @@ each cycle.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{figures/TDC_timing_diagram.png}
-    \caption{a) Conventional TDC timing diagram for a positive phase error, and b) its ideal characteristic.}
+    \caption{a) Conventional bipolar TDC timing diagram for a positive phase error, and b) its ideal characteristic.}
     \label{fig:TDC_conventional_timing_diagram}
 \end{figure}
 
-Figure \ref{fig:TDC_conventional_timing_diagram} further elaborates on this point, showing the timing diagram and the ideal characteristic of the conventional architecture. Notice that there 
+Figure \ref{fig:TDC_conventional_timing_diagram} further elaborates on this point, showing the timing diagram and the ideal characteristic of the conventional bipolar architecture. Notice that there 
 is a 0 gain zone around zero delay where the TDC will not be able to detect small phase differences, also notice that the output will only take values between 7 and -7 for a 4-bit TDC. Both of
 these issues are addressed in the proposed architecture.
 
@@ -482,8 +482,6 @@ shows the dimensions of all the transistors used in the DCO design.
     \label{tab:DCO_dimensions}
 \end{table}
 
-\section{Digital loop filter}
+%\section{Digital loop filter}
 
 \noindent\rule{\textwidth}{1pt}
-
-\printbibliography[heading=subbibintoc]

@@ -17,37 +17,29 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global/global}
-  \entry{Priyanka2015}{inproceedings}{}{}
-    \name{author}{2}{}{%
-      {{hash=PC}{%
-         family={Priyanka},
-         familyi={P\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LP}{%
-         family={Latha},
-         familyi={L\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
+  \entry{Henzler2010}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Henzler},
+         familyi={H\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
       }}%
     }
-    \keyw{Delays;Delay lines;Computer architecture;Inverters;Phase locked
-  loops;Flip-flops;Conferences;All digital phase locked loops (ADPLL);Time to
-  Digital Converter (TDC);Flash type TDC;Vernier delay TDC;Vernier delay ring
-  TDC}
-    \strng{namehash}{PCLP1}
-    \strng{fullhash}{PCLP1}
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{2015 International Conference on Innovations in
-  Information, Embedded and Communication Systems (ICIIECS)}
-    \verb{doi}
-    \verb 10.1109/ICIIECS.2015.7193116
-    \endverb
-    \field{pages}{1\bibrangedash 4}
-    \field{title}{Design and implementation of time to digital converters}
-    \field{year}{2015}
+    \field{series}{Springer Series in Advanced Microelectronics}
+    \field{title}{Time-to-Digital Converters}
+    \field{volume}{29}
+    \list{location}{1}{%
+      {Dordrecht}%
+    }
+    \field{year}{2010}
   \endentry
 
   \entry{Razavi_DLL_article}{article}{}{}

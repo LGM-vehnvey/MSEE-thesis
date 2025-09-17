@@ -1,149 +1,14 @@
 # Fdb version 4
-["bibtex build/main"] 1757923077.37908 "build/main.aux" "build/main.bbl" "build/main" 1757923098.41443 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
+["bibtex build/main"] 1758077549.70788 "build/main.aux" "build/main.bbl" "build/main" 1758077650.53004 0
+  "./bibliography.bib" 1758067114 13137 f37eef0bd8c17da99dec4426cb8ac5df ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main.aux" 1757923084 29404 1ac43db83806537c127b2061a97fe836 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
+  "build/main.aux" 1758077649 28479 a46b8ba2b738d3ab5d3de14a33f373fc "pdflatex"
+  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1758077649 343 bf1f0c75b5bafd473925320ac9611e26 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["bibtex build/main1-blx"] 1757922660.97117 "build/main1-blx.aux" "build/main1-blx.bbl" "build/main1-blx" 1757923098.41367 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main1-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main1-blx.bbl"
-  "build/main1-blx.blg"
-  (rewritten before read)
-["bibtex build/main10-blx"] 1757922660.67514 "build/main10-blx.aux" "build/main10-blx.bbl" "build/main10-blx" 1757923098.41297 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main10-blx.aux" 1757923082 624 e092f629f0940f354f98fbc0cc62bbb1 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main10-blx.bbl"
-  "build/main10-blx.blg"
-  (rewritten before read)
-["bibtex build/main11-blx"] 1757922660.37637 "build/main11-blx.aux" "build/main11-blx.bbl" "build/main11-blx" 1757923098.41228 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main11-blx.aux" 1757923084 428 07805f8c70163090146d285e45a93196 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main11-blx.bbl"
-  "build/main11-blx.blg"
-  (rewritten before read)
-["bibtex build/main12-blx"] 1757922660.0904 "build/main12-blx.aux" "build/main12-blx.bbl" "build/main12-blx" 1757923098.41159 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main12-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main12-blx.bbl"
-  "build/main12-blx.blg"
-  (rewritten before read)
-["bibtex build/main13-blx"] 1757922659.67576 "build/main13-blx.aux" "build/main13-blx.bbl" "build/main13-blx" 1757923098.41089 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main13-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main13-blx.bbl"
-  "build/main13-blx.blg"
-  (rewritten before read)
-["bibtex build/main14-blx"] 1757922659.37326 "build/main14-blx.aux" "build/main14-blx.bbl" "build/main14-blx" 1757923098.41019 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main14-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main14-blx.bbl"
-  "build/main14-blx.blg"
-  (rewritten before read)
-["bibtex build/main15-blx"] 1757922659.0754 "build/main15-blx.aux" "build/main15-blx.bbl" "build/main15-blx" 1757923098.40949 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main15-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main15-blx.bbl"
-  "build/main15-blx.blg"
-  (rewritten before read)
-["bibtex build/main2-blx"] 1757922658.78136 "build/main2-blx.aux" "build/main2-blx.bbl" "build/main2-blx" 1757923098.40872 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main2-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main2-blx.bbl"
-  "build/main2-blx.blg"
-  (rewritten before read)
-["bibtex build/main3-blx"] 1757922658.3889 "build/main3-blx.aux" "build/main3-blx.bbl" "build/main3-blx" 1757923098.40792 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main3-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main3-blx.bbl"
-  "build/main3-blx.blg"
-  (rewritten before read)
-["bibtex build/main4-blx"] 1757922657.97875 "build/main4-blx.aux" "build/main4-blx.bbl" "build/main4-blx" 1757923098.4069 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main4-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main4-blx.bbl"
-  "build/main4-blx.blg"
-  (rewritten before read)
-["bibtex build/main5-blx"] 1757922657.67936 "build/main5-blx.aux" "build/main5-blx.bbl" "build/main5-blx" 1757923098.40592 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main5-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main5-blx.bbl"
-  "build/main5-blx.blg"
-  (rewritten before read)
-["bibtex build/main6-blx"] 1757922657.38737 "build/main6-blx.aux" "build/main6-blx.bbl" "build/main6-blx" 1757923098.40514 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main6-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main6-blx.bbl"
-  "build/main6-blx.blg"
-  (rewritten before read)
-["bibtex build/main7-blx"] 1757922657.08769 "build/main7-blx.aux" "build/main7-blx.bbl" "build/main7-blx" 1757923098.40433 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main7-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main7-blx.bbl"
-  "build/main7-blx.blg"
-  (rewritten before read)
-["bibtex build/main8-blx"] 1757922656.79002 "build/main8-blx.aux" "build/main8-blx.bbl" "build/main8-blx" 1757923098.40351 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main8-blx.aux" 1757923079 389 11a45634753f8ceb20a89e712e774a22 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main8-blx.bbl"
-  "build/main8-blx.blg"
-  (rewritten before read)
-["bibtex build/main9-blx"] 1757922656.48888 "build/main9-blx.aux" "build/main9-blx.bbl" "build/main9-blx" 1757923098.40251 0
-  "./bibliography.bib" 1757920348 9125 c9641f5329794ddcbbdc6741be25a222 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1711466047 65510 b1f696b0241395385f422f67543c37fd ""
-  "build/main9-blx.aux" 1757923082 817 8200cd93c4b02fa0d63c4a7d89d02908 "pdflatex"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/build/main-blx.bib" 1757923079 343 bf1f0c75b5bafd473925320ac9611e26 ""
-  (generated)
-  "build/main9-blx.bbl"
-  "build/main9-blx.blg"
-  (rewritten before read)
-["pdflatex"] 1757923077.70882 "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" "build/main.pdf" "main" 1757923098.41528 0
+["pdflatex"] 1758077642.4814 "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" "build/main.pdf" "main" 1758077650.53125 0
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755470665 155044 bf57f817cb3c2bae6d8750483836b617 ""
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1739429448 31952 4e7da544b9beb1ee7f05a08130fec989 ""
   "C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1739512832 40136 69ae63a07f35fbf418ac7e150cddf206 ""
@@ -160,7 +25,6 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136793854 4484 b828043cbd581d289d955903c1339981 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136793854 6628 34c39492c0adc454c1c199922bba8363 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8c.tfm" 1136793854 1348 c311631dfec4123b7faa7f864709e626 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1136793854 4712 9ef4d7d106579d4b136e1529e1a4533c ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136793854 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvro8r.tfm" 1136793854 4964 f223217e5e1f85fa3742fb0480aba9e8 ""
@@ -170,8 +34,6 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx2488.tfm" 993061966 3192 b0a07ba84fb3fb36d088c4f796e254b9 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/eccc1200.tfm" 993061984 2796 601f0e3324021d7edb90718e24047a6a ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0600.tfm" 993062116 3160 116e21835795bb29209ae8bb4682382f ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm0800.tfm" 993062118 3152 11ecf5aad6aacf00ff18f394ab23a8b5 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
@@ -179,8 +41,6 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm2488.tfm" 993062132 3184 93c67f4c0884ba9e31b75d469978f63b ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecti1200.tfm" 993062324 2832 28bbd97ca29f46e76c87a158a9915203 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ectt1200.tfm" 993062344 1348 c48a0620e07683860afba1730adf9e53 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm0600.tfm" 993062506 1456 d21918d95ca20f07aa266303b9a0a14c ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm0800.tfm" 993062506 1444 e35ead393df86aae37b5564284d9aa05 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -236,7 +96,6 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136874948 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb" 1136874948 48169 065450055814ce4dfc30f7922d24ab30 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvb8t.vf" 1136793854 2340 0efed6a948c3c37d870e4e7ddb85c7c3 ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvr8c.vf" 1136793854 3556 570286160ebfdd10d887aaa718e2e64d ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvr8t.vf" 1136793854 2344 44ff28c9ef2fc97180cd884f900fee71 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/helvetic/phvro8t.vf" 1136793854 2348 717f0e01beff9c30c0df4945e471886f ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -458,7 +317,6 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/psfrag/psfrag.sty" 1656241896 7349 04574cd13971edb76f06a9e2e9a108d9 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/helvet.sty" 1585926771 1558 de0ad166b701b820e03588a29bb30798 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1phv.fd" 1585253778 1536 47067fbe7c3ffed1ede7aaa7b8549d7a ""
-  "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1phv.fd" 1585253778 1221 ec0c641cd2e0fb69a449534a0279b5ca ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty" 1687525147 10085 3dececaeed388e31285c366e124c0c4e ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty" 1745076672 342156 a5e532605943bcfc55b8053195857baf ""
@@ -474,51 +332,20 @@
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "build/main.aux" 1757923084 29404 1ac43db83806537c127b2061a97fe836 "pdflatex"
-  "build/main.bbl" 1757923077 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main"
-  "build/main.lof" 1757923084 4783 ed18e97bdca1e34c5866ef398689c0ed "pdflatex"
-  "build/main.lot" 1757923084 1253 47afc02baa9ce24689588c711b1d47ac "pdflatex"
-  "build/main.run.xml" 1757923084 14056 1181d74a6f7ec28d0b60af1c9cff4ed8 "pdflatex"
-  "build/main.toc" 1757923084 5000 1a847bb368988b035297d31fc5edace5 "pdflatex"
-  "build/main1-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main1-blx.bbl" 1757922661 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main1-blx"
-  "build/main10-blx.aux" 1757923082 624 e092f629f0940f354f98fbc0cc62bbb1 "pdflatex"
-  "build/main10-blx.bbl" 1757922660 1242 6e291d274cb0ba2155502cbab242a4d5 "bibtex build/main10-blx"
-  "build/main11-blx.aux" 1757923084 428 07805f8c70163090146d285e45a93196 "pdflatex"
-  "build/main11-blx.bbl" 1757922660 2999 94aa57643da76fcc80863f81aa404388 "bibtex build/main11-blx"
-  "build/main12-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main12-blx.bbl" 1757922660 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main12-blx"
-  "build/main13-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main13-blx.bbl" 1757922660 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main13-blx"
-  "build/main14-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main14-blx.bbl" 1757922659 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main14-blx"
-  "build/main15-blx.aux" 1757923084 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main15-blx.bbl" 1757922659 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main15-blx"
-  "build/main2-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main2-blx.bbl" 1757922659 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main2-blx"
-  "build/main3-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main3-blx.bbl" 1757922658 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main3-blx"
-  "build/main4-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main4-blx.bbl" 1757922658 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main4-blx"
-  "build/main5-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main5-blx.bbl" 1757922657 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main5-blx"
-  "build/main6-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main6-blx.bbl" 1757922657 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main6-blx"
-  "build/main7-blx.aux" 1757923079 317 4849240cdc8865d88b0035d8fa578439 "pdflatex"
-  "build/main7-blx.bbl" 1757922657 540 47390d0fec917a8062f60a58a9b6d248 "bibtex build/main7-blx"
-  "build/main8-blx.aux" 1757923079 389 11a45634753f8ceb20a89e712e774a22 "pdflatex"
-  "build/main8-blx.bbl" 1757922657 4200 f657f64dc602834a064380968f051f14 "bibtex build/main8-blx"
-  "build/main9-blx.aux" 1757923082 817 8200cd93c4b02fa0d63c4a7d89d02908 "pdflatex"
-  "build/main9-blx.bbl" 1757922656 13704 f4a24ff369e173e653837b595fbe9af5 "bibtex build/main9-blx"
-  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" 1757907152 5020 5a858b1eee8773ed6845ad8a21f42a94 ""
-  "chapters/Appendix.tex" 1739427683 30 ffe7b33d6cb0b6e2fca7fc8c08686b98 ""
-  "chapters/Conclusion.tex" 1739422330 34 528cd5ffc26dddb069a5f0e3dad67888 ""
-  "chapters/Discussion.tex" 1739422322 34 51588403445d1e53c1917c265b90819d ""
-  "chapters/Introduction.tex" 1757923055 5251 b353a28453a492c124629069aea681e7 ""
-  "chapters/Literature review.tex" 1752160534 8672 41cfe00a75dc96c0086ea2c3431b6b4c ""
-  "chapters/Methodology.tex" 1757915649 53207 37a85170564426cc003a04a407c25317 ""
-  "chapters/Results.tex" 1739422311 31 e2b0a754ee275635105360b6f399bc1d ""
-  "chapters/Theoretical framework.tex" 1757915488 73072 be3344da28964641ff7648017c17afb5 ""
+  "build/main.aux" 1758077649 28479 a46b8ba2b738d3ab5d3de14a33f373fc "pdflatex"
+  "build/main.bbl" 1758077549 23217 42ddc8774ea950999a8807ba5784adff "bibtex build/main"
+  "build/main.lof" 1758077649 4787 54d31137d0219f6abcda72cd6e940474 "pdflatex"
+  "build/main.lot" 1758077649 1103 cd668743b6631f39a8505892ef0c4839 "pdflatex"
+  "build/main.run.xml" 1758077649 2524 40d822c3d60de5a1d63bddd138f267b1 "pdflatex"
+  "build/main.toc" 1758077649 4852 af72fd604746532533b41e4fc318ef76 "pdflatex"
+  "c:/Users/lgmfo/OneDrive/Desktop/MSEE-thesis/Document/main.tex" 1758077484 5102 6105b81a20ef69decfd12a9d9d45f952 ""
+  "chapters/Conclusion.tex" 1758077540 69 68923fb9bcfcd969cfe1789ef3656897 ""
+  "chapters/Discussion.tex" 1758077541 69 666ff620c2e61c82c5309e0263f39c82 ""
+  "chapters/Introduction.tex" 1758074835 5241 9d8bf5afebe58089ae91e525a524ce2e ""
+  "chapters/Literature review.tex" 1758074809 5121 eebf0f2d20ca91d7460ce317767ccc2f ""
+  "chapters/Methodology.tex" 1758076345 53348 bd342edccf77d01525090f042554af3f ""
+  "chapters/Results.tex" 1758077641 826 a6fe7b4559be7120ab3875c2bd98aa4f ""
+  "chapters/Theoretical framework.tex" 1758074836 72997 bdb787a8c3cad17c2fe90dceec2dc7a5 ""
   "data/MOS_varactor_data.txt" 1746578463 687 93c10d3a449b084cbed4ccaa82579c45 ""
   "data/VCO_characteristic_example.txt" 1746307314 26830 b196d9db870a0b944cf47a7c626cf279 ""
   "figures/CP_transient_response.png" 1755488532 24754 6f9486c35a4f6799dc413cadc9048cfe ""
@@ -536,7 +363,7 @@
   "figures/bwd_truth_table.png" 1756098536 45736 98fa960a4fc2bd6d871cb1696bffc390 ""
   "figures/fwd_truth_table.png" 1756098752 61345 a8d7a283083cda35d22db73eb835078c ""
   "figures/standard_decoder_truth_table.png" 1756092734 28817 e5ce9e3185f9845d3fe509e488138a85 ""
-  "main.tex" 1757907152 5020 5a858b1eee8773ed6845ad8a21f42a94 ""
+  "main.tex" 1758077484 5102 6105b81a20ef69decfd12a9d9d45f952 ""
   (generated)
   "build/main-blx.bib"
   "build/main.aux"
@@ -546,19 +373,4 @@
   "build/main.pdf"
   "build/main.run.xml"
   "build/main.toc"
-  "build/main1-blx.aux"
-  "build/main10-blx.aux"
-  "build/main11-blx.aux"
-  "build/main12-blx.aux"
-  "build/main13-blx.aux"
-  "build/main14-blx.aux"
-  "build/main15-blx.aux"
-  "build/main2-blx.aux"
-  "build/main3-blx.aux"
-  "build/main4-blx.aux"
-  "build/main5-blx.aux"
-  "build/main6-blx.aux"
-  "build/main7-blx.aux"
-  "build/main8-blx.aux"
-  "build/main9-blx.aux"
   (rewritten before read)
