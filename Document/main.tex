@@ -33,6 +33,7 @@
 \usepackage[american]{circuitikz}
 \usepackage{titlesec}
 \usepackage{float}
+\usepackage{pdfpages}
 \usetikzlibrary{tikzmark,decorations.pathmorphing, shapes.geometric, shapes.symbols, arrows, shadows}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -80,15 +81,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-    \maketitle
+    \begin{titlepage}
+        \includepdf{Portada_Tesis_Guillermo.pdf}    %Insert here PDF title page
+    \end{titlepage}
 
     \fontfamily{phv}\selectfont % Selecting font family
     \chapter*{Abstract}
-    \lipsum[1]
+    The evolution of CMOS technology and the analog limitations that come with it move the direction of stable clock generation and frequency synthesis 
+    towards all-digital phase-locked loops (ADPLL). At the heart of this type of systems is the time-to-digital converter (TDC), which directly replace the
+    phase-frequency detector (PD) in analog PLLs. This revolution towards ADPLLs has sparked abundant innovation in the field of TDC design, yet there has
+    been little focus in bipolar delay line TDCs.
+    
+    This thesis presents the analysis, design, and implementation of a 5-bit bipolar TDC that doubles the intrinsic dynamic range of standard architectures,
+    alongside its corresponding digitally-controlled oscillator (DCO) based on a cross-coupled pair LC-tank.
+
     \chapter*{Acknowledgements}
-    \lipsum[2]
+    First and foremost, I would like to express my deepest gratitude to my supervisor, Dr. Guillermo Espinosa Flores-Verdad, for his invaluable guidance, unwavering support,
+    and immense patience throughout this research. His expertise and insightful feedback were fundamental to the completion of this work.
+
+    I am also grateful to M.S. Erick Arenas for his advice on the DCO design.
     \chapter*{Dedications}
-    To my parents, for their unconditional support and love.
+    To my wife and parents, for their unconditional support and love.
     %%%%%%%%%%%%%%%%% Index $$$$$$$$$$$$$$$$$$$$$$$$
     \chapter*{}
     \tableofcontents

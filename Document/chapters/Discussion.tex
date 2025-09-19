@@ -1,8 +1,17 @@
 \chapter{Discussion}
-Future work:
 
-Complementary cross-coupled pair for the DCO 
-Close the loop
+The results for the TDC presented in last chapter confirm that the design has a good linearity and the dynamic range indeed corresponds to $\pm 2 \pi$ phase difference of the reference clock.
+The TDC proposed in this work has a greater dynamic range than the one presented in \cite{MohammadAmin2022} (which is the only bipolar TDC reported in modern literature) but it has a lower resolution, 
+this is mainly due to the fact that the design in \cite{MohammadAmin2022} uses a vernier delay line to achieve a better resolution at the cost of a reduced dynamic range. Future work could explore
+the possibility of combining both techniques to achieve a better resolution without sacrificing the dynamic range.
 
+The DCO results shows a center frequency of oscillation of 7.96 GHz with a tuning range of 1.08 GHz, which is very close to the target specifications proposed in chapter 4. The
+phase noise of -85.57 dBc/Hz at 100 KHz offset is comparable to that of other literature reported DCOs like the one in \cite{DCO_Chen2023}, which has a -112 dBc/Hz at 1 MHz sideband.
+The linearity however, could be improved by adding a complementary cross-coupled pair to the existing NMOS cross-coupled pair.
+
+Other future work could be the implementation of the DLF and frequency divider to close the loop and complete the ADPLL system and to realize the layout of the entire system 
+to extract parasitics and run post-layout simulations to verify the performance of the design prior to fabrication. This last point could pose significant challenges as the
+routing of both delay lines in the TDC needs to be perfectly matched to ensure proper phase lock of the DLL and VCDL. The DCO layout also faces important challenges as excessive
+routing could compromise the frequency of oscillation.
 
 \noindent\rule{\textwidth}{1pt}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  19 SEP 2025 02:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  19 SEP 2025 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1104,12 +1104,33 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box133
 \@float@everytoks=\toks54
 \@floatcapt=\box134
+) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen367
+\ESO@tempdimb=\dimen368
+)
+\AM@pagewidth=\dimen369
+\AM@pageheight=\dimen370
+\AM@fboxrule=\dimen371
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count507
+\AM@pagebox=\box135
+\AM@global@opts=\toks55
+\AM@pagecnt=\count508
+\AM@toc@title=\toks56
+\AM@lof@heading=\toks57
+\c@AM@survey=\count509
+\AM@templatesizebox=\box136
 ) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/tikzmark\tikzlibrarytikzmark.code.tex
 File: tikzlibrarytikzmark.code.tex 2022/08/24 v1.15 TikZ library for marking positions in a document
-\l__sn_x_dim=\dimen367
-\l__sn_y_dim=\dimen368
-\l__sn_xa_dim=\dimen369
-\l__sn_ya_dim=\dimen370
+\l__sn_x_dim=\dimen372
+\l__sn_y_dim=\dimen373
+\l__sn_xa_dim=\dimen374
+\l__sn_ya_dim=\dimen375
 ) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
@@ -1122,7 +1143,7 @@ File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen371
+\arrowsize=\dimen376
 )) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
@@ -1130,9 +1151,9 @@ File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-\c@theorem=\count507
-\c@definition=\count508
-\c@problem=\count509
+\c@theorem=\count510
+\c@definition=\count511
+\c@problem=\count512
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1141,20 +1162,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1192,28 +1213,28 @@ LaTeX Font Info:    ... okay on input line 82.
 
 (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count510
-\scratchdimen=\dimen372
-\scratchbox=\box135
-\nofMPsegments=\count511
-\nofMParguments=\count512
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count513
-\MPscratchDim=\dimen373
-\MPnumerator=\count514
-\makeMPintoPDFobject=\count515
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count513
+\scratchdimen=\dimen377
+\scratchbox=\box137
+\nofMPsegments=\count514
+\nofMParguments=\count515
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count516
+\MPscratchDim=\dimen378
+\MPnumerator=\count517
+\makeMPintoPDFobject=\count518
+\everyMPtoPDFconversion=\toks59
 ) (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\Hy@linkcounter=\count516
+\Hy@linkcounter=\count519
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 82.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 83.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
@@ -1233,33 +1254,70 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 82.
-Package biblatex Info: Reference segment=0 on input line 82.
+Package biblatex Info: Reference section=0 on input line 83.
+Package biblatex Info: Reference segment=0 on input line 83.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
- (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
- (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 
+pdfTeX warning: pdflatex (file ./Portada_Tesis_Guillermo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada_Tesis_Guillermo.pdf, id=28, 614.295pt x 794.97pt>
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf  used on input line 85.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex (file ./Portada_Tesis_Guillermo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Portada_Tesis_Guillermo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Portada_Tesis_Guillermo.pdf, id=30, page=1, 614.295pt x 794.97pt>
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf, page 1>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf , page1 used on input line 85.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf, page 1>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf , page1 used on input line 85.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf, page 1>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf , page1 used on input line 85.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf, page 1>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf , page1 used on input line 85.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Portada_Tesis_Guillermo.pdf Graphic file (type pdf)
+<use Portada_Tesis_Guillermo.pdf, page 1>
+Package pdftex.def Info: Portada_Tesis_Guillermo.pdf , page1 used on input line 85.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 85.
+
+ <./Portada_Tesis_Guillermo.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 88.
  (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 
 [2
 
-{C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+{C:/Users/lgmfo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 
 [3
 
@@ -1272,6 +1330,14 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 [5
 
 ] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 [6
 
@@ -1390,7 +1456,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [26]
-<figures/CP_transient_response.png, id=132, 555.9972pt x 161.6439pt>
+<figures/CP_transient_response.png, id=160, 555.9972pt x 161.6439pt>
 File: figures/CP_transient_response.png Graphic file (type png)
 <use figures/CP_transient_response.png>
 Package pdftex.def Info: figures/CP_transient_response.png  used on input line 510.
@@ -1454,7 +1520,7 @@ Overfull \hbox (17.96938pt too wide) in paragraph at lines 844--845
  [] 
  []
 
-<figures/CML2CMOS.png, id=152, 341.3553pt x 221.8689pt>
+<figures/CML2CMOS.png, id=180, 341.3553pt x 221.8689pt>
 File: figures/CML2CMOS.png Graphic file (type png)
 <use figures/CML2CMOS.png>
 Package pdftex.def Info: figures/CML2CMOS.png  used on input line 859.
@@ -1469,7 +1535,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [33 <./figures/CML2CMOS.png>]
 
 [34]
-<figures/TDC_nonlinearities.png, id=163, 349.305pt x 342.5297pt>
+<figures/TDC_nonlinearities.png, id=191, 349.305pt x 342.5297pt>
 File: figures/TDC_nonlinearities.png Graphic file (type png)
 <use figures/TDC_nonlinearities.png>
 Package pdftex.def Info: figures/TDC_nonlinearities.png  used on input line 923.
@@ -1556,12 +1622,12 @@ Chapter 4.
 [45
 
 ]
-<figures/TDC_conventional_architecture.png, id=202, 574.0647pt x 380.3811pt>
+<figures/TDC_conventional_architecture.png, id=230, 574.0647pt x 380.3811pt>
 File: figures/TDC_conventional_architecture.png Graphic file (type png)
 <use figures/TDC_conventional_architecture.png>
 Package pdftex.def Info: figures/TDC_conventional_architecture.png  used on input line 26.
 (pdftex.def)             Requested size: 398.3386pt x 263.94328pt.
-<figures/TDC_proposed_architecture.png, id=203, 574.0647pt x 507.8172pt>
+<figures/TDC_proposed_architecture.png, id=231, 574.0647pt x 507.8172pt>
 File: figures/TDC_proposed_architecture.png Graphic file (type png)
 <use figures/TDC_proposed_architecture.png>
 Package pdftex.def Info: figures/TDC_proposed_architecture.png  used on input line 38.
@@ -1580,7 +1646,7 @@ Underfull \vbox (badness 1107) has occurred while \output is active []
 [47 <./figures/TDC_proposed_architecture.png>]
 
 [48]
-<figures/TDC_timing_diagram.png, id=215, 574.0647pt x 300.1614pt>
+<figures/TDC_timing_diagram.png, id=243, 574.0647pt x 300.1614pt>
 File: figures/TDC_timing_diagram.png Graphic file (type png)
 <use figures/TDC_timing_diagram.png>
 Package pdftex.def Info: figures/TDC_timing_diagram.png  used on input line 77.
@@ -1588,7 +1654,7 @@ Package pdftex.def Info: figures/TDC_timing_diagram.png  used on input line 77.
 
 
 [49 <./figures/TDC_timing_diagram.png>]
-<figures/VCDL_element.png, id=221, 171.7617pt x 232.9503pt>
+<figures/VCDL_element.png, id=249, 171.7617pt x 232.9503pt>
 File: figures/VCDL_element.png Graphic file (type png)
 <use figures/VCDL_element.png>
 Package pdftex.def Info: figures/VCDL_element.png  used on input line 104.
@@ -1596,7 +1662,7 @@ Package pdftex.def Info: figures/VCDL_element.png  used on input line 104.
 
 
 [50 <./figures/VCDL_element.png>]
-<figures/PFD_ff.png, id=226, 185.7339pt x 221.8689pt>
+<figures/PFD_ff.png, id=254, 185.7339pt x 221.8689pt>
 File: figures/PFD_ff.png Graphic file (type png)
 <use figures/PFD_ff.png>
 Package pdftex.def Info: figures/PFD_ff.png  used on input line 139.
@@ -1612,12 +1678,12 @@ Underfull \vbox (badness 7133) has occurred while \output is active []
 
 
 [52]
-<figures/standard_decoder_truth_table.png, id=234, 402.00188pt x 267.24844pt>
+<figures/standard_decoder_truth_table.png, id=262, 402.00188pt x 267.24844pt>
 File: figures/standard_decoder_truth_table.png Graphic file (type png)
 <use figures/standard_decoder_truth_table.png>
 Package pdftex.def Info: figures/standard_decoder_truth_table.png  used on input line 237.
 (pdftex.def)             Requested size: 278.83578pt x 185.36807pt.
-<figures/DLL_TRAN.png, id=235, 1077.27469pt x 520.19344pt>
+<figures/DLL_TRAN.png, id=263, 1077.27469pt x 520.19344pt>
 File: figures/DLL_TRAN.png Graphic file (type png)
 <use figures/DLL_TRAN.png>
 Package pdftex.def Info: figures/DLL_TRAN.png  used on input line 244.
@@ -1628,7 +1694,7 @@ Underfull \vbox (badness 5189) has occurred while \output is active []
 
 
 [53 <./figures/standard_decoder_truth_table.png>]
-<figures/TDC_shifted_characteristic.png, id=240, 258.0039pt x 234.8775pt>
+<figures/TDC_shifted_characteristic.png, id=268, 258.0039pt x 234.8775pt>
 File: figures/TDC_shifted_characteristic.png Graphic file (type png)
 <use figures/TDC_shifted_characteristic.png>
 Package pdftex.def Info: figures/TDC_shifted_characteristic.png  used on input line 255.
@@ -1636,7 +1702,7 @@ Package pdftex.def Info: figures/TDC_shifted_characteristic.png  used on input l
 
 
 [54 <./figures/DLL_TRAN.png> <./figures/TDC_shifted_characteristic.png>]
-<figures/fwd_truth_table.png, id=246, 417.81094pt x 505.13719pt>
+<figures/fwd_truth_table.png, id=274, 417.81094pt x 505.13719pt>
 File: figures/fwd_truth_table.png Graphic file (type png)
 <use figures/fwd_truth_table.png>
 Package pdftex.def Info: figures/fwd_truth_table.png  used on input line 266.
@@ -1646,7 +1712,7 @@ Overfull \hbox (7.64674pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
-<figures/bwd_truth_table.png, id=247, 400.49625pt x 505.13719pt>
+<figures/bwd_truth_table.png, id=275, 400.49625pt x 505.13719pt>
 File: figures/bwd_truth_table.png Graphic file (type png)
 <use figures/bwd_truth_table.png>
 Package pdftex.def Info: figures/bwd_truth_table.png  used on input line 273.
@@ -1657,7 +1723,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [55 <./figures/fwd_truth_table.png> <./figures/bwd_truth_table.png>]
-<figures/PFD_selector.png, id=254, 122.3772pt x 161.6439pt>
+<figures/PFD_selector.png, id=282, 122.3772pt x 161.6439pt>
 File: figures/PFD_selector.png Graphic file (type png)
 <use figures/PFD_selector.png>
 Package pdftex.def Info: figures/PFD_selector.png  used on input line 314.
@@ -1670,7 +1736,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [56]
 
 [57 <./figures/PFD_selector.png>]
-<figures/DCO_implementation.png, id=262, 349.305pt x 588.2778pt>
+<figures/DCO_implementation.png, id=290, 349.305pt x 588.2778pt>
 File: figures/DCO_implementation.png Graphic file (type png)
 <use figures/DCO_implementation.png>
 Package pdftex.def Info: figures/DCO_implementation.png  used on input line 342.
@@ -1691,7 +1757,7 @@ Underfull \vbox (badness 2134) has occurred while \output is active []
 
 
 [60]
-<figures/DCO_switches.png, id=274, 361.35pt x 251.0178pt>
+<figures/DCO_switches.png, id=302, 361.35pt x 251.0178pt>
 File: figures/DCO_switches.png Graphic file (type png)
 <use figures/DCO_switches.png>
 Package pdftex.def Info: figures/DCO_switches.png  used on input line 420.
@@ -1715,7 +1781,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 484--1
 
 [63]
 Chapter 5.
-<figures/TB_TDC.png, id=286, 411.4572pt x 208.8603pt>
+<figures/TB_TDC.png, id=314, 411.4572pt x 208.8603pt>
 File: figures/TB_TDC.png Graphic file (type png)
 <use figures/TB_TDC.png>
 Package pdftex.def Info: figures/TB_TDC.png  used on input line 11.
@@ -1728,12 +1794,12 @@ Underfull \vbox (badness 3439) has occurred while \output is active []
 [64
 
  <./figures/TB_TDC.png>]
-<figures/TDC_TRAN_fwd.png, id=291, 1424.32124pt x 516.42938pt>
+<figures/TDC_TRAN_fwd.png, id=319, 1424.32124pt x 516.42938pt>
 File: figures/TDC_TRAN_fwd.png Graphic file (type png)
 <use figures/TDC_TRAN_fwd.png>
 Package pdftex.def Info: figures/TDC_TRAN_fwd.png  used on input line 23.
 (pdftex.def)             Requested size: 398.3386pt x 144.42587pt.
-<figures/TDC_TRAN_bwd.png, id=292, 1425.82687pt x 516.42938pt>
+<figures/TDC_TRAN_bwd.png, id=320, 1425.82687pt x 516.42938pt>
 File: figures/TDC_TRAN_bwd.png Graphic file (type png)
 <use figures/TDC_TRAN_bwd.png>
 Package pdftex.def Info: figures/TDC_TRAN_bwd.png  used on input line 30.
@@ -1741,12 +1807,12 @@ Package pdftex.def Info: figures/TDC_TRAN_bwd.png  used on input line 30.
 
 
 [65 <./figures/TDC_TRAN_fwd.png> <./figures/TDC_TRAN_bwd.png>]
-<figures/TDC_output_characteristic_result.png, id=298, 639.699pt x 365.073pt>
+<figures/TDC_output_characteristic_result.png, id=326, 639.699pt x 365.073pt>
 File: figures/TDC_output_characteristic_result.png Graphic file (type png)
 <use figures/TDC_output_characteristic_result.png>
 Package pdftex.def Info: figures/TDC_output_characteristic_result.png  used on input line 44.
 (pdftex.def)             Requested size: 398.3386pt x 227.3289pt.
-<figures/DLL_PVT2.png, id=299, 1417.54594pt x 522.45187pt>
+<figures/DLL_PVT2.png, id=327, 1417.54594pt x 522.45187pt>
 File: figures/DLL_PVT2.png Graphic file (type png)
 <use figures/DLL_PVT2.png>
 Package pdftex.def Info: figures/DLL_PVT2.png  used on input line 57.
@@ -1759,12 +1825,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [66 <./figures/TDC_output_characteristic_result.png>]
 
 [67 <./figures/DLL_PVT2.png>]
-<figures/DCO_TRAN.png, id=309, 691.83469pt x 366.61969pt>
+<figures/DCO_TRAN.png, id=337, 691.83469pt x 366.61969pt>
 File: figures/DCO_TRAN.png Graphic file (type png)
 <use figures/DCO_TRAN.png>
 Package pdftex.def Info: figures/DCO_TRAN.png  used on input line 93.
 (pdftex.def)             Requested size: 398.3386pt x 211.08998pt.
-<figures/DCO_characteristic.png, id=310, 561.954pt x 298.716pt>
+<figures/DCO_characteristic.png, id=338, 561.954pt x 298.716pt>
 File: figures/DCO_characteristic.png Graphic file (type png)
 <use figures/DCO_characteristic.png>
 Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 102.
@@ -1772,13 +1838,13 @@ Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 102.
 
 
 [68 <./figures/DCO_TRAN.png> <./figures/DCO_characteristic.png>]
-<figures/DCO_phase_noise.png, id=316, 536.0025pt x 347.79938pt>
+<figures/DCO_phase_noise.png, id=344, 536.0025pt x 347.79938pt>
 File: figures/DCO_phase_noise.png Graphic file (type png)
 <use figures/DCO_phase_noise.png>
-Package pdftex.def Info: figures/DCO_phase_noise.png  used on input line 112.
+Package pdftex.def Info: figures/DCO_phase_noise.png  used on input line 113.
 (pdftex.def)             Requested size: 398.3386pt x 258.47136pt.
 ) (chapters/Discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 117--1
+Underfull \hbox (badness 10000) in paragraph at lines 118--1
 
  []
 
@@ -1786,32 +1852,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--1
 
 [69 <./figures/DCO_phase_noise.png>]
 Chapter 6.
-) (chapters/Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--1
-
- []
-
-
-
-[70
-
-]
-Chapter 7.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 4--111
-
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[71
+[70
+
+]) (chapters/Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--1
+
+ []
+
+
+
+[71]
+Chapter 7.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--124
+
+ []
+
+
+
+[72
 
 ]
-
-[72]
 
 [73
 
@@ -1838,17 +1904,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65915 strings out of 473530
- 1737775 string characters out of 5714794
- 3156794 words of memory out of 5000000
- 88351 multiletter control sequences out of 15000+600000
- 604792 words of font info for 125 fonts, out of 8000000 for 9000
+ 66625 strings out of 473530
+ 1750842 string characters out of 5714794
+ 3172165 words of memory out of 5000000
+ 89041 multiletter control sequences out of 15000+600000
+ 601555 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,105p,21268b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (75 pages, 1591269 bytes).
+ 99i,17n,105p,21268b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (75 pages, 1794570 bytes).
 PDF statistics:
- 860 PDF objects out of 1000 (max. 8388607)
+ 833 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -697,5 +697,64 @@
   Communications}
     \field{year}{2022}
   \endentry
+
+  \entry{DCO_Chen2023}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Yizhe},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Siriburanon},
+         familyi={S\bibinitperiod},
+         given={Teerachot},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Jianglin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SRB}{%
+         family={Staszewski},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima Bogdan},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Anding},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Quality of service;Couplings;Oscillators;IP
+  networks;Voltage;Transistors;Phase noise;CMOS;error vector magnitude
+  (EVM);flicker noise upconversion;I/Q imbalance;image rejection ratio
+  (IRR);injection locking;mode ambiguity;quadrature oscillator (QOSC)}
+    \strng{namehash}{CX+1}
+    \strng{fullhash}{CXHYSTDJSRBZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/JSSC.2023.3237788
+    \endverb
+    \field{number}{7}
+    \field{pages}{1945\bibrangedash 1958}
+    \field{title}{A 30-GHz Class-F Quadrature DCO Using Phase Shifts Between
+  Drain–Gate–Source for Low Flicker Phase Noise and I/Q Exactness}
+    \field{volume}{58}
+    \field{journaltitle}{IEEE Journal of Solid-State Circuits}
+    \field{year}{2023}
+  \endentry
 \enddatalist
 \endinput
