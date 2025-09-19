@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  17 SEP 2025 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  19 SEP 2025 02:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1285,19 +1285,24 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 [8
 
-])
+]
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+
+
+[9])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[9] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
+[10] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
  (chapters/Introduction.tex
 
-[10
+[11
 
 ]
 Chapter 1.
@@ -1308,31 +1313,31 @@ Overfull \hbox (3.6813pt too wide) in paragraph at lines 9--12
 
 
 
-[11
+[12
 
 ]
 
-[12]
+[13]
 
-[13]) (chapters/Theoretical framework.tex
+[14]) (chapters/Theoretical framework.tex
 Underfull \hbox (badness 10000) in paragraph at lines 51--1
 
  []
 
 
 
-[14]
+[15]
 Chapter 2.
 
 
-[15
+[16
 
 ]
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
 
 
-[16]
+[17]
 Overfull \hbox (2.15225pt too wide) in paragraph at lines 66--67
  [] 
  []
@@ -1352,47 +1357,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[17]
-
 [18]
 
 [19]
 
 [20]
+
+[21]
 PGFPlots: reading {data/VCO_characteristic_example.txt}
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[21]
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[22]
+[23]
 Overfull \hbox (6.3527pt too wide) in paragraph at lines 371--372
  [] 
  []
 
 
 
-[23]
-
 [24]
+
+[25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[25]
-<figures/CP_transient_response.png, id=129, 555.9972pt x 161.6439pt>
+[26]
+<figures/CP_transient_response.png, id=132, 555.9972pt x 161.6439pt>
 File: figures/CP_transient_response.png Graphic file (type png)
 <use figures/CP_transient_response.png>
 Package pdftex.def Info: figures/CP_transient_response.png  used on input line 510.
 (pdftex.def)             Requested size: 398.3386pt x 115.81375pt.
 
 
-[26 <./figures/CP_transient_response.png>]
+[27 <./figures/CP_transient_response.png>]
 PGFPlots: reading {data/VCO_characteristic_example.txt}
 
 Overfull \hbox (21.30559pt too wide) in paragraph at lines 589--590
@@ -1409,9 +1414,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[27]
-
 [28]
+
+[29]
 Underfull \hbox (badness 1320) in paragraph at lines 703--703
 []\T1/cmr/m/n/12 Figure 2.18: |Equiv-a-lent LC
  []
@@ -1437,9 +1442,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[29]
-
 [30]
+
+[31]
 Overfull \hbox (21.61797pt too wide) in paragraph at lines 819--820
  [] 
  []
@@ -1449,82 +1454,84 @@ Overfull \hbox (17.96938pt too wide) in paragraph at lines 844--845
  [] 
  []
 
+<figures/CML2CMOS.png, id=152, 341.3553pt x 221.8689pt>
+File: figures/CML2CMOS.png Graphic file (type png)
+<use figures/CML2CMOS.png>
+Package pdftex.def Info: figures/CML2CMOS.png  used on input line 859.
+(pdftex.def)             Requested size: 398.3386pt x 258.91185pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[31]
-
 [32]
-<figures/TDC_nonlinearities.png, id=155, 349.305pt x 342.5297pt>
+
+[33 <./figures/CML2CMOS.png>]
+
+[34]
+<figures/TDC_nonlinearities.png, id=163, 349.305pt x 342.5297pt>
 File: figures/TDC_nonlinearities.png Graphic file (type png)
 <use figures/TDC_nonlinearities.png>
-Package pdftex.def Info: figures/TDC_nonlinearities.png  used on input line 916.
+Package pdftex.def Info: figures/TDC_nonlinearities.png  used on input line 923.
 (pdftex.def)             Requested size: 199.1693pt x 195.30667pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[33]
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
-
-
-[34 <./figures/TDC_nonlinearities.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[35]
+[35 <./figures/TDC_nonlinearities.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [36]
-Overfull \hbox (22.89311pt too wide) in paragraph at lines 1085--1086
- [] 
- []
-
-
-Overfull \hbox (22.89311pt too wide) in paragraph at lines 1109--1110
- [] 
- []
-
-
-
-[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
+[37]
+Underfull \vbox (badness 6944) has occurred while \output is active []
+
+
+
 [38]
-Overfull \hbox (3.60785pt too wide) in paragraph at lines 1162--1166
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1092--1093
+ [] 
+ []
+
+
+Overfull \hbox (22.89311pt too wide) in paragraph at lines 1116--1117
+ [] 
+ []
+
+
+
+[39]
+Overfull \hbox (3.60785pt too wide) in paragraph at lines 1169--1173
 \T1/phv/m/n/12 gates (TG) be-cause of the dif-fer-en-tial na-ture of the cir-cuit. When the switches
  []
 
 
-Underfull \vbox (badness 5504) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[39]) (chapters/Literature review.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1
+[40]) (chapters/Literature review.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1
 
  []
 
 
 
-[40]
+[41]
 Chapter 3.
 
 
-[41
+[42
 
 ]
 
-[42]
+[43]
 
 Package caption Warning: \setcaptiontype
 (caption)                outside box or environment on input line 45.
@@ -1542,19 +1549,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--1
 
 
 
-[43]
+[44]
 Chapter 4.
 
 
-[44
+[45
 
 ]
-<figures/TDC_conventional_architecture.png, id=197, 574.0647pt x 380.3811pt>
+<figures/TDC_conventional_architecture.png, id=202, 574.0647pt x 380.3811pt>
 File: figures/TDC_conventional_architecture.png Graphic file (type png)
 <use figures/TDC_conventional_architecture.png>
 Package pdftex.def Info: figures/TDC_conventional_architecture.png  used on input line 26.
 (pdftex.def)             Requested size: 398.3386pt x 263.94328pt.
-<figures/TDC_proposed_architecture.png, id=198, 574.0647pt x 507.8172pt>
+<figures/TDC_proposed_architecture.png, id=203, 574.0647pt x 507.8172pt>
 File: figures/TDC_proposed_architecture.png Graphic file (type png)
 <use figures/TDC_proposed_architecture.png>
 Package pdftex.def Info: figures/TDC_proposed_architecture.png  used on input line 38.
@@ -1565,204 +1572,230 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[45 <./figures/TDC_conventional_architecture.png>]
+[46 <./figures/TDC_conventional_architecture.png>]
 Underfull \vbox (badness 1107) has occurred while \output is active []
 
 
 
-[46 <./figures/TDC_proposed_architecture.png>]
+[47 <./figures/TDC_proposed_architecture.png>]
 
-[47]
-<figures/TDC_timing_diagram.png, id=210, 574.0647pt x 300.1614pt>
+[48]
+<figures/TDC_timing_diagram.png, id=215, 574.0647pt x 300.1614pt>
 File: figures/TDC_timing_diagram.png Graphic file (type png)
 <use figures/TDC_timing_diagram.png>
 Package pdftex.def Info: figures/TDC_timing_diagram.png  used on input line 77.
 (pdftex.def)             Requested size: 398.3386pt x 208.27951pt.
 
 
-[48 <./figures/TDC_timing_diagram.png>]
-<figures/VCDL_delay_elements.png, id=215, 215.8464pt x 230.7822pt>
-File: figures/VCDL_delay_elements.png Graphic file (type png)
-<use figures/VCDL_delay_elements.png>
-Package pdftex.def Info: figures/VCDL_delay_elements.png  used on input line 104.
-(pdftex.def)             Requested size: 199.1693pt x 212.95253pt.
+[49 <./figures/TDC_timing_diagram.png>]
+<figures/VCDL_element.png, id=221, 171.7617pt x 232.9503pt>
+File: figures/VCDL_element.png Graphic file (type png)
+<use figures/VCDL_element.png>
+Package pdftex.def Info: figures/VCDL_element.png  used on input line 104.
+(pdftex.def)             Requested size: 139.42093pt x 189.09747pt.
 
 
-[49 <./figures/VCDL_delay_elements.png>]
-<figures/PFD_ff.png, id=221, 185.7339pt x 221.8689pt>
+[50 <./figures/VCDL_element.png>]
+<figures/PFD_ff.png, id=226, 185.7339pt x 221.8689pt>
 File: figures/PFD_ff.png Graphic file (type png)
 <use figures/PFD_ff.png>
-Package pdftex.def Info: figures/PFD_ff.png  used on input line 142.
+Package pdftex.def Info: figures/PFD_ff.png  used on input line 139.
 (pdftex.def)             Requested size: 137.66481pt x 164.45801pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[50]
-Underfull \vbox (badness 3260) has occurred while \output is active []
+Underfull \vbox (badness 1953) has occurred while \output is active []
 
 
 
 [51 <./figures/PFD_ff.png>]
-<figures/standard_decoder_truth_table.png, id=229, 402.00188pt x 267.24844pt>
-File: figures/standard_decoder_truth_table.png Graphic file (type png)
-<use figures/standard_decoder_truth_table.png>
-Package pdftex.def Info: figures/standard_decoder_truth_table.png  used on input line 240.
-(pdftex.def)             Requested size: 278.83578pt x 185.36807pt.
-<figures/DLL_TRAN.png, id=230, 1077.27469pt x 520.19344pt>
-File: figures/DLL_TRAN.png Graphic file (type png)
-<use figures/DLL_TRAN.png>
-Package pdftex.def Info: figures/DLL_TRAN.png  used on input line 247.
-(pdftex.def)             Requested size: 398.3386pt x 192.34949pt.
-
-Underfull \vbox (badness 1661) has occurred while \output is active []
+Underfull \vbox (badness 7133) has occurred while \output is active []
 
 
 
 [52]
-<figures/TDC_shifted_characteristic.png, id=234, 258.0039pt x 234.8775pt>
+<figures/standard_decoder_truth_table.png, id=234, 402.00188pt x 267.24844pt>
+File: figures/standard_decoder_truth_table.png Graphic file (type png)
+<use figures/standard_decoder_truth_table.png>
+Package pdftex.def Info: figures/standard_decoder_truth_table.png  used on input line 237.
+(pdftex.def)             Requested size: 278.83578pt x 185.36807pt.
+<figures/DLL_TRAN.png, id=235, 1077.27469pt x 520.19344pt>
+File: figures/DLL_TRAN.png Graphic file (type png)
+<use figures/DLL_TRAN.png>
+Package pdftex.def Info: figures/DLL_TRAN.png  used on input line 244.
+(pdftex.def)             Requested size: 398.3386pt x 192.34949pt.
+
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+
+
+[53 <./figures/standard_decoder_truth_table.png>]
+<figures/TDC_shifted_characteristic.png, id=240, 258.0039pt x 234.8775pt>
 File: figures/TDC_shifted_characteristic.png Graphic file (type png)
 <use figures/TDC_shifted_characteristic.png>
-Package pdftex.def Info: figures/TDC_shifted_characteristic.png  used on input line 258.
+Package pdftex.def Info: figures/TDC_shifted_characteristic.png  used on input line 255.
 (pdftex.def)             Requested size: 239.00558pt x 217.58441pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[53 <./figures/standard_decoder_truth_table.png> <./figures/DLL_TRAN.png>]
-<figures/fwd_truth_table.png, id=240, 417.81094pt x 505.13719pt>
+[54 <./figures/DLL_TRAN.png> <./figures/TDC_shifted_characteristic.png>]
+<figures/fwd_truth_table.png, id=246, 417.81094pt x 505.13719pt>
 File: figures/fwd_truth_table.png Graphic file (type png)
 <use figures/fwd_truth_table.png>
-Package pdftex.def Info: figures/fwd_truth_table.png  used on input line 269.
+Package pdftex.def Info: figures/fwd_truth_table.png  used on input line 266.
 (pdftex.def)             Requested size: 198.84756pt x 240.41283pt.
 
-Overfull \hbox (7.64674pt too wide) in paragraph at lines 269--270
+Overfull \hbox (7.64674pt too wide) in paragraph at lines 266--267
  [][] 
  []
 
-<figures/bwd_truth_table.png, id=241, 400.49625pt x 505.13719pt>
+<figures/bwd_truth_table.png, id=247, 400.49625pt x 505.13719pt>
 File: figures/bwd_truth_table.png Graphic file (type png)
 <use figures/bwd_truth_table.png>
-Package pdftex.def Info: figures/bwd_truth_table.png  used on input line 276.
+Package pdftex.def Info: figures/bwd_truth_table.png  used on input line 273.
 (pdftex.def)             Requested size: 191.20082pt x 241.16048pt.
 
-
-[54 <./figures/TDC_shifted_characteristic.png> <./figures/fwd_truth_table.png> <./figures/bwd_truth_table.png>]
-<figures/PFD_selector.png, id=248, 122.3772pt x 161.6439pt>
-File: figures/PFD_selector.png Graphic file (type png)
-<use figures/PFD_selector.png>
-Package pdftex.def Info: figures/PFD_selector.png  used on input line 317.
-(pdftex.def)             Requested size: 159.333pt x 210.46016pt.
-
-Underfull \vbox (badness 2717) has occurred while \output is active []
-
-
-
-[55]
-
-[56 <./figures/PFD_selector.png>]
-<figures/DCO_implementation.png, id=257, 349.305pt x 588.2778pt>
-File: figures/DCO_implementation.png Graphic file (type png)
-<use figures/DCO_implementation.png>
-Package pdftex.def Info: figures/DCO_implementation.png  used on input line 345.
-(pdftex.def)             Requested size: 239.00558pt x 402.51904pt.
-
-
-[57 <./figures/DCO_implementation.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[58]
+[55 <./figures/fwd_truth_table.png> <./figures/bwd_truth_table.png>]
+<figures/PFD_selector.png, id=254, 122.3772pt x 161.6439pt>
+File: figures/PFD_selector.png Graphic file (type png)
+<use figures/PFD_selector.png>
+Package pdftex.def Info: figures/PFD_selector.png  used on input line 314.
+(pdftex.def)             Requested size: 159.333pt x 210.46016pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[56]
+
+[57 <./figures/PFD_selector.png>]
+<figures/DCO_implementation.png, id=262, 349.305pt x 588.2778pt>
+File: figures/DCO_implementation.png Graphic file (type png)
+<use figures/DCO_implementation.png>
+Package pdftex.def Info: figures/DCO_implementation.png  used on input line 342.
+(pdftex.def)             Requested size: 239.00558pt x 402.51904pt.
+
+
+[58 <./figures/DCO_implementation.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[59]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 391.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 388.
 
 Underfull \vbox (badness 2134) has occurred while \output is active []
 
 
 
-[59]
-<figures/DCO_switches.png, id=269, 361.35pt x 251.0178pt>
+[60]
+<figures/DCO_switches.png, id=274, 361.35pt x 251.0178pt>
 File: figures/DCO_switches.png Graphic file (type png)
 <use figures/DCO_switches.png>
-Package pdftex.def Info: figures/DCO_switches.png  used on input line 423.
+Package pdftex.def Info: figures/DCO_switches.png  used on input line 420.
 (pdftex.def)             Requested size: 239.00558pt x 166.02846pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[60]
+[61]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
 
 
-[61 <./figures/DCO_switches.png>]) (chapters/Results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 487--1
+[62 <./figures/DCO_switches.png>]) (chapters/Results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 484--1
 
  []
 
 
 
-[62]
+[63]
 Chapter 5.
+<figures/TB_TDC.png, id=286, 411.4572pt x 208.8603pt>
+File: figures/TB_TDC.png Graphic file (type png)
+<use figures/TB_TDC.png>
+Package pdftex.def Info: figures/TB_TDC.png  used on input line 11.
+(pdftex.def)             Requested size: 278.83578pt x 141.54507pt.
 
-LaTeX Warning: Reference `fig:TB_TDC_Schematic' on page 63 undefined on input line 4.
+Underfull \vbox (badness 3439) has occurred while \output is active []
 
-<figures/TDC_TRAN_fwd.png, id=281, 1424.32124pt x 516.42938pt>
+
+
+[64
+
+ <./figures/TB_TDC.png>]
+<figures/TDC_TRAN_fwd.png, id=291, 1424.32124pt x 516.42938pt>
 File: figures/TDC_TRAN_fwd.png Graphic file (type png)
 <use figures/TDC_TRAN_fwd.png>
-Package pdftex.def Info: figures/TDC_TRAN_fwd.png  used on input line 18.
+Package pdftex.def Info: figures/TDC_TRAN_fwd.png  used on input line 23.
 (pdftex.def)             Requested size: 398.3386pt x 144.42587pt.
-
-Underfull \vbox (badness 6708) has occurred while \output is active []
-
-
-
-[63
-
-]
-<figures/TDC_TRAN_bwd.png, id=285, 1425.82687pt x 516.42938pt>
+<figures/TDC_TRAN_bwd.png, id=292, 1425.82687pt x 516.42938pt>
 File: figures/TDC_TRAN_bwd.png Graphic file (type png)
 <use figures/TDC_TRAN_bwd.png>
-Package pdftex.def Info: figures/TDC_TRAN_bwd.png  used on input line 25.
+Package pdftex.def Info: figures/TDC_TRAN_bwd.png  used on input line 30.
 (pdftex.def)             Requested size: 398.3386pt x 144.27615pt.
-<figures/TDC_output_characteristic_result.png, id=286, 639.699pt x 365.073pt>
+
+
+[65 <./figures/TDC_TRAN_fwd.png> <./figures/TDC_TRAN_bwd.png>]
+<figures/TDC_output_characteristic_result.png, id=298, 639.699pt x 365.073pt>
 File: figures/TDC_output_characteristic_result.png Graphic file (type png)
 <use figures/TDC_output_characteristic_result.png>
-Package pdftex.def Info: figures/TDC_output_characteristic_result.png  used on input line 39.
+Package pdftex.def Info: figures/TDC_output_characteristic_result.png  used on input line 44.
 (pdftex.def)             Requested size: 398.3386pt x 227.3289pt.
-
-Underfull \vbox (badness 2005) has occurred while \output is active []
-
-
-
-[64 <./figures/TDC_TRAN_fwd.png> <./figures/TDC_TRAN_bwd.png>]) (chapters/Discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 49--1
-
- []
-
-
-
-[65 <./figures/TDC_output_characteristic_result.png>]
-Chapter 6.
-) (chapters/Conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--1
-
- []
-
+<figures/DLL_PVT2.png, id=299, 1417.54594pt x 522.45187pt>
+File: figures/DLL_PVT2.png Graphic file (type png)
+<use figures/DLL_PVT2.png>
+Package pdftex.def Info: figures/DLL_PVT2.png  used on input line 57.
+(pdftex.def)             Requested size: 398.3386pt x 146.81168pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[66
+[66 <./figures/TDC_output_characteristic_result.png>]
+
+[67 <./figures/DLL_PVT2.png>]
+<figures/DCO_TRAN.png, id=309, 691.83469pt x 366.61969pt>
+File: figures/DCO_TRAN.png Graphic file (type png)
+<use figures/DCO_TRAN.png>
+Package pdftex.def Info: figures/DCO_TRAN.png  used on input line 93.
+(pdftex.def)             Requested size: 398.3386pt x 211.08998pt.
+<figures/DCO_characteristic.png, id=310, 561.954pt x 298.716pt>
+File: figures/DCO_characteristic.png Graphic file (type png)
+<use figures/DCO_characteristic.png>
+Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 102.
+(pdftex.def)             Requested size: 398.3386pt x 211.74797pt.
+
+
+[68 <./figures/DCO_TRAN.png> <./figures/DCO_characteristic.png>]
+<figures/DCO_phase_noise.png, id=316, 536.0025pt x 347.79938pt>
+File: figures/DCO_phase_noise.png Graphic file (type png)
+<use figures/DCO_phase_noise.png>
+Package pdftex.def Info: figures/DCO_phase_noise.png  used on input line 112.
+(pdftex.def)             Requested size: 398.3386pt x 258.47136pt.
+) (chapters/Discussion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 117--1
+
+ []
+
+
+
+[69 <./figures/DCO_phase_noise.png>]
+Chapter 6.
+) (chapters/Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--1
+
+ []
+
+
+
+[70
 
 ]
-
-[67]
 Chapter 7.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 4--111
@@ -1774,19 +1807,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[68
+[71
 
 ]
 
-[69]
+[72]
 
-[70
+[73
 
 ]
 
-[71]
+[74]
 
-[72] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
+[75] (c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1805,17 +1838,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65867 strings out of 473530
- 1736470 string characters out of 5714794
- 3156569 words of memory out of 5000000
- 88303 multiletter control sequences out of 15000+600000
+ 65915 strings out of 473530
+ 1737775 string characters out of 5714794
+ 3156794 words of memory out of 5000000
+ 88351 multiletter control sequences out of 15000+600000
  604792 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,21268b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (72 pages, 1320743 bytes).
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (75 pages, 1591269 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
+ 860 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 

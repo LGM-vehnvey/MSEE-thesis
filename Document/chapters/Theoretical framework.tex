@@ -842,18 +842,25 @@ any integer number. The frequency divider is used in PLLs to reduce the frequenc
             \draw[very thick] (-2,5.5) -- node[above]{VDD} (2,5.5);
 
         \end{circuitikz}
-        \captionof{figure}{CML frequency divider.}
-        \label{fig:CML_divider_schematic}
+        \captionof{figure}{CML buffer.}
+        \label{fig:CML_buffer_schematic}
     \end{center}
 \end{minipage}
 
-Although the flip-flop is the most common frequency divider, there are other types of dividers that can be used in PLLs. One of the most relevant is the CML frequency divider (fig. \ref{fig:CML_divider_schematic}),
-which is a type of frequency divider that uses current-mode logic (CML) to achieve high speed operation. CML dividers are typically used in high-speed applications, such as
-high-speed data communication systems, where the output of the VCO is too high to be processed by any regualr flip-flop. The CML frequency divider is based on the principle of
-current steering, where the input signal is used to control the current flowing through a branch of the differential pair.
+A common practice when designing the frequency divider block is to add a CML (current mode logic) preceding the flip-flops to regenerate the signal coming from the VCO. CML
+is a differential logic family that uses a constant current source to drive the differential pair as shown in figure \ref{fig:CML_buffer_schematic}. 
 
-A CML signal resembles a sinusoidal wave and has a lower harmonic content than a regular square wave, yet its power consumption is higher because of the constant current through the circuit
-due to the current source of the differential pair.
+The output signal of the VCO might have a common-mode voltage that is not compatible with the flip-flops or an insufficient amplitude. The CML buffer addresses the 
+former issue by amplifying the input signal and restoring the signal integrity after the long interconnections that might be present in the layout. The latter problem can be solved
+by adding a CML-to-CMOS converter (see Fig. \ref{fig:CML2CMOS}) stage after the CML buffer. This stage consists of a coupling capacitor that suppresses the common-mode voltage and
+a subsequent self-biased CMOS amplifier. This helps regenerate the signal and ensures that the output signal has the right common-mode voltage for the CMOS frequency divider.
+
+\begin{center}
+    \includegraphics[width=1\textwidth]{figures/CML2CMOS.png}
+    \captionof{figure}{CML to CMOS converter.}
+    \label{fig:CML2CMOS}
+\end{center}
+
 \section{Digital phase-locked loop}
 One of the main problems of analog PLLs is that they are very sensitive to process, voltage and temperature (PVT) variations, which can cause the PLL to become unstable or to fail to lock.
 To address this issue, digital PLLs (DPLLs) have been developed \cite{Yuncheng2024}. DPLLs take advantage of the technology scaling (whereas analog PLLs suffer from it) to achieve a better performance

@@ -94,20 +94,21 @@ to measure the phase difference between the reference clock and the feedback sig
 determine whether the feedback signal is leading or lagging the reference clock.
 
 \paragraph{VCDL}
-The delay elements of the VCDL are implemented using a series of CMOS inverters whose delay is controlled by two variable resistors at the source of each transistor (see Fig. \ref{fig:VCDL_delay_elements}).
+The delay elements of the VCDL are implemented using a series of CMOS inverters whose delay is controlled by a variable resistor (MOSFET in triode region) at the source of the M1 (see Fig. \ref{fig:VCDL_delay_elements}).
 Each one of this elements must have a delay equal to 625 ps for a total of 10 ns (the period of the reference clock) after 16 of them. 625 ps is a relatively high amount of delay for a CMOS inverter of
 minimum dimensions in 65 nm, there are multiple approaches towards meeting such a high delay, but the preferable method from the perspective of optimizing the phase noise according to \cite{Razavi_PLL_book}
 is to increase the number of stages.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/VCDL_delay_elements.png}
-    \caption{CMOS inverter with variable resistors at the source of each transistor to control its delay.}
+    \includegraphics[width=0.35\textwidth]{figures/VCDL_element.png}
+    \caption{CMOS inverter with a variable active resistor.}
     \label{fig:VCDL_delay_elements}
 \end{figure}
 
 Therefore after simulating the circuit of figure \ref{fig:VCDL_delay_elements} and measuring its delay (for a load of another identical inverter) it was determined that the number of stages necessary to achieve
-625 ps in each delay element is 38. The dimensions for all 6 MOSFETs are annotated in table \ref{tab:VCDL_delay_elements_dimensions}.
+625 ps in each delay element is 14. The dimensions for all 3 MOSFETs are annotated in table \ref{tab:VCDL_delay_elements_dimensions}. Notice that the inverter NMOS is wider than the PMOS
+to compensate for the source degeneration of the NMOS.
 
 \begin{table}[h]
     \centering
@@ -115,13 +116,9 @@ Therefore after simulating the circuit of figure \ref{fig:VCDL_delay_elements} a
         \hline
         \textbf{Transistor} & \textbf{Length ($\mu$m)} & \textbf{Width ($\mu$m)} \\
         \hline
-        M1 & 0.06 & 0.08 \\
-        M2 & 0.06 & 0.215 \\
+        M1 & 0.06 & 0.215 \\
+        M2 & 0.06 & 0.08 \\
         M3 & 0.3 & 0.3 \\
-        M4 & 0.3 & 0.3 \\
-        M5 & 0.3 & 6 \\
-        M6 & 0.3 & 6 \\
-        M7 & 0.3 & 0.3 \\
         \hline
     \end{tabular}
     \caption{Dimensions of the VCDL delay elements}
