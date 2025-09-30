@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  30 SEP 2025 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.12)  30 SEP 2025 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1826,12 +1826,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figures/DCO_TRAN.png, id=337, 1254.93843pt x 520.19344pt>
 File: figures/DCO_TRAN.png Graphic file (type png)
 <use figures/DCO_TRAN.png>
-Package pdftex.def Info: figures/DCO_TRAN.png  used on input line 93.
+Package pdftex.def Info: figures/DCO_TRAN.png  used on input line 94.
 (pdftex.def)             Requested size: 398.3386pt x 165.11592pt.
 <figures/DCO_characteristic.png, id=338, 561.954pt x 298.716pt>
 File: figures/DCO_characteristic.png Graphic file (type png)
 <use figures/DCO_characteristic.png>
-Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 102.
+Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 103.
 (pdftex.def)             Requested size: 398.3386pt x 211.74797pt.
 
 
@@ -1839,10 +1839,10 @@ Package pdftex.def Info: figures/DCO_characteristic.png  used on input line 102.
 <figures/DCO_phase_noise.png, id=344, 730.22812pt x 417.05812pt>
 File: figures/DCO_phase_noise.png Graphic file (type png)
 <use figures/DCO_phase_noise.png>
-Package pdftex.def Info: figures/DCO_phase_noise.png  used on input line 113.
+Package pdftex.def Info: figures/DCO_phase_noise.png  used on input line 114.
 (pdftex.def)             Requested size: 398.3386pt x 227.50536pt.
 ) (chapters/Discussion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 118--1
+Underfull \hbox (badness 10000) in paragraph at lines 119--1
 
  []
 
@@ -1910,7 +1910,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,17n,105p,21268b,2936s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lgmfo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lgmfo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (75 pages, 1833037 bytes).
+Output written on c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.pdf (75 pages, 1833106 bytes).
 PDF statistics:
  833 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
