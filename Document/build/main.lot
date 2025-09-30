@@ -9,7 +9,7 @@
 \contentsline {table}{\numberline {4.3}{\ignorespaces Truth table of the standard thermometer-to-binary decoder for a 4-bit TDC.}}{53}{}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Truth table of the modified forward thermometer-to-binary decoder for a 4-bit TDC.}}{55}{}%
 \contentsline {table}{\numberline {4.5}{\ignorespaces Truth table of the modified backward thermometer-to-binary decoder for a 4-bit TDC.}}{55}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces DCO capacitance contributions.}}{63}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces DCO capacitance contributions.}}{62}{}%
 \contentsline {table}{\numberline {4.7}{\ignorespaces DCO transistor dimensions.}}{63}{}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Performance summary of the proposed TDC and comparison with the literature.}}{67}{}%

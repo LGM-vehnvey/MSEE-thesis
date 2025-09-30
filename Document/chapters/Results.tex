@@ -85,7 +85,7 @@ Table \ref{tab:TDC_performance_summary} summarizes the performance of the TDC an
 The DCO was simulated only on the nominal corner because there wasn't any PVT models available for the inductor used in the LC tank in the PDK.
 
 Figure \ref{fig:DCO_TRAN} shows the transient simulation results for the DCO for both cases of control word (maximum and minimum frequency). The maximum frequency is found to be
-8.57 GHz while the minimum frequency is 7.49 GHz, giving a tuning range of 1.08 GHz (this is taking into account a parasitic capacitance of 50 fF from a layout routing). The simulation
+8.54 GHz while the minimum frequency is 7.42 GHz, giving a tuning range of 1.08 GHz (this is taking into account a parasitic capacitance of 50 fF from a layout routing). The simulation
 is run for a total of 100 ns which allows for enough cycles of the DCO to achieve steady state.
 
 \begin{figure}[H]
@@ -95,7 +95,7 @@ is run for a total of 100 ns which allows for enough cycles of the DCO to achiev
     \label{fig:DCO_TRAN}
 \end{figure}
 
-The DCO characteristic of figure \ref{fig:DCO_characteristic} is obtained by analyzing the periodic steady state (PSS) of the output waveform. The DCO gain is found to be 33.7 MHz/LSB.
+The DCO characteristic of figure \ref{fig:DCO_characteristic} is obtained by analyzing the periodic steady state (PSS) of the output waveform. The DCO gain is found to be 36.2 MHz/LSB.
 
 \begin{figure}[H]
     \centering
@@ -105,13 +105,13 @@ The DCO characteristic of figure \ref{fig:DCO_characteristic} is obtained by ana
 \end{figure}
 
 The phase noise of the DCO is simulated using the periodic noise (PNoise) analysis and the first 30 harmonics. Figure \ref{fig:DCO_phase_noise} shows the
-phase noise response at the center frequency of 7.96 GHz, where the phase noise is found to be -85.57 dBc/Hz at a 100 KHz sideband (or -117.1 dBc/Hz at 1 MHz) which is
+phase noise response at the center frequency of 7.92 GHz, where the phase noise is found to be -79.62 dBc/Hz at a 100 KHz sideband (or -104.17 dBc/Hz at 1 MHz) which is
 a similar performance as the quadrature DCO presented by X. Chen et.al. in \cite{DCO_Chen2023}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{figures/DCO_phase_noise.png}
-    \caption{Phase noise of the DCO at 7.96 GHz.}
+    \caption{Phase noise of the DCO at 7.92 GHz.}
     \label{fig:DCO_phase_noise}
 \end{figure}
 
