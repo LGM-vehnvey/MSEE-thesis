@@ -464,10 +464,13 @@ INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT C:\Users\lgmfo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
 INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
 INPUT c:\Users\lgmfo\OneDrive\Desktop\MSEE-thesis\Document\build\main.toc
@@ -679,9 +682,6 @@ INPUT .\figures\DCO_implementation.png
 INPUT .\figures\DCO_implementation.png
 INPUT .\figures\DCO_implementation.png
 INPUT .\figures\DCO_implementation.png
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
-INPUT C:\Users\lgmfo\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\figures\DCO_switches.png
 INPUT .\figures\DCO_switches.png
 INPUT .\figures\DCO_switches.png

@@ -86,14 +86,26 @@
     \end{titlepage}
 
     \fontfamily{phv}\selectfont % Selecting font family
+    \chapter*{Resumen}
+    El imparable escalamiento de la tecnología CMOS acentúa las limitaciones del diseño analógico, tales como la reducción del voltaje de alimentación, el aumento del "\textit{mismatch}"
+    entre dispositivos y la degradación del rendimiento frente al ruido. Estas desventajas intrínsecas han orientado el campo de la generación estable de reloj y la síntesis de frecuencia
+    hacia los "\textit{All-Digital Phase-Locked Loops}" (ADPLL). Un componente crítico de los ADPLL es el Convertidor de Tiempo a Digital (TDC), que reemplaza al tradicional detector de
+    fase y frecuencia (PFD) presente en las arquitecturas analógicas. Si bien esta revolución hacia los ADPLL ha impulsado una gran innovación en el diseño de TDCs, un área que ha
+    recibido una atención significativamente menor son los TDCs bipolares de línea de retardo.
+
+    La contribución principal de esta tesis es el análisis, diseño e implementación de un novedoso TDC bipolar de 5 bits que duplica el rango dinámico intrínseco de las arquitecturas estándar.
+    El TDC se complementa con un Oscilador Controlado Digitalmente (DCO) "\textit{custom}", basado en un par "\textit{cross-coupled}" y un tanque LC operando a una frecuencia central de
+    7.92 GHz y que presenta un ruido de fase de -79,62 dBc/Hz a una banda lateral de 100 kHz.
+
     \chapter*{Abstract}
-    The evolution of CMOS technology and the analog limitations that come with it move the direction of stable clock generation and frequency synthesis 
-    towards all-digital phase-locked loops (ADPLL). At the heart of this type of systems is the time-to-digital converter (TDC), which directly replace the
-    phase-frequency detector (PD) in analog PLLs. This revolution towards ADPLLs has sparked abundant innovation in the field of TDC design, yet there has
-    been little focus in bipolar delay line TDCs.
-    
-    This thesis presents the analysis, design, and implementation of a 5-bit bipolar TDC that doubles the intrinsic dynamic range of standard architectures,
-    alongside its corresponding digitally-controlled oscillator (DCO) based on a cross-coupled pair LC-tank.
+    The relentless scaling of CMOS technology exacerbates analog design limitations such as reduced supply voltage, increased device mismatch, and degraded noise performance. These
+    intrinsic disadvantages have steered the field of stable clock generation and frequency synthesis toward All-Digital Phase-Locked Loops (ADPLLs). A critical component of ADPLLs is
+    the Time-to-Digital Converter (TDC), which supersedes the traditional phase-frequency detector (PFD) from analog architectures. While this ADPLL revolution has spurred extensive
+    innovation in TDC design, one area that has received significantly less attention is the Bipolar Delay Line TDC.
+
+    The key contribution of this thesis is the analysis, design, and implementation of a novel 5-bit bipolar TDC that doubles the intrinsic dynamic range of standard architectures.
+    The TDC is complemented by a custom Digitally-Controlled Oscillator (DCO) based on a cross-coupled pair and LC-tank operating at a center frequency of 7.92 GHz with a phase noise of
+    -79.62 dBc/Hz at a 100 kHz sideband.
 
     \chapter*{Acknowledgements}
     First and foremost, I would like to express my deepest gratitude to my supervisor, Dr. Guillermo Espinosa Flores-Verdad, for his invaluable guidance, unwavering support,

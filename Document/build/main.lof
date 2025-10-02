@@ -1,60 +1,60 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{19}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{19}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{21}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces VCO characteristic example.}}{22}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Second-order passive loop filter.}}{22}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Block diagram of the linear phase PLL with each block transfer function.}}{23}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{24}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{24}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{25}{}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{25}{}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Charge pump transient response due to current mismatch.}}{27}{}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces CMOS ring oscillator.}}{28}{}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces VCO characteristic curve.}}{28}{}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{28}{}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{28}{}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Ideal LC tank circuit.}}{29}{}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Real LC tank circuit.}}{29}{}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Equivalent LC tank circuit.}}{30}{}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Cross-coupled pair.}}{30}{}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor.}}{31}{}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces MOS varactor characteristic.}}{31}{}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Cross-coupled pair VCO schematic.}}{31}{}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces $\%2$ frequency divider using D flip-flops.}}{32}{}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces CML buffer.}}{32}{}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces CML to CMOS converter.}}{33}{}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Digital PLL architecture.}}{34}{}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Example of DNL and INL in a TDC. Reprinted from "Time-to-Digital Converters: A literature review and new perspectives" by El-Hadbi, 2019 \blx@tocontentsinit {0}\cite {EL-Hadbi_TDC_review_2019}.}}{35}{}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Delay line TDC schematic.}}{36}{}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces 3-bit delay line TDC timing diagram.}}{37}{}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces DLL architecture.}}{38}{}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Conceptual filter using a proportional and an integral path.}}{39}{}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces DLF implementation using an adder and a register.}}{39}{}%
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Cross-coupled DCO implementation with binary weighted capacitive array.}}{40}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces a) PFD block.}}{20}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces b) PFD output.}}{20}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Block diagram of the linear phase PLL.}}{22}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces VCO characteristic example.}}{23}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Second-order passive loop filter.}}{23}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Block diagram of the linear phase PLL with each block transfer function.}}{24}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Three states PFD implementation.}}{25}{}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transient response of the PFD.}}{25}{}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Charge pump schematic.}}{26}{}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces CMOS drain switched charge pump.}}{26}{}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Charge pump transient response due to current mismatch.}}{28}{}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces CMOS ring oscillator.}}{29}{}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces VCO characteristic curve.}}{29}{}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CMOS ring oscillator stage with varactor load tuning.}}{29}{}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces CMOS ring oscillator stage with resistive load tuning.}}{29}{}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Ideal LC tank circuit.}}{30}{}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Real LC tank circuit.}}{30}{}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Equivalent LC tank circuit.}}{31}{}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Cross-coupled pair.}}{31}{}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces MOS varactor.}}{32}{}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces MOS varactor characteristic.}}{32}{}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Cross-coupled pair VCO schematic.}}{32}{}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces $\%2$ frequency divider using D flip-flops.}}{33}{}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces CML buffer.}}{33}{}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces CML to CMOS converter.}}{34}{}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Digital PLL architecture.}}{35}{}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Example of DNL and INL in a TDC. Reprinted from "Time-to-Digital Converters: A literature review and new perspectives" by El-Hadbi, 2019 \blx@tocontentsinit {0}\cite {EL-Hadbi_TDC_review_2019}.}}{36}{}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Delay line TDC schematic.}}{37}{}%
+\contentsline {figure}{\numberline {2.29}{\ignorespaces 3-bit delay line TDC timing diagram.}}{38}{}%
+\contentsline {figure}{\numberline {2.30}{\ignorespaces DLL architecture.}}{39}{}%
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Conceptual filter using a proportional and an integral path.}}{40}{}%
+\contentsline {figure}{\numberline {2.32}{\ignorespaces DLF implementation using an adder and a register.}}{40}{}%
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Cross-coupled DCO implementation with binary weighted capacitive array.}}{41}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Conventional bipolar TDC architecture}}{46}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Proposed bipolar TDC architecture}}{47}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces a) Conventional bipolar TDC timing diagram for a positive phase error, and b) its ideal characteristic.}}{49}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CMOS inverter with a variable active resistor.}}{50}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Simple resettable D flip-flop consisting of two cross-couped latches.}}{51}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CMOS drain switched charge pump.}}{51}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Timing diagram of the DLL output.}}{54}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal characteristic of the TDC with the modified decoders.}}{54}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces PFD selector circuit schematic.}}{56}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces DCO implementation schematic.}}{58}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Capacitor array branch: a) turned-on and b) turned-off}}{61}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Conventional bipolar TDC architecture}}{47}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Proposed bipolar TDC architecture}}{48}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces a) Conventional bipolar TDC timing diagram for a positive phase error, and b) its ideal characteristic.}}{50}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMOS inverter with a variable active resistor.}}{51}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simple resettable D flip-flop consisting of two cross-couped latches.}}{52}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CMOS drain switched charge pump.}}{52}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Timing diagram of the DLL output.}}{55}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ideal characteristic of the TDC with the modified decoders.}}{55}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PFD selector circuit schematic.}}{57}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces DCO implementation schematic.}}{59}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Capacitor array branch: a) turned-on and b) turned-off}}{62}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Test bench schematic for the TDC.}}{64}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Transient simulation results for the forward path (TT).}}{65}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Transient simulation results for the backward path (TT).}}{65}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces TDC Transfer Characteristic for the TT corner.}}{66}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces DLL output for different PVT corners.}}{67}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Differential output waveform of the DCO. Maximum and minimum frequency cases.}}{68}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces DCO characteristic.}}{68}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Phase noise of the DCO at 7.92 GHz.}}{69}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Test bench schematic for the TDC.}}{65}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Transient simulation results for the forward path (TT).}}{66}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Transient simulation results for the backward path (TT).}}{66}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces TDC Transfer Characteristic for the TT corner.}}{67}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces DLL output for different PVT corners.}}{68}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Differential output waveform of the DCO. Maximum and minimum frequency cases.}}{69}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces DCO characteristic.}}{69}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Phase noise of the DCO at 7.92 GHz.}}{70}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
